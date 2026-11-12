@@ -1,5 +1,5 @@
 {
- "picks": 21,
+ "picks": 24,
  "lists": {
   "catalysts": {},
   "core": {}
@@ -151,6 +151,27 @@
    "symbol": "DCTH",
    "entry": 21.425,
    "score": 47
+  },
+  {
+   "date": "2026-11-12",
+   "list": "catalysts",
+   "symbol": "LFTO",
+   "entry": 18.71,
+   "score": 49
+  },
+  {
+   "date": "2026-11-12",
+   "list": "catalysts",
+   "symbol": "TPC",
+   "entry": 100.33,
+   "score": 48
+  },
+  {
+   "date": "2026-11-12",
+   "list": "catalysts",
+   "symbol": "NUAI",
+   "entry": 2.72,
+   "score": 46
   }
  ]
 }
