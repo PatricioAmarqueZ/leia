@@ -2,8 +2,16 @@
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>LEIA · Market Intelligence</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#05080f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Leia">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
 <style>
 :root{
   --bg:#05080f; --panel:#0a111d; --panel2:#0d1626; --line:#17304a; --line2:#1f4263;
@@ -20,7 +28,7 @@ body{min-height:100vh;background:
   linear-gradient(rgba(77,232,255,.035) 1px,transparent 1px) 0 0/100% 44px,
   linear-gradient(90deg,rgba(77,232,255,.035) 1px,transparent 1px) 0 0/44px 100%,var(--bg)}
 a{color:var(--cy);text-decoration:none} a:hover{text-decoration:underline}
-.wrap{max-width:1240px;margin:0 auto;padding:24px 16px 64px}
+.wrap{max-width:1240px;margin:0 auto;padding:calc(24px + env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) calc(64px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left))}
 .mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
 .label{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink3)}
 
@@ -261,13 +269,23 @@ function brief(){
   speechSynthesis.cancel();
   const top = DIGEST.catalysts.slice(0, 3).map((p, i) => `Number ${i + 1}: ${p.name}. ${p.reasons.slice(0, 2).join('. ')}. Risk: ${p.risk}.`).join(' ');
   const u = new SpeechSynthesisUtterance(`${DIGEST.greeting} ${DIGEST.summary} ${top} Do remember, these are setups, not certainties.`);
-  const vs = speechSynthesis.getVoices(), gb = vs.filter(v => /en[-_]GB/i.test(v.lang));
-  u.voice = gb.find(v => /female|kate|serena|stephanie|martha|libby|sonia/i.test(v.name)) || gb[0] || null; u.lang = 'en-GB'; u.rate = 1.02;
+  const v = leiaVoice();
+  if (v) u.voice = v; else u.pitch = 1.35;  // no British woman installed: nudge the default voice higher
+  u.lang = 'en-GB'; u.rate = 1.02;
   u.onstart = () => $('hdr').classList.add('speaking'); u.onend = u.onerror = () => $('hdr').classList.remove('speaking');
   speechSynthesis.speak(u);
 }
+// Leia is a British woman: pick a known female en-GB voice, best first, and never a male one.
+const WOMEN = [/serena/i, /kate/i, /stephanie/i, /martha/i, /sonia/i, /libby/i, /hazel/i, /maisie/i, /uk english female/i, /female/i, /flo|sandy|shelley/i];
+const MEN = /daniel|arthur|oliver|malcolm|ryan|thomas|george|eddy|reed|rocko|grandpa|\bmale\b/i;
+function leiaVoice(){
+  const gb = speechSynthesis.getVoices().filter(v => /en[-_]GB/i.test(v.lang));
+  for (const re of WOMEN) { const v = gb.find(x => re.test(x.name) && !MEN.test(x.name)); if (v) return v; }
+  return gb.find(x => !MEN.test(x.name)) || null;
+}
 $('speak').addEventListener('click', brief);
-if ('speechSynthesis' in window) speechSynthesis.getVoices();
+if ('speechSynthesis' in window) { speechSynthesis.getVoices(); speechSynthesis.addEventListener?.('voiceschanged', () => {}); }
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 
 async function load(){
   try {

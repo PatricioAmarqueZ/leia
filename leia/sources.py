@@ -69,6 +69,14 @@ def history(symbols, period="6mo"):
                 out[s] = closes
         except Exception:  # noqa: BLE001
             continue
+    # The batch download occasionally drops a symbol (cache lock); fetch stragglers one at a time.
+    for s in [x for x in symbols if x not in out][:15]:
+        try:
+            closes = _retry(lambda: yf.Ticker(s).history(period=period, interval="1d", auto_adjust=True))["Close"].dropna()
+            if len(closes) >= 5:
+                out[s] = closes
+        except Exception:  # noqa: BLE001
+            continue
     return out
 
 
