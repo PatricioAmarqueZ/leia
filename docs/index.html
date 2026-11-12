@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LEIA · Market Intelligence</title>
+<style>
+:root{
+  --bg:#05080f; --panel:#0a111d; --panel2:#0d1626; --line:#17304a; --line2:#1f4263;
+  --ink:#e6f4ff; --ink2:#9fb6cc; --ink3:#647d96;
+  --cy:#4de8ff; --cy-dim:#1c7f93; --up:#3ddc97; --down:#ff6b7a; --warn:#ffb547;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+body{min-height:100vh;background:
+  radial-gradient(900px 500px at 15% -10%,rgba(77,232,255,.10),transparent 60%),
+  radial-gradient(700px 500px at 100% 0%,rgba(90,110,255,.08),transparent 60%),
+  linear-gradient(rgba(77,232,255,.035) 1px,transparent 1px) 0 0/100% 44px,
+  linear-gradient(90deg,rgba(77,232,255,.035) 1px,transparent 1px) 0 0/44px 100%,var(--bg)}
+a{color:var(--cy);text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1240px;margin:0 auto;padding:24px 16px 64px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.label{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink3)}
+
+/* header */
+header{display:flex;gap:20px;align-items:center;flex-wrap:wrap;padding:20px;border:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(13,22,38,.9),rgba(8,13,23,.9));position:relative;
+  clip-path:polygon(0 0,calc(100% - 22px) 0,100% 22px,100% 100%,22px 100%,0 calc(100% - 22px))}
+.orb{width:76px;height:76px;flex:none;position:relative;border-radius:50%;border:1px solid var(--cy-dim);
+  box-shadow:0 0 28px rgba(77,232,255,.35),inset 0 0 22px rgba(77,232,255,.25)}
+.orb::before,.orb::after{content:"";position:absolute;inset:8px;border-radius:50%;border:2px solid transparent;
+  border-top-color:var(--cy);border-right-color:var(--cy-dim);animation:spin 5s linear infinite}
+.orb::after{inset:20px;border-top-color:transparent;border-bottom-color:var(--cy);animation-duration:3s;animation-direction:reverse}
+.orb i{position:absolute;inset:31px;border-radius:50%;background:var(--cy);box-shadow:0 0 18px var(--cy);animation:pulse 2.4s ease-in-out infinite}
+.speaking .orb i{animation-duration:.5s}
+@keyframes spin{to{transform:rotate(360deg)}} @keyframes pulse{50%{transform:scale(.55);opacity:.6}}
+@media (prefers-reduced-motion:reduce){.orb::before,.orb::after,.orb i{animation:none}}
+.id{flex:1;min-width:260px}
+h1{margin:0;font-family:var(--mono);font-weight:600;font-size:30px;letter-spacing:.42em;color:var(--cy);text-shadow:0 0 18px rgba(77,232,255,.5)}
+#greeting{margin:8px 0 2px;font-size:17px;color:var(--ink)}
+#summary{margin:0;color:var(--ink2);line-height:1.5;max-width:70ch}
+.hbtns{display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+button{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--cy);
+  background:rgba(77,232,255,.06);border:1px solid var(--cy-dim);padding:10px 16px;cursor:pointer}
+button:hover{background:rgba(77,232,255,.16);box-shadow:0 0 16px rgba(77,232,255,.25)}
+button:focus-visible,a:focus-visible{outline:2px solid var(--cy);outline-offset:2px}
+
+/* market strip */
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:16px 0 8px}
+.tile{border:1px solid var(--line);background:var(--panel);padding:12px 14px}
+.tile .v{font-family:var(--mono);font-size:20px;margin-top:6px}
+.up{color:var(--up)} .down{color:var(--down)}
+
+h2{font-family:var(--mono);font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:var(--cy);margin:36px 0 4px;
+  display:flex;align-items:center;gap:12px}
+h2::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line2),transparent)}
+.sub{color:var(--ink3);margin:0 0 14px;font-size:14px}
+
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.card{position:relative;border:1px solid var(--line);background:linear-gradient(180deg,var(--panel2),var(--panel));padding:16px;
+  clip-path:polygon(0 0,calc(100% - 14px) 0,100% 14px,100% 100%,0 100%);transition:border-color .2s}
+.card:hover{border-color:var(--cy-dim)}
+.card::before{content:"";position:absolute;left:0;top:0;width:3px;height:36px;background:var(--cy);box-shadow:0 0 12px var(--cy)}
+.top{display:flex;gap:12px;align-items:flex-start}
+.rank{font-family:var(--mono);font-size:11px;color:var(--ink3)}
+.sym{font-family:var(--mono);font-size:24px;font-weight:600;letter-spacing:.04em}
+.name{color:var(--ink2);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:190px}
+.px{font-family:var(--mono);font-size:14px;margin-top:4px}
+.ring{margin-left:auto;flex:none;text-align:center}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.chip{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border:1px solid var(--line2);color:var(--ink2)}
+.chip.hot{border-color:var(--warn);color:var(--warn)}
+.sparkbox{position:relative;margin:4px 0 10px}
+.sparkbox svg{display:block;width:100%;height:54px}
+.tip{position:absolute;top:-6px;transform:translate(-50%,-100%);background:#000;border:1px solid var(--line2);padding:2px 6px;
+  font-family:var(--mono);font-size:11px;pointer-events:none;white-space:nowrap;display:none}
+ul.why,ul.risk{list-style:none;margin:8px 0 0;padding:0;font-size:13.5px;line-height:1.45}
+ul.why li,ul.risk li{padding-left:20px;position:relative;margin:5px 0;color:var(--ink)}
+ul.why li::before{content:"▲";position:absolute;left:0;top:1px;font-size:10px;color:var(--up)}
+ul.risk li{color:var(--ink2)} ul.risk li::before{content:"!";position:absolute;left:4px;font-family:var(--mono);font-weight:700;color:var(--warn)}
+.sec{margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.range{position:relative;height:46px;margin-top:10px}
+.range .bar{position:absolute;left:0;right:0;top:8px;height:4px;background:var(--line2);border-radius:2px}
+.range .fill{position:absolute;top:8px;height:4px;background:var(--cy);border-radius:2px;box-shadow:0 0 8px rgba(77,232,255,.5)}
+.range .now{position:absolute;top:2px;width:2px;height:16px;background:var(--ink)}
+.range .mk{position:absolute;top:5px;width:10px;height:10px;border-radius:50%;background:var(--cy);border:2px solid var(--panel);transform:translateX(-50%)}
+.range .lb{position:absolute;top:24px;font-family:var(--mono);font-size:10.5px;color:var(--ink2);transform:translateX(-50%);white-space:nowrap;text-align:center}
+.news{font-size:12.5px;margin-top:6px;line-height:1.4} .news span{color:var(--ink3)}
+
+/* tables */
+.panel{border:1px solid var(--line);background:var(--panel);padding:16px;overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);text-align:left;padding:6px 10px;border-bottom:1px solid var(--line2)}
+td{padding:8px 10px;border-bottom:1px solid var(--line)} td.n{font-family:var(--mono);text-align:right} th.n{text-align:right}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px}
+footer{margin-top:36px;color:var(--ink3);font-size:12.5px;line-height:1.5;border-top:1px solid var(--line);padding-top:14px}
+#err{color:var(--warn);font-family:var(--mono);margin-top:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header id="hdr">
+    <div class="orb" aria-hidden="true"><i></i></div>
+    <div class="id">
+      <h1>LEIA</h1>
+      <p id="greeting">Connecting…</p>
+      <p id="summary"></p>
+    </div>
+    <div class="hbtns">
+      <button id="speak" type="button">▶ Brief me</button>
+      <span class="label" id="stamp"></span>
+    </div>
+  </header>
+
+  <div class="strip" id="strip"></div>
+  <div id="err"></div>
+
+  <h2>Short-term setups</h2>
+  <p class="sub">Stocks with a catalyst right now: unusual volume, breakouts, earnings. High upside, matching downside.</p>
+  <div class="grid" id="catalysts"></div>
+
+  <h2>Steady holds</h2>
+  <p class="sub">Large companies with growth, analyst support and an intact uptrend. Slower, calmer.</p>
+  <div class="grid" id="core"></div>
+
+  <div class="two">
+    <div>
+      <h2>Scorecard</h2>
+      <p class="sub">How Leia's past picks actually did. Trust this over any single call.</p>
+      <div class="panel" id="scorecard"></div>
+    </div>
+    <div>
+      <h2>Earnings radar</h2>
+      <p class="sub">Larger companies reporting in the next few days.</p>
+      <div class="panel" id="earnings"></div>
+    </div>
+  </div>
+
+  <footer id="disc"></footer>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+function h(tag, attrs, ...kids){
+  const e = document.createElement(tag);
+  for (const k in (attrs||{})) { if (k === 'class') e.className = attrs[k]; else if (k === 'style') e.style.cssText = attrs[k]; else e.setAttribute(k, attrs[k]); }
+  for (const c of kids.flat()) if (c != null) e.append(c.nodeType ? c : document.createTextNode(c));
+  return e;
+}
+const NS = 'http://www.w3.org/2000/svg';
+function s(tag, attrs){ const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); return e; }
+const pct = (v, d=1) => v == null ? '–' : (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v).toFixed(d) + '%';
+const cls = v => v > 0 ? 'up' : v < 0 ? 'down' : '';
+const cap = v => v == null ? '' : v >= 1e12 ? '$' + (v/1e12).toFixed(2) + 'T' : v >= 1e9 ? '$' + (v/1e9).toFixed(1) + 'B' : '$' + (v/1e6).toFixed(0) + 'M';
+const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : '#';
+
+function ring(score){
+  const r = 24, c = 2 * Math.PI * r, svg = s('svg', {width: 62, height: 62, viewBox: '0 0 62 62', role: 'img', 'aria-label': 'Score ' + score + ' out of 100'});
+  svg.append(s('circle', {cx: 31, cy: 31, r, fill: 'none', stroke: '#17304a', 'stroke-width': 4}));
+  svg.append(s('circle', {cx: 31, cy: 31, r, fill: 'none', stroke: '#4de8ff', 'stroke-width': 4, 'stroke-linecap': 'round',
+    'stroke-dasharray': (c * score / 100) + ' ' + c, transform: 'rotate(-90 31 31)', style: 'filter:drop-shadow(0 0 4px rgba(77,232,255,.7))'}));
+  const t = s('text', {x: 31, y: 36, 'text-anchor': 'middle', fill: '#e6f4ff', 'font-size': 17, 'font-family': 'ui-monospace,Menlo,monospace', 'font-weight': 600});
+  t.textContent = score; svg.append(t);
+  return h('div', {class: 'ring'}, svg, h('div', {class: 'label', style: 'font-size:9px'}, 'score'));
+}
+
+function spark(data){
+  if (!data || data.length < 3) return null;
+  const W = 300, H = 54, pad = 4, mn = Math.min(...data), mx = Math.max(...data), span = (mx - mn) || 1;
+  const X = i => pad + i * (W - 2 * pad) / (data.length - 1), Y = v => H - pad - (v - mn) / span * (H - 2 * pad);
+  const d = data.map((v, i) => (i ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(v).toFixed(1)).join(' ');
+  const svg = s('svg', {viewBox: `0 0 ${W} ${H}`, preserveAspectRatio: 'none', role: 'img', 'aria-label': 'Price over the last ' + data.length + ' trading days'});
+  svg.append(s('path', {d: d + ` L${X(data.length-1)} ${H} L${X(0)} ${H} Z`, fill: 'rgba(77,232,255,.08)'}));
+  svg.append(s('path', {d, fill: 'none', stroke: '#4de8ff', 'stroke-width': 2, 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke'}));
+  const dot = s('circle', {r: 4, fill: '#4de8ff', stroke: '#0a111d', 'stroke-width': 2, cx: X(data.length - 1), cy: Y(data[data.length - 1])});
+  svg.append(dot);
+  const tip = h('div', {class: 'tip'}), box = h('div', {class: 'sparkbox'}, svg, tip);
+  box.addEventListener('mousemove', ev => {
+    const r = box.getBoundingClientRect(), i = Math.max(0, Math.min(data.length - 1, Math.round((ev.clientX - r.left) / r.width * (data.length - 1))));
+    dot.setAttribute('cx', X(i)); dot.setAttribute('cy', Y(data[i]));
+    const ago = data.length - 1 - i;
+    tip.textContent = '$' + data[i].toFixed(2) + ' · ' + (ago ? ago + 'd ago' : 'latest');
+    tip.style.display = 'block'; tip.style.left = (X(i) / W * 100) + '%';
+  });
+  box.addEventListener('mouseleave', () => { tip.style.display = 'none'; dot.setAttribute('cx', X(data.length - 1)); dot.setAttribute('cy', Y(data[data.length - 1])); });
+  return box;
+}
+
+function range(p){
+  const lo = Math.min(p.bear ?? 0, 0), hi = Math.max(p.bull ?? 0, 0), span = (hi - lo) || 1;
+  const pos = v => 4 + (v - lo) / span * 92;
+  const el = h('div', {class: 'range', role: 'img', 'aria-label': `Analyst targets: low ${pct(p.bear,0)}, average ${pct(p.base,0)}, high ${pct(p.bull,0)} versus today's price`});
+  el.append(h('div', {class: 'bar'}));
+  if (p.bear != null && p.bull != null) el.append(h('div', {class: 'fill', style: `left:${pos(p.bear)}%;width:${pos(p.bull) - pos(p.bear)}%`}));
+  el.append(h('div', {class: 'now', style: `left:${pos(0)}%`, title: "Today's price"}));
+  const pts = [['Low', p.bear], ['Avg', p.base], ['High', p.bull]].filter(x => x[1] != null);
+  let last = -99;
+  for (const [name, v] of pts) {
+    let x = pos(v);
+    el.append(h('div', {class: 'mk', style: `left:${x}%`}));
+    const lx = Math.max(x, last + 24); last = lx;
+    el.append(h('div', {class: 'lb', style: `left:${Math.min(Math.max(lx, 10), 90)}%`}, name + ' ' + pct(v, 0)));
+  }
+  return el;
+}
+
+function card(p, i){
+  const c = h('article', {class: 'card'});
+  c.append(h('div', {class: 'top'},
+    h('div', {},
+      h('div', {class: 'rank'}, '#' + String(i + 1).padStart(2, '0') + (p.sector ? ' · ' + p.sector : '')),
+      h('div', {class: 'sym'}, p.symbol),
+      h('div', {class: 'name', title: p.name}, p.name),
+      h('div', {class: 'px'}, '$' + (p.price ?? 0).toFixed(2) + ' ', h('span', {class: cls(p.move_pct)}, pct(p.move_pct)), h('span', {style: 'color:var(--ink3)'}, ' ' + p.move_label))),
+    ring(p.score)));
+  const chips = h('div', {class: 'chips'},
+    h('span', {class: 'chip'}, 'Confidence: ' + p.confidence),
+    h('span', {class: 'chip' + (/high/i.test(p.risk) ? ' hot' : '')}, 'Risk: ' + p.risk),
+    p.market_cap ? h('span', {class: 'chip'}, cap(p.market_cap)) : null,
+    p.rel_volume ? h('span', {class: 'chip'}, p.rel_volume.toFixed(1) + '× volume') : null,
+    p.earnings ? h('span', {class: 'chip hot'}, 'Earnings ' + p.earnings.date.slice(5, 10)) : null);
+  c.append(chips);
+  const sp = spark(p.spark); if (sp) c.append(sp);
+  if (p.reasons.length) c.append(h('div', {class: 'label'}, 'Why'), h('ul', {class: 'why'}, p.reasons.map(r => h('li', {}, r))));
+  if (p.risks.length) c.append(h('div', {class: 'sec'}, h('div', {class: 'label'}, 'Watch out'), h('ul', {class: 'risk'}, p.risks.map(r => h('li', {}, r)))));
+  if (p.projection) c.append(h('div', {class: 'sec'},
+    h('div', {class: 'label'}, `Analyst 12-month targets · ${p.projection.analysts} analysts`), range(p.projection)));
+  if (p.daily_swing) c.append(h('div', {class: 'news', style: 'margin-top:10px'}, h('span', {}, 'Typical daily swing '), '±' + p.daily_swing.toFixed(1) + '%'));
+  if (p.news && p.news.length) c.append(h('div', {class: 'sec'}, h('div', {class: 'label'}, 'News'),
+    p.news.map(n => h('div', {class: 'news'}, h('a', {href: safeUrl(n.url), target: '_blank', rel: 'noopener noreferrer'}, n.title), n.publisher ? h('span', {}, ' · ' + n.publisher) : null))));
+  return c;
+}
+
+function scorecard(sc){
+  const el = $('scorecard'); el.textContent = '';
+  const names = {catalysts: 'Short-term setups', core: 'Steady holds'}, hz = {same_day: 'Same day', '1d': '1 day', '5d': '1 week', '20d': '1 month'};
+  const rows = [];
+  for (const l in (sc.lists || {})) for (const k in hz) { const x = sc.lists[l][k]; if (x) rows.push([names[l] || l, hz[k], x]); }
+  if (!rows.length) { el.append(h('p', {style: 'color:var(--ink2);margin:0'}, `${sc.picks || 0} picks logged so far. Results appear here after the first full trading day, and get meaningful after a few weeks.`)); return; }
+  el.append(h('table', {},
+    h('thead', {}, h('tr', {}, h('th', {}, 'List'), h('th', {}, 'Held for'), h('th', {class: 'n'}, 'Picks'), h('th', {class: 'n'}, 'Avg return'), h('th', {class: 'n'}, 'Winners'), h('th', {class: 'n'}, 'vs S&P 500'))),
+    h('tbody', {}, rows.map(([l, k, x]) => h('tr', {}, h('td', {}, l), h('td', {}, k), h('td', {class: 'n'}, x.n),
+      h('td', {class: 'n ' + cls(x.avg)}, pct(x.avg, 2)), h('td', {class: 'n'}, x.win_rate.toFixed(0) + '%'), h('td', {class: 'n ' + cls(x.avg_vs_spy)}, pct(x.avg_vs_spy, 2)))))));
+}
+
+function earnings(list){
+  const el = $('earnings'); el.textContent = '';
+  if (!list || !list.length) { el.append(h('p', {style: 'color:var(--ink2);margin:0'}, 'Nothing sizeable reporting in the next few days.')); return; }
+  el.append(h('table', {},
+    h('thead', {}, h('tr', {}, h('th', {}, 'Stock'), h('th', {}, 'When'), h('th', {class: 'n'}, 'EPS est.'), h('th', {class: 'n'}, 'Size'))),
+    h('tbody', {}, list.slice(0, 14).map(e => h('tr', {}, h('td', {}, h('span', {class: 'mono'}, e.symbol), ' ', h('span', {style: 'color:var(--ink3)'}, (e.company || '').slice(0, 26))),
+      h('td', {}, e.date.slice(5, 10) + ' ' + e.timing), h('td', {class: 'n'}, e.eps_est == null ? '–' : e.eps_est.toFixed(2)), h('td', {class: 'n'}, cap(e.market_cap)))))));
+}
+
+let DIGEST = null;
+function brief(){
+  if (!DIGEST || !('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const top = DIGEST.catalysts.slice(0, 3).map((p, i) => `Number ${i + 1}: ${p.name}. ${p.reasons.slice(0, 2).join('. ')}. Risk: ${p.risk}.`).join(' ');
+  const u = new SpeechSynthesisUtterance(`${DIGEST.greeting} ${DIGEST.summary} ${top} Do remember, these are setups, not certainties.`);
+  const vs = speechSynthesis.getVoices(), gb = vs.filter(v => /en[-_]GB/i.test(v.lang));
+  u.voice = gb.find(v => /female|kate|serena|stephanie|martha|libby|sonia/i.test(v.name)) || gb[0] || null; u.lang = 'en-GB'; u.rate = 1.02;
+  u.onstart = () => $('hdr').classList.add('speaking'); u.onend = u.onerror = () => $('hdr').classList.remove('speaking');
+  speechSynthesis.speak(u);
+}
+$('speak').addEventListener('click', brief);
+if ('speechSynthesis' in window) speechSynthesis.getVoices();
+
+async function load(){
+  try {
+    const [d, sc] = await Promise.all([fetch('data/latest.json', {cache: 'no-store'}).then(r => r.json()), fetch('data/scorecard.json', {cache: 'no-store'}).then(r => r.json()).catch(() => ({}))]);
+    DIGEST = d;
+    $('greeting').textContent = d.greeting; $('summary').textContent = d.summary;
+    $('stamp').textContent = 'Scan ' + new Date(d.generated_at).toLocaleString('en-GB', {day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'});
+    const strip = $('strip'); strip.textContent = '';
+    for (const k in d.market) { const m = d.market[k]; if (!m) continue;
+      strip.append(h('div', {class: 'tile'}, h('div', {class: 'label'}, k), h('div', {class: 'v'}, m.price.toLocaleString() + ' ', h('span', {class: cls(m.change_pct), style: 'font-size:13px'}, pct(m.change_pct, 2))))); }
+    strip.append(h('div', {class: 'tile'}, h('div', {class: 'label'}, 'Stocks scanned'), h('div', {class: 'v'}, d.universe_size.toLocaleString())));
+    strip.append(h('div', {class: 'tile'}, h('div', {class: 'label'}, 'Market'), h('div', {class: 'v'}, ({PRE: 'Pre-market', REGULAR: 'Open', POST: 'After hours'})[d.market_state] || 'Closed')));
+    $('catalysts').replaceChildren(...d.catalysts.map(card)); $('core').replaceChildren(...d.core.map(card));
+    scorecard(sc); earnings(d.earnings); $('disc').textContent = d.disclaimer + ' Data: Yahoo Finance (delayed, unofficial).';
+  } catch (e) { $('err').textContent = 'Leia could not load the latest scan: ' + e.message; }
+}
+load();
+</script>
+</body>
+</html>
