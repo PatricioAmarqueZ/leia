@@ -180,5 +180,145 @@
   "symbol": "REGN",
   "entry": 951.19,
   "score": 63
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "OBIO",
+  "entry": 6.79,
+  "score": 67
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "HAWK",
+  "entry": 17.88,
+  "score": 66
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "LFTO",
+  "entry": 23.8,
+  "score": 62
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "TNDM",
+  "entry": 20.11,
+  "score": 62
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "PUBM",
+  "entry": 20.44,
+  "score": 59
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "WWW",
+  "entry": 24.585,
+  "score": 57
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "LRMR",
+  "entry": 3.04,
+  "score": 56
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "KOD",
+  "entry": 111.46,
+  "score": 51
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "NMAX",
+  "entry": 9.28,
+  "score": 49
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "CBRS",
+  "entry": 109.435,
+  "score": 49
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "PRME",
+  "entry": 4.4,
+  "score": 48
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "NUAI",
+  "entry": 3.115,
+  "score": 48
+ },
+ {
+  "date": "2026-11-13",
+  "list": "core",
+  "symbol": "BTSG",
+  "entry": 70.78,
+  "score": 79
+ },
+ {
+  "date": "2026-11-13",
+  "list": "core",
+  "symbol": "SN",
+  "entry": 225.07,
+  "score": 73
+ },
+ {
+  "date": "2026-11-13",
+  "list": "core",
+  "symbol": "ONC",
+  "entry": 416.17,
+  "score": 71
+ },
+ {
+  "date": "2026-11-13",
+  "list": "core",
+  "symbol": "GMAB",
+  "entry": 51.3,
+  "score": 70
+ },
+ {
+  "date": "2026-11-13",
+  "list": "core",
+  "symbol": "HAS",
+  "entry": 121.08,
+  "score": 66
+ },
+ {
+  "date": "2026-11-13",
+  "list": "core",
+  "symbol": "U",
+  "entry": 52.515,
+  "score": 65
+ },
+ {
+  "date": "2026-11-13",
+  "list": "core",
+  "symbol": "LTH",
+  "entry": 46.615,
+  "score": 65
+ },
+ {
+  "date": "2026-11-13",
+  "list": "core",
+  "symbol": "CPAY",
+  "entry": 462.95,
+  "score": 64
  }
 ]
