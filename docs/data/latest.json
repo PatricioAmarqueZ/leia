@@ -1,19 +1,19 @@
 {
  "assistant": "Leia",
- "generated_at": "2026-11-12T18:38:44.334972-05:00",
+ "generated_at": "2026-11-12T21:02:24.190975-05:00",
  "date": "2026-11-12",
- "market_state": "POST",
- "universe_size": 2789,
+ "market_state": "POSTPOST",
+ "universe_size": 2768,
  "greeting": "Good evening. Leia here. Markets are closed, so this is your look ahead.",
- "summary": "I've been through 2,789 stocks. 12 short-term setups made the cut, led by NEXN with a score of 64. For steadier holds, BTSG tops the list.",
+ "summary": "I've been through 2,768 stocks. 12 short-term setups made the cut, led by NEXN with a score of 60. For steadier holds, BTSG tops the list.",
  "market": {
   "S&P 500": {
-   "price": 757.12,
-   "change_pct": -0.35
+   "price": 759.81,
+   "change_pct": 1.32
   },
   "Nasdaq 100": {
-   "price": 688.17,
-   "change_pct": -0.32
+   "price": 690.38,
+   "change_pct": 2.31
   },
   "VIX": {
    "price": 18.7,
@@ -31,14 +31,13 @@
    "move_label": "today",
    "rel_volume": 3.21,
    "market_cap": 581474112.0,
-   "score": 64,
+   "score": 60,
    "confidence": "Medium",
    "risk": "Very high",
    "reasons": [
     "Up 12.8% today",
     "Trading 3.2x its normal volume, so real money is behind the move",
     "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 13% over the past month",
     "10 analysts see 40% upside on average (target $14.34)"
    ],
    "risks": [
@@ -55,12 +54,13 @@
     "rating": "buy",
     "rating_mean": 1.5556
    },
-   "daily_swing": 3.52,
-   "ret_5d": 13.8239,
-   "ret_20d": 13.0676,
-   "ret_60d": 1.592,
+   "daily_swing": 2.12,
+   "ret_5d": -0.7675,
+   "ret_20d": 2.6077,
+   "ret_60d": -11.6211,
    "earnings": null,
    "spark": [
+    9.07,
     8.81,
     8.7,
     8.72,
@@ -89,8 +89,7 @@
     8.84,
     9.07,
     8.87,
-    9.05,
-    10.21
+    9.05
    ],
    "news": [
     {
@@ -115,7 +114,7 @@
    "move_label": "day + after-hours",
    "rel_volume": 3.64,
    "market_cap": 619381888.0,
-   "score": 59,
+   "score": 55,
    "confidence": "Medium",
    "risk": "Very high",
    "reasons": [
@@ -123,7 +122,7 @@
     "Trading 3.6x its normal volume, so real money is behind the move",
     "Within 2.2% of its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 20% over the past month"
+    "Momentum: up 8% over the past month"
    ],
    "risks": [
     "Small cap ($619M): moves fast both ways and can be thinly traded"
@@ -139,12 +138,13 @@
     "rating": "strong buy",
     "rating_mean": 1.0
    },
-   "daily_swing": 3.15,
-   "ret_5d": 28.3582,
-   "ret_20d": 20.2033,
-   "ret_60d": 22.4802,
+   "daily_swing": 2.97,
+   "ret_5d": 17.7097,
+   "ret_20d": 8.2007,
+   "ret_60d": 15.3379,
    "earnings": null,
    "spark": [
+    8.41,
     8.43,
     8.53,
     8.41,
@@ -173,8 +173,7 @@
     7.57,
     8.12,
     8.54,
-    8.84,
-    9.46
+    8.84
    ],
    "news": [
     {
@@ -190,105 +189,20 @@
    ]
   },
   {
-   "symbol": "GRNT",
-   "name": "Granite Ridge Resources, Inc.",
-   "sector": "Energy",
-   "industry": "Oil & Gas E&P",
-   "price": 6.49,
-   "move_pct": 3.51,
-   "move_label": "today",
-   "rel_volume": 1.49,
-   "market_cap": 856350528.0,
-   "score": 54,
-   "confidence": "Medium",
-   "risk": "Very high",
-   "reasons": [
-    "Up 3.5% today",
-    "At or breaking through its 52-week high",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 28% over the past month",
-    "5 analysts see 32% upside on average (target $8.60)"
-   ],
-   "risks": [
-    "Small cap ($856M): moves fast both ways and can be thinly traded",
-    "Typically swings about 5.2% a day"
-   ],
-   "projection": {
-    "target_low": 6.0,
-    "target_mean": 8.6,
-    "target_high": 12.0,
-    "bear": -7.6,
-    "base": 32.5,
-    "bull": 84.9,
-    "analysts": 5,
-    "rating": "buy",
-    "rating_mean": 1.8
-   },
-   "daily_swing": 5.19,
-   "ret_5d": 38.9722,
-   "ret_20d": 27.5049,
-   "ret_60d": 28.0851,
-   "earnings": null,
-   "spark": [
-    4.47,
-    4.51,
-    4.61,
-    4.59,
-    4.8,
-    4.77,
-    4.81,
-    5.09,
-    4.94,
-    5.09,
-    5.45,
-    5.67,
-    5.66,
-    5.67,
-    5.65,
-    5.86,
-    5.91,
-    5.84,
-    5.81,
-    5.79,
-    5.73,
-    5.24,
-    5.11,
-    4.63,
-    4.67,
-    5.29,
-    5.67,
-    6.03,
-    6.27,
-    6.49
-   ],
-   "news": [
-    {
-     "title": "Are Oils-Energy Stocks Lagging  Excelerate Energy (EE) This Year?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/oils-energy-stocks-lagging-excelerate-134003288.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Granite Ridge Stock Just Surged 34%. Is It Still as Cheap as Its CEO Claims?",
-     "url": "https://247wallst.com/investing/2026/11/12/granite-ridge-stock-just-surged-34-is-it-still-as-cheap-as-its-ceo-claims/",
-     "publisher": "24/7 Wall St."
-    }
-   ]
-  },
-  {
    "symbol": "FRMI",
    "name": "Fermi Inc.",
    "sector": "Real Estate",
    "industry": "REIT - Specialty",
    "price": 2.06,
-   "move_pct": 13.81,
-   "move_label": "today",
+   "move_pct": 14.78,
+   "move_label": "day + after-hours",
    "rel_volume": 4.23,
    "market_cap": 1320994944.0,
-   "score": 53,
+   "score": 55,
    "confidence": "Medium",
    "risk": "Very high",
    "reasons": [
-    "Up 13.8% today",
+    "Up 14.8% day + after-hours",
     "Trading 4.2x its normal volume, so real money is behind the move",
     "8 analysts see 707% upside on average (target $16.62)",
     "15% of the float is sold short: fuel for a squeeze if it keeps rising"
@@ -310,12 +224,13 @@
     "rating": "buy",
     "rating_mean": 1.625
    },
-   "daily_swing": 9.37,
-   "ret_5d": 34.6405,
-   "ret_20d": -39.3225,
-   "ret_60d": -64.2361,
+   "daily_swing": 8.9,
+   "ret_5d": -0.5495,
+   "ret_20d": -42.7215,
+   "ret_60d": -68.4669,
    "earnings": null,
    "spark": [
+    4.05,
     4.03,
     4.06,
     4.23,
@@ -344,8 +259,7 @@
     1.57,
     1.66,
     1.54,
-    1.81,
-    2.06
+    1.81
    ],
    "news": [
     {
@@ -361,250 +275,87 @@
    ]
   },
   {
-   "symbol": "TRMK",
-   "name": "Trustmark Corporation",
-   "sector": "Financial Services",
-   "industry": "Banks - Regional",
-   "price": 47.84,
-   "move_pct": 5.0,
-   "move_label": "today",
-   "rel_volume": 11.09,
-   "market_cap": 2762044416.0,
-   "score": 51,
-   "confidence": "Medium",
-   "risk": "High",
-   "reasons": [
-    "Up 5.0% today",
-    "Trading 11.1x its normal volume, so real money is behind the move",
-    "Within 2.4% of its 52-week high",
-    "Uptrend intact: above both its 50-day and 200-day averages"
-   ],
-   "risks": [],
-   "projection": {
-    "target_low": 48.0,
-    "target_mean": 49.8,
-    "target_high": 54.0,
-    "bear": 0.3,
-    "base": 4.1,
-    "bull": 12.9,
-    "analysts": 5,
-    "rating": "hold",
-    "rating_mean": 2.6667
-   },
-   "daily_swing": 1.74,
-   "ret_5d": 6.9528,
-   "ret_20d": 6.6191,
-   "ret_60d": 3.4227,
-   "earnings": null,
-   "spark": [
-    45.93,
-    45.54,
-    45.19,
-    44.37,
-    44.55,
-    44.21,
-    44.5,
-    44.58,
-    44.13,
-    44.87,
-    44.9,
-    44.51,
-    45.4,
-    45.29,
-    46.35,
-    46.31,
-    46.22,
-    46.12,
-    45.0,
-    44.84,
-    44.22,
-    45.36,
-    45.01,
-    45.63,
-    44.73,
-    44.64,
-    45.47,
-    45.4,
-    45.56,
-    47.84
-   ],
-   "news": [
-    {
-     "title": "Hancock Whitney reaches for scale with deal for Miss. rival",
-     "url": "https://www.americanbanker.com/news/hancock-whitney-reaches-for-scale-with-deal-for-miss-rival",
-     "publisher": "American Banker"
-    },
-    {
-     "title": "Hancock Whitney to buy Trustmark in $3.2B deal",
-     "url": "https://www.bankingdive.com/news/hancock-whitney-buy-trustmark-3b-deal-bank-acquisition/874522/",
-     "publisher": "Banking Dive"
-    }
-   ]
-  },
-  {
-   "symbol": "LUNR",
-   "name": "Intuitive Machines, Inc.",
-   "sector": "Industrials",
-   "industry": "Aerospace & Defense",
-   "price": 13.03,
-   "move_pct": 8.21,
+   "symbol": "GRNT",
+   "name": "Granite Ridge Resources, Inc.",
+   "sector": "Energy",
+   "industry": "Oil & Gas E&P",
+   "price": 6.49,
+   "move_pct": 2.12,
    "move_label": "day + after-hours",
-   "rel_volume": 3.37,
-   "market_cap": 2103210880.0,
-   "score": 51,
+   "rel_volume": 1.49,
+   "market_cap": 856350528.0,
+   "score": 52,
    "confidence": "Medium",
    "risk": "Very high",
    "reasons": [
-    "Up 8.2% day + after-hours",
-    "Trading 3.4x its normal volume, so real money is behind the move",
-    "Momentum: up 13% over the past month",
-    "9 analysts see 108% upside on average (target $27.11)",
-    "27% of the float is sold short: fuel for a squeeze if it keeps rising"
+    "Up 2.1% day + after-hours",
+    "At or breaking through its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 27% over the past month",
+    "5 analysts see 32% upside on average (target $8.60)"
    ],
    "risks": [
-    "Still below its 200-day average, so the longer trend is down",
-    "Heavily shorted stocks are violent in both directions",
-    "Typically swings about 8.2% a day"
+    "Small cap ($856M): moves fast both ways and can be thinly traded",
+    "Typically swings about 5.2% a day"
    ],
    "projection": {
-    "target_low": 13.0,
-    "target_mean": 27.1111,
-    "target_high": 39.0,
-    "bear": -0.2,
-    "base": 108.1,
-    "bull": 199.3,
-    "analysts": 9,
-    "rating": "strong buy",
-    "rating_mean": 1.3
+    "target_low": 6.0,
+    "target_mean": 8.6,
+    "target_high": 12.0,
+    "bear": -7.6,
+    "base": 32.5,
+    "bull": 84.9,
+    "analysts": 5,
+    "rating": "buy",
+    "rating_mean": 1.8
    },
-   "daily_swing": 8.25,
-   "ret_5d": 51.1601,
-   "ret_20d": 12.6188,
-   "ret_60d": -29.6436,
+   "daily_swing": 5.18,
+   "ret_5d": 35.4212,
+   "ret_20d": 26.9231,
+   "ret_60d": 22.795,
    "earnings": null,
    "spark": [
-    14.71,
-    14.29,
-    15.06,
-    14.41,
-    13.7,
-    13.19,
-    12.86,
-    12.18,
-    11.02,
-    11.57,
-    10.78,
-    10.74,
-    10.54,
-    10.91,
-    10.45,
-    10.52,
-    10.48,
-    11.56,
-    11.59,
-    11.68,
-    10.67,
-    9.86,
-    10.48,
-    9.93,
-    8.62,
-    10.47,
-    12.04,
-    11.81,
-    12.18,
-    13.03
+    4.4,
+    4.47,
+    4.51,
+    4.61,
+    4.59,
+    4.8,
+    4.77,
+    4.81,
+    5.09,
+    4.94,
+    5.09,
+    5.45,
+    5.67,
+    5.66,
+    5.67,
+    5.65,
+    5.86,
+    5.91,
+    5.84,
+    5.81,
+    5.79,
+    5.73,
+    5.24,
+    5.11,
+    4.63,
+    4.67,
+    5.29,
+    5.67,
+    6.03,
+    6.27
    ],
    "news": [
     {
-     "title": "Intuitive Machines Q3 Earnings Call Highlights",
-     "url": "https://www.marketbeat.com/instant-alerts/transcript-intuitive-machines-q3-earnings-call-highlights-2026-11-12/?utm_source=yahoofinance&utm_medium=yahoofinance",
-     "publisher": "MarketBeat"
+     "title": "Are Oils-Energy Stocks Lagging  Excelerate Energy (EE) This Year?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/oils-energy-stocks-lagging-excelerate-134003288.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "LUNR CEO Highlights \u2018Record\u2019 Q3 \u2013 Revenue Hits $269M, Backlog Reaches $1.9B",
-     "url": "https://stocktwits.com/news-articles/markets/equity/lunr-ceo-highlights-record-q3-revenue-hits-269-m-backlog-reaches-1-9-b/cNGz6b2R9aA",
-     "publisher": "Stocktwits"
-    }
-   ]
-  },
-  {
-   "symbol": "MBGL",
-   "name": "Mobility Global Inc.",
-   "sector": "Technology",
-   "industry": "Software - Infrastructure",
-   "price": 23.13,
-   "move_pct": 15.42,
-   "move_label": "day + after-hours",
-   "rel_volume": 1.88,
-   "market_cap": 6825134080.0,
-   "score": 49,
-   "confidence": "Speculative",
-   "risk": "High",
-   "reasons": [
-    "Up 15.4% day + after-hours",
-    "Trading 1.9x its normal volume, so real money is behind the move",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 24% over the past month"
-   ],
-   "risks": [],
-   "projection": {
-    "target_low": 19.0,
-    "target_mean": 23.5833,
-    "target_high": 32.0,
-    "bear": -17.9,
-    "base": 2.0,
-    "bull": 38.3,
-    "analysts": 12,
-    "rating": "none",
-    "rating_mean": null
-   },
-   "daily_swing": 3.99,
-   "ret_5d": 16.4652,
-   "ret_20d": 23.5577,
-   "ret_60d": 12.1205,
-   "earnings": null,
-   "spark": [
-    17.21,
-    17.59,
-    17.62,
-    17.37,
-    18.08,
-    18.22,
-    18.11,
-    18.11,
-    17.84,
-    18.72,
-    18.69,
-    18.43,
-    18.52,
-    18.52,
-    19.28,
-    18.76,
-    18.68,
-    18.2,
-    18.33,
-    18.92,
-    18.91,
-    19.6,
-    19.32,
-    19.79,
-    19.86,
-    19.64,
-    19.86,
-    19.93,
-    19.92,
-    23.13
-   ],
-   "news": [
-    {
-     "title": "Mobility Global Raises FY2026 EBITDA Guidance as Q3 Revenue Increases 7.4% to $478 Million",
-     "url": "https://investorshub.advfn.com/market-news/article/39893/mobility-global-raises-fy2026-ebitda-guidance-as-q3-revenue-increases-7-4-to-478-million",
-     "publisher": "InvestorsHub"
-    },
-    {
-     "title": "Mobility Global shares rise 3% on raised profit guidance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/mobility-global-shares-rise-3-124843696.html",
-     "publisher": "Investing.com"
+     "title": "Granite Ridge Stock Just Surged 34%. Is It Still as Cheap as Its CEO Claims?",
+     "url": "https://247wallst.com/investing/2026/11/12/granite-ridge-stock-just-surged-34-is-it-still-as-cheap-as-its-ceo-claims/",
+     "publisher": "24/7 Wall St."
     }
    ]
   },
@@ -614,21 +365,21 @@
    "sector": "Communication Services",
    "industry": "Advertising Agencies",
    "price": 18.71,
-   "move_pct": 15.83,
+   "move_pct": 18.13,
    "move_label": "day + after-hours",
    "rel_volume": 1.4,
    "market_cap": 3168192512.0,
-   "score": 49,
-   "confidence": "Speculative",
+   "score": 51,
+   "confidence": "Medium",
    "risk": "High",
    "reasons": [
-    "Up 15.8% day + after-hours",
-    "Momentum: up 10% over the past month",
+    "Up 18.1% day + after-hours",
+    "Momentum: up 17% over the past month",
     "16 analysts see 46% upside on average (target $27.38)"
    ],
    "risks": [
     "Still below its 200-day average, so the longer trend is down",
-    "Typically swings about 4.2% a day"
+    "Typically swings about 4.4% a day"
    ],
    "projection": {
     "target_low": 18.0,
@@ -641,12 +392,13 @@
     "rating": "buy",
     "rating_mean": 1.7222
    },
-   "daily_swing": 4.25,
-   "ret_5d": 9.0962,
-   "ret_20d": 10.4486,
-   "ret_60d": -4.1005,
+   "daily_swing": 4.45,
+   "ret_5d": 18.2282,
+   "ret_20d": 16.5201,
+   "ret_60d": -5.646,
    "earnings": null,
    "spark": [
+    15.66,
     15.15,
     15.26,
     15.49,
@@ -675,8 +427,7 @@
     18.13,
     18.71,
     18.24,
-    18.55,
-    18.71
+    18.55
    ],
    "news": [
     {
@@ -692,6 +443,173 @@
    ]
   },
   {
+   "symbol": "TRMK",
+   "name": "Trustmark Corporation",
+   "sector": "Financial Services",
+   "industry": "Banks - Regional",
+   "price": 47.84,
+   "move_pct": 5.0,
+   "move_label": "today",
+   "rel_volume": 11.09,
+   "market_cap": 2762044416.0,
+   "score": 49,
+   "confidence": "Speculative",
+   "risk": "High",
+   "reasons": [
+    "Up 5.0% today",
+    "Trading 11.1x its normal volume, so real money is behind the move",
+    "Within 2.4% of its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages"
+   ],
+   "risks": [],
+   "projection": {
+    "target_low": 48.0,
+    "target_mean": 49.8,
+    "target_high": 54.0,
+    "bear": 0.3,
+    "base": 4.1,
+    "bull": 12.9,
+    "analysts": 5,
+    "rating": "hold",
+    "rating_mean": 2.6667
+   },
+   "daily_swing": 1.4,
+   "ret_5d": -0.1534,
+   "ret_20d": 3.2404,
+   "ret_60d": -3.9434,
+   "earnings": null,
+   "spark": [
+    45.08,
+    45.93,
+    45.54,
+    45.19,
+    44.37,
+    44.55,
+    44.21,
+    44.5,
+    44.58,
+    44.13,
+    44.87,
+    44.9,
+    44.51,
+    45.4,
+    45.29,
+    46.35,
+    46.31,
+    46.22,
+    46.12,
+    45.0,
+    44.84,
+    44.22,
+    45.36,
+    45.01,
+    45.63,
+    44.73,
+    44.64,
+    45.47,
+    45.4,
+    45.56
+   ],
+   "news": [
+    {
+     "title": "Hancock Whitney (HWC) Gets Beaten for Bidding Billions for This Company",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/hancock-whitney-hwc-gets-beaten-010914820.html",
+     "publisher": "Insider Monkey"
+    },
+    {
+     "title": "Hancock Whitney reaches for scale with deal for Miss. rival",
+     "url": "https://www.americanbanker.com/news/hancock-whitney-reaches-for-scale-with-deal-for-miss-rival",
+     "publisher": "American Banker"
+    }
+   ]
+  },
+  {
+   "symbol": "LUNR",
+   "name": "Intuitive Machines, Inc.",
+   "sector": "Industrials",
+   "industry": "Aerospace & Defense",
+   "price": 13.03,
+   "move_pct": 7.9,
+   "move_label": "day + after-hours",
+   "rel_volume": 3.37,
+   "market_cap": 2103210880.0,
+   "score": 49,
+   "confidence": "Speculative",
+   "risk": "Very high",
+   "reasons": [
+    "Up 7.9% day + after-hours",
+    "Trading 3.4x its normal volume, so real money is behind the move",
+    "Momentum: up 11% over the past month",
+    "9 analysts see 108% upside on average (target $27.11)",
+    "27% of the float is sold short: fuel for a squeeze if it keeps rising"
+   ],
+   "risks": [
+    "Still below its 200-day average, so the longer trend is down",
+    "Heavily shorted stocks are violent in both directions",
+    "Typically swings about 8.2% a day"
+   ],
+   "projection": {
+    "target_low": 13.0,
+    "target_mean": 27.1111,
+    "target_high": 39.0,
+    "bear": -0.2,
+    "base": 108.1,
+    "bull": 199.3,
+    "analysts": 9,
+    "rating": "strong buy",
+    "rating_mean": 1.3
+   },
+   "daily_swing": 8.18,
+   "ret_5d": 22.6586,
+   "ret_20d": 10.5263,
+   "ret_60d": -36.9239,
+   "earnings": null,
+   "spark": [
+    14.05,
+    14.71,
+    14.29,
+    15.06,
+    14.41,
+    13.7,
+    13.19,
+    12.86,
+    12.18,
+    11.02,
+    11.57,
+    10.78,
+    10.74,
+    10.54,
+    10.91,
+    10.45,
+    10.52,
+    10.48,
+    11.56,
+    11.59,
+    11.68,
+    10.67,
+    9.86,
+    10.48,
+    9.93,
+    8.62,
+    10.47,
+    12.04,
+    11.81,
+    12.18
+   ],
+   "news": [
+    {
+     "title": "Intuitive Machines (LUNR) Q3 2026 Earnings Call Transcript",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/12/intuitive-machines-lunr-q3-2026-earnings-call-transcript/",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "Intuitive Machines Inc (LUNR) (Q3 2026) Earnings Call Highlights: Record Revenue, $1. ...",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-inc-lunr-q3-230601349.html",
+     "publisher": "GuruFocus.com"
+    }
+   ]
+  },
+  {
    "symbol": "TPC",
    "name": "Tutor Perini Corporation",
    "sector": "Industrials",
@@ -700,7 +618,7 @@
    "move_pct": -1.0,
    "move_label": "today",
    "rel_volume": 1.9,
-   "market_cap": 5274259456.0,
+   "market_cap": 5278833152.0,
    "score": 48,
    "confidence": "Speculative",
    "risk": "High",
@@ -724,11 +642,12 @@
     "rating_mean": 1.0
    },
    "daily_swing": 3.2,
-   "ret_5d": 22.5779,
-   "ret_20d": 27.5652,
-   "ret_60d": 11.0705,
+   "ret_5d": 21.9054,
+   "ret_20d": 27.5038,
+   "ret_60d": 10.5849,
    "earnings": null,
    "spark": [
+    83.26,
     86.73,
     86.43,
     89.06,
@@ -757,101 +676,18 @@
     89.89,
     94.7,
     97.43,
-    101.34,
-    100.33
+    101.34
    ],
    "news": [
+    {
+     "title": "LiveOne Inc (LVO) (Q2 2027) Earnings Call Highlights: Record EBITDA, Major B2B Partnerships and ...",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/liveone-inc-lvo-q2-2027-010439618.html",
+     "publisher": "GuruFocus.com"
+    },
     {
      "title": "AT&T (T) Starts Work On 54 Acre Plano Headquarters Campus",
      "url": "https://finance.yahoo.com/markets/stocks/articles/t-t-starts-54-acre-221557190.html",
      "publisher": "Simply Wall St."
-    },
-    {
-     "title": "Better High-Yield Dividend Stock: AT&T vs. General Mills",
-     "url": "https://www.tikr.com/blog/better-high-yield-dividend-stock-att-vs-general-mills?ref=yahoofinancedividend&tlnk=yf-261112-rm5jr652",
-     "publisher": "TIKR"
-    }
-   ]
-  },
-  {
-   "symbol": "CHA",
-   "name": "Chagee Holdings Limited",
-   "sector": "Consumer Cyclical",
-   "industry": "Restaurants",
-   "price": 13.51,
-   "move_pct": 10.61,
-   "move_label": "day + after-hours",
-   "rel_volume": 2.72,
-   "market_cap": 2577212672.0,
-   "score": 47,
-   "confidence": "Speculative",
-   "risk": "High",
-   "reasons": [
-    "Up 10.6% day + after-hours",
-    "Trading 2.7x its normal volume, so real money is behind the move",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 9% over the past month",
-    "11 analysts see 16% upside on average (target $15.61)"
-   ],
-   "risks": [],
-   "projection": {
-    "target_low": 11.1338,
-    "target_mean": 15.6142,
-    "target_high": 19.9824,
-    "bear": -17.6,
-    "base": 15.6,
-    "bull": 47.9,
-    "analysts": 11,
-    "rating": "buy",
-    "rating_mean": 1.5454
-   },
-   "daily_swing": 3.22,
-   "ret_5d": 10.0163,
-   "ret_20d": 8.6013,
-   "ret_60d": 30.2797,
-   "earnings": null,
-   "spark": [
-    10.98,
-    11.19,
-    11.42,
-    11.16,
-    11.33,
-    11.25,
-    11.97,
-    12.52,
-    12.29,
-    12.44,
-    12.3,
-    12.34,
-    12.48,
-    12.95,
-    12.46,
-    12.36,
-    12.41,
-    12.25,
-    11.69,
-    12.02,
-    12.05,
-    12.66,
-    12.6,
-    12.77,
-    12.28,
-    12.43,
-    12.57,
-    12.43,
-    12.33,
-    13.51
-   ],
-   "news": [
-    {
-     "title": "Can Keurig Dr Pepper's Planned 2027 Split Drive Long-Term Value?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/keurig-dr-peppers-planned-2027-134700440.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Can Primo Brands' Purified Water Sales Accelerate Further?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/primo-brands-purified-water-sales-131000926.html",
-     "publisher": "Zacks"
     }
    ]
   },
@@ -876,7 +712,7 @@
    "risks": [
     "Still below its 200-day average, so the longer trend is down",
     "Small cap ($952M): moves fast both ways and can be thinly traded",
-    "Typically swings about 11.1% a day"
+    "Typically swings about 10.8% a day"
    ],
    "projection": {
     "target_low": 13.0,
@@ -889,12 +725,13 @@
     "rating": "buy",
     "rating_mean": 1.5454
    },
-   "daily_swing": 11.14,
-   "ret_5d": 48.5961,
-   "ret_20d": -9.4141,
-   "ret_60d": -27.1958,
+   "daily_swing": 10.83,
+   "ret_5d": 16.8593,
+   "ret_20d": -14.457,
+   "ret_60d": -39.0758,
    "earnings": null,
    "spark": [
+    14.13,
     14.48,
     14.93,
     15.15,
@@ -923,8 +760,7 @@
     10.2,
     11.56,
     11.6,
-    12.13,
-    13.76
+    12.13
    ],
    "news": [
     {
@@ -945,15 +781,15 @@
    "sector": "Technology",
    "industry": "Software - Infrastructure",
    "price": 2.72,
-   "move_pct": 16.0,
-   "move_label": "day + after-hours",
+   "move_pct": 16.74,
+   "move_label": "today",
    "rel_volume": 1.76,
    "market_cap": 319032992.0,
    "score": 46,
    "confidence": "Speculative",
    "risk": "Very high",
    "reasons": [
-    "Up 16.0% day + after-hours",
+    "Up 16.7% today",
     "Trading 1.8x its normal volume, so real money is behind the move",
     "4 analysts see 222% upside on average (target $8.75)",
     "29% of the float is sold short: fuel for a squeeze if it keeps rising"
@@ -975,12 +811,13 @@
     "rating": "strong buy",
     "rating_mean": 1.0
    },
-   "daily_swing": 14.46,
-   "ret_5d": 66.8712,
-   "ret_20d": -18.3183,
-   "ret_60d": -49.6296,
+   "daily_swing": 13.91,
+   "ret_5d": 6.3927,
+   "ret_20d": -31.6716,
+   "ret_60d": -54.5809,
    "earnings": null,
    "spark": [
+    6.37,
     6.29,
     6.05,
     5.86,
@@ -1009,8 +846,7 @@
     2.07,
     2.2,
     2.07,
-    2.33,
-    2.72
+    2.33
    ],
    "news": [
     {
@@ -1022,6 +858,172 @@
      "title": "New Era Energy & Digital contracts up to 207 MW of power for Texas data center campus",
      "url": "https://www.proactiveinvestors.com/companies/news/1101682/new-era-energy-digital-contracts-up-to-207-mw-of-power-for-texas-data-center-campus-1101682.html",
      "publisher": "Proactive"
+    }
+   ]
+  },
+  {
+   "symbol": "CBRS",
+   "name": "Cerebras Systems Inc.",
+   "sector": "Technology",
+   "industry": "Semiconductors",
+   "price": 97.75,
+   "move_pct": 15.05,
+   "move_label": "day + after-hours",
+   "rel_volume": 1.65,
+   "market_cap": 23221884928.0,
+   "score": 46,
+   "confidence": "Speculative",
+   "risk": "Very high",
+   "reasons": [
+    "Up 15.0% day + after-hours",
+    "Trading 1.6x its normal volume, so real money is behind the move",
+    "11 analysts see 151% upside on average (target $245.18)",
+    "20% of the float is sold short: fuel for a squeeze if it keeps rising"
+   ],
+   "risks": [
+    "Still below its 200-day average, so the longer trend is down",
+    "Heavily shorted stocks are violent in both directions",
+    "Typically swings about 6.7% a day"
+   ],
+   "projection": {
+    "target_low": 170.0,
+    "target_mean": 245.1818,
+    "target_high": 325.0,
+    "bear": 73.9,
+    "base": 150.8,
+    "bull": 232.5,
+    "analysts": 11,
+    "rating": "strong buy",
+    "rating_mean": 1.2727
+   },
+   "daily_swing": 6.73,
+   "ret_5d": 10.049,
+   "ret_20d": -28.5553,
+   "ret_60d": -54.0566,
+   "earnings": null,
+   "spark": [
+    169.52,
+    166.43,
+    181.55,
+    177.1,
+    175.05,
+    167.92,
+    164.17,
+    146.62,
+    149.09,
+    141.48,
+    142.17,
+    127.21,
+    120.66,
+    118.24,
+    117.98,
+    108.94,
+    110.82,
+    108.37,
+    119.31,
+    112.56,
+    115.16,
+    109.18,
+    96.36,
+    97.82,
+    91.85,
+    81.71,
+    89.68,
+    96.7,
+    93.66,
+    101.08
+   ],
+   "news": [
+    {
+     "title": "What Cerebras Systems (CBRS) Said on Its Q3 Earnings Call",
+     "url": "https://www.marketbeat.com/instant-alerts/transcript-what-cerebras-systems-cbrs-said-on-its-q3-earnings-call-2026-11-12/?utm_source=yahoofinance&utm_medium=yahoofinance",
+     "publisher": "MarketBeat"
+    },
+    {
+     "title": "Cerebras Systems Inc. Q3 2026 Earnings Call: Live Updates of $CRBS Earnings, Stock Forecast",
+     "url": "https://www.thestreet.com/latest-news/cerebras-systems-crbs-q3-2026-earnings-call-stock-updates",
+     "publisher": "TheStreet"
+    }
+   ]
+  },
+  {
+   "symbol": "MBGL",
+   "name": "Mobility Global Inc.",
+   "sector": "Technology",
+   "industry": "Software - Infrastructure",
+   "price": 23.13,
+   "move_pct": 15.12,
+   "move_label": "day + after-hours",
+   "rel_volume": 1.88,
+   "market_cap": 7401599488.0,
+   "score": 45,
+   "confidence": "Speculative",
+   "risk": "Moderate",
+   "reasons": [
+    "Up 15.1% day + after-hours",
+    "Trading 1.9x its normal volume, so real money is behind the move",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 12% over the past month"
+   ],
+   "risks": [],
+   "projection": {
+    "target_low": 19.0,
+    "target_mean": 23.5833,
+    "target_high": 32.0,
+    "bear": -17.9,
+    "base": 2.0,
+    "bull": 38.3,
+    "analysts": 12,
+    "rating": "none",
+    "rating_mean": null
+   },
+   "daily_swing": 2.12,
+   "ret_5d": 0.6569,
+   "ret_20d": 11.6592,
+   "ret_60d": 0.7988,
+   "earnings": null,
+   "spark": [
+    17.71,
+    17.21,
+    17.59,
+    17.62,
+    17.37,
+    18.08,
+    18.22,
+    18.11,
+    18.11,
+    17.84,
+    18.72,
+    18.69,
+    18.43,
+    18.52,
+    18.52,
+    19.28,
+    18.76,
+    18.68,
+    18.2,
+    18.33,
+    18.92,
+    18.91,
+    19.6,
+    19.32,
+    19.79,
+    19.86,
+    19.64,
+    19.86,
+    19.93,
+    19.92
+   ],
+   "news": [
+    {
+     "title": "Why Mobility Global Stock Gained Today",
+     "url": "https://www.fool.com/investing/2026/11/12/why-mobility-global-stock-gained-today/",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "Mobility Global Raises FY2026 EBITDA Guidance as Q3 Revenue Increases 7.4% to $478 Million",
+     "url": "https://investorshub.advfn.com/market-news/article/39893/mobility-global-raises-fy2026-ebitda-guidance-as-q3-revenue-increases-7-4-to-478-million",
+     "publisher": "InvestorsHub"
     }
    ]
   }
@@ -1037,7 +1039,7 @@
    "move_label": "today",
    "rel_volume": 0.66,
    "market_cap": 14217449472.0,
-   "score": 78,
+   "score": 79,
    "confidence": "High",
    "risk": "High",
    "reasons": [
@@ -1045,7 +1047,7 @@
     "Earnings growing 82% year over year",
     "Revenue growing 26% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 20% over the past three months"
+    "Up 22% over the past three months"
    ],
    "risks": [],
    "projection": {
@@ -1060,11 +1062,12 @@
     "rating_mean": 1.1667
    },
    "daily_swing": 3.55,
-   "ret_5d": 8.4877,
-   "ret_20d": 14.5766,
-   "ret_60d": 20.4281,
+   "ret_5d": 4.0401,
+   "ret_20d": 14.633,
+   "ret_60d": 22.0504,
    "earnings": null,
    "spark": [
+    57.26,
     60.25,
     62.0,
     63.75,
@@ -1093,8 +1096,7 @@
     67.15,
     69.15,
     72.49,
-    72.62,
-    71.45
+    72.62
    ],
    "news": [
     {
@@ -1119,7 +1121,7 @@
    "move_label": "day + after-hours",
    "rel_volume": 0.7,
    "market_cap": 31020259328.0,
-   "score": 74,
+   "score": 75,
    "confidence": "High",
    "risk": "Moderate",
    "reasons": [
@@ -1127,7 +1129,7 @@
     "Earnings growing 80% year over year",
     "Revenue growing 21% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 21% over the past three months"
+    "Up 24% over the past three months"
    ],
    "risks": [],
    "projection": {
@@ -1141,12 +1143,13 @@
     "rating": "strong buy",
     "rating_mean": 1.1429
    },
-   "daily_swing": 2.52,
-   "ret_5d": 1.3863,
-   "ret_20d": 13.6617,
-   "ret_60d": 21.4632,
+   "daily_swing": 2.47,
+   "ret_5d": 3.5028,
+   "ret_20d": 21.7958,
+   "ret_60d": 24.1275,
    "earnings": null,
    "spark": [
+    179.78,
     182.57,
     182.69,
     184.72,
@@ -1175,8 +1178,7 @@
     222.95,
     229.51,
     226.5,
-    226.93,
-    220.14
+    226.93
    ],
    "news": [
     {
@@ -1201,7 +1203,7 @@
    "move_label": "today",
    "rel_volume": 0.84,
    "market_cap": 47513481216.0,
-   "score": 71,
+   "score": 72,
    "confidence": "High",
    "risk": "Moderate",
    "reasons": [
@@ -1209,7 +1211,7 @@
     "Earnings growing 212% year over year",
     "Revenue growing 34% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 10% over the past three months"
+    "Up 14% over the past three months"
    ],
    "risks": [],
    "projection": {
@@ -1223,12 +1225,13 @@
     "rating": "strong buy",
     "rating_mean": 1.3333
    },
-   "daily_swing": 2.47,
-   "ret_5d": 7.4138,
-   "ret_20d": 11.1955,
-   "ret_60d": 10.3752,
+   "daily_swing": 2.77,
+   "ret_5d": 11.1705,
+   "ret_20d": 19.489,
+   "ret_60d": 13.7695,
    "earnings": null,
    "spark": [
+    358.77,
     358.07,
     361.65,
     362.78,
@@ -1257,8 +1260,7 @@
     406.96,
     417.33,
     424.0,
-    419.98,
-    415.96
+    419.98
    ],
    "news": [
     {
@@ -1290,7 +1292,7 @@
     "10 analysts rate it 'strong buy' with 26% average upside (target $65.11)",
     "Revenue growing 16% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 52% over the past three months"
+    "Up 63% over the past three months"
    ],
    "risks": [
     "Earnings shrinking (-15% year over year)"
@@ -1306,12 +1308,13 @@
     "rating": "strong buy",
     "rating_mean": 1.4167
    },
-   "daily_swing": 7.02,
-   "ret_5d": -1.8961,
-   "ret_20d": 36.8059,
-   "ret_60d": 51.6857,
+   "daily_swing": 6.89,
+   "ret_5d": -2.2678,
+   "ret_20d": 46.0287,
+   "ret_60d": 63.4405,
    "earnings": null,
    "spark": [
+    34.55,
     34.75,
     38.48,
     37.8,
@@ -1340,8 +1343,7 @@
     53.63,
     55.8,
     54.07,
-    53.87,
-    51.74
+    53.87
    ],
    "news": [
     {
@@ -1362,7 +1364,7 @@
    "sector": "Technology",
    "industry": "Software - Application",
    "price": 50.18,
-   "move_pct": 1.97,
+   "move_pct": 1.73,
    "move_label": "day + after-hours",
    "rel_volume": 0.89,
    "market_cap": 22271324160.0,
@@ -1387,12 +1389,13 @@
     "rating": "strong buy",
     "rating_mean": 1.44
    },
-   "daily_swing": 4.47,
-   "ret_5d": 2.8279,
-   "ret_20d": 15.7822,
-   "ret_60d": 6.5167,
+   "daily_swing": 4.55,
+   "ret_5d": 16.9336,
+   "ret_20d": 19.9275,
+   "ret_60d": 6.2259,
    "earnings": null,
    "spark": [
+    43.61,
     43.61,
     45.68,
     44.95,
@@ -1421,8 +1424,7 @@
     51.49,
     51.43,
     50.34,
-    49.65,
-    50.18
+    49.65
    ],
    "news": [
     {
@@ -1454,7 +1456,7 @@
     "Earnings growing 69% year over year",
     "Revenue growing 15% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 30% over the past three months",
+    "Up 33% over the past three months",
     "Reasonably priced at 17x next year's earnings"
    ],
    "risks": [
@@ -1471,12 +1473,13 @@
     "rating": "strong buy",
     "rating_mean": 1.5
    },
-   "daily_swing": 2.82,
-   "ret_5d": 1.6229,
-   "ret_20d": 23.4427,
-   "ret_60d": 30.1618,
+   "daily_swing": 2.75,
+   "ret_5d": 2.0069,
+   "ret_20d": 29.9183,
+   "ret_60d": 32.9403,
    "earnings": null,
    "spark": [
+    89.98,
     89.54,
     92.38,
     91.03,
@@ -1505,8 +1508,7 @@
     118.91,
     120.92,
     121.82,
-    124.02,
-    121.48
+    124.02
    ],
    "news": [
     {
@@ -1539,7 +1541,7 @@
     "Earnings growing 45% year over year",
     "Revenue growing 18% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 12% over the past three months"
+    "Up 14% over the past three months"
    ],
    "risks": [],
    "projection": {
@@ -1553,12 +1555,13 @@
     "rating": "buy",
     "rating_mean": 1.6875
    },
-   "daily_swing": 1.99,
-   "ret_5d": 2.0157,
-   "ret_20d": 12.2624,
-   "ret_60d": 12.0198,
+   "daily_swing": 2.03,
+   "ret_5d": 10.3559,
+   "ret_20d": 17.5386,
+   "ret_60d": 13.5514,
    "earnings": null,
    "spark": [
+    389.73,
     394.6,
     401.72,
     406.79,
@@ -1587,8 +1590,7 @@
     455.16,
     457.97,
     459.64,
-    461.95,
-    456.01
+    461.95
    ],
    "news": [
     {
@@ -1604,97 +1606,91 @@
    ]
   },
   {
-   "symbol": "EHC",
-   "name": "Encompass Health Corporation",
+   "symbol": "REGN",
+   "name": "Regeneron Pharmaceuticals, Inc.",
    "sector": "Healthcare",
-   "industry": "Medical Care Facilities",
-   "price": 140.83,
-   "move_pct": -0.99,
+   "industry": "Biotechnology",
+   "price": 951.19,
+   "move_pct": -0.86,
    "move_label": "today",
-   "rel_volume": 0.64,
-   "market_cap": 13818748928.0,
+   "rel_volume": 1.32,
+   "market_cap": 98398568448.0,
    "score": 63,
    "confidence": "Medium",
-   "risk": "Moderate",
+   "risk": "High",
    "reasons": [
-    "12 analysts rate it 'strong buy' with 11% average upside (target $156.08)",
-    "Earnings growing 22% year over year",
-    "Revenue growing 9% year over year",
+    "Earnings growing 36% year over year",
+    "Revenue growing 36% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 16% over the past three months"
+    "Up 18% over the past three months",
+    "Reasonably priced at 13x next year's earnings"
    ],
-   "risks": [],
+   "risks": [
+    "Trading at or above the average analyst target, so the easy upside may be priced in"
+   ],
    "projection": {
-    "target_low": 142.0,
-    "target_mean": 156.0833,
-    "target_high": 177.0,
-    "bear": 0.8,
-    "base": 10.8,
-    "bull": 25.7,
-    "analysts": 12,
-    "rating": "strong buy",
-    "rating_mean": 1.0769
+    "target_low": 812.0,
+    "target_mean": 977.9259,
+    "target_high": 1175.0,
+    "bear": -14.6,
+    "base": 2.8,
+    "bull": 23.5,
+    "analysts": 27,
+    "rating": "buy",
+    "rating_mean": 1.7857
    },
-   "daily_swing": 2.89,
-   "ret_5d": -0.3115,
-   "ret_20d": 10.2215,
-   "ret_60d": 15.8813,
+   "daily_swing": 3.6,
+   "ret_5d": 3.0881,
+   "ret_20d": 23.2604,
+   "ret_60d": 18.4106,
    "earnings": null,
    "spark": [
-    119.8,
-    120.97,
-    124.69,
-    122.48,
-    122.54,
-    123.33,
-    124.42,
-    124.33,
-    126.56,
-    127.77,
-    127.87,
-    121.71,
-    121.67,
-    120.47,
-    126.01,
-    124.09,
-    124.1,
-    121.53,
-    122.09,
-    131.49,
-    135.9,
-    137.19,
-    134.79,
-    141.03,
-    141.27,
-    137.54,
-    141.15,
-    142.51,
-    142.24,
-    140.83
+    734.81,
+    735.2,
+    726.47,
+    738.72,
+    742.12,
+    739.57,
+    746.54,
+    762.81,
+    753.12,
+    778.36,
+    796.34,
+    790.74,
+    782.04,
+    807.48,
+    805.67,
+    819.09,
+    805.02,
+    807.67,
+    816.1,
+    813.27,
+    818.77,
+    927.89,
+    961.26,
+    973.36,
+    930.67,
+    902.9,
+    904.35,
+    919.96,
+    916.06,
+    959.41
    ],
    "news": [
     {
-     "title": "What Really Drove HCA Stock Higher?",
-     "url": "https://www.trefis.com/stock/hca/articles/624385/what-really-drove-hca-stock-higher/2026-11-11",
-     "publisher": "Trefis"
+     "title": "REGN Soars 27.4% in a Month: Buy, Sell or Hold the Stock?",
+     "url": "https://finance.yahoo.com/healthcare/articles/regn-soars-27-4-month-162100407.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "Should Value Investors Buy Encompass Health (EHC) Stock?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-encompass-health-134003713.html",
-     "publisher": "Zacks"
+     "title": "What Moved Alnylam Stock?",
+     "url": "https://www.trefis.com/stock/alny/articles/624745/what-moved-alnylam-stock/2026-11-12",
+     "publisher": "Trefis"
     }
    ]
   }
  ],
  "earnings": [
-  {
-   "symbol": "TEO",
-   "date": "2026-11-13T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 0.31,
-   "company": "Telecom Argentina S.A.",
-   "market_cap": 4535666834.0407
-  },
   {
    "symbol": "CFRUY",
    "date": "2026-11-13T13:30:00+00:00",
@@ -1710,22 +1706,6 @@
    "eps_est": 0.34,
    "company": "Mitsubishi UFJ Financial Group, Inc.",
    "market_cap": 244812883486.5
-  },
-  {
-   "symbol": "SMFG",
-   "date": "2026-11-13T21:00:00+00:00",
-   "timing": "during the day",
-   "eps_est": 0.4,
-   "company": "Sumitomo Mitsui Financial Group, Inc.",
-   "market_cap": 152854242004.9546
-  },
-  {
-   "symbol": "MFG",
-   "date": "2026-11-13T21:00:00+00:00",
-   "timing": "during the day",
-   "eps_est": 0.17,
-   "company": "Mizuho Financial Group, Inc.",
-   "market_cap": 122172674626.2236
   },
   {
    "symbol": "CSANY",
@@ -1744,12 +1724,20 @@
    "market_cap": 23331898782.0976
   },
   {
-   "symbol": "ALM",
+   "symbol": "MFG",
    "date": "2026-11-13T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 0.04,
-   "company": "Almonty Industries Inc.",
-   "market_cap": 2164950340.3417
+   "timing": "during the day",
+   "eps_est": 0.17,
+   "company": "Mizuho Financial Group, Inc.",
+   "market_cap": 122172674626.2236
+  },
+  {
+   "symbol": "SMFG",
+   "date": "2026-11-13T21:00:00+00:00",
+   "timing": "during the day",
+   "eps_est": 0.4,
+   "company": "Sumitomo Mitsui Financial Group, Inc.",
+   "market_cap": 152854242004.9546
   }
  ],
  "disclaimer": "Leia ranks setups from public data; she does not predict prices and this is not financial advice. Short-term trading is risky and most picks with big upside carry matching downside."
