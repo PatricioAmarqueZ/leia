@@ -320,5 +320,33 @@
   "symbol": "CPAY",
   "entry": 462.95,
   "score": 64
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "UPBD",
+  "entry": 25.09,
+  "score": 53
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "FRMI",
+  "entry": 2.61,
+  "score": 53
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "NVRI",
+  "entry": 25.23,
+  "score": 53
+ },
+ {
+  "date": "2026-11-13",
+  "list": "catalysts",
+  "symbol": "STN",
+  "entry": 85.69,
+  "score": 51
  }
 ]
