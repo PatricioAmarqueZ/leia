@@ -1,36 +1,221 @@
 {
- "picks": 50,
+ "picks": 70,
  "lists": {
   "catalysts": {
    "same_day": {
-    "n": 21,
-    "avg": -0.21,
-    "win_rate": 28.6,
-    "avg_vs_spy": 0.14
+    "n": 33,
+    "avg": 0.26,
+    "win_rate": 36.4,
+    "avg_vs_spy": 0.62
    },
    "1d": {
-    "n": 3,
-    "avg": -3.42,
-    "win_rate": 33.3,
-    "avg_vs_spy": -2.71
+    "n": 17,
+    "avg": 2.69,
+    "win_rate": 52.9,
+    "avg_vs_spy": 3.41
    }
   },
   "core": {
    "same_day": {
-    "n": 11,
-    "avg": -0.66,
-    "win_rate": 0.0,
-    "avg_vs_spy": -0.3
+    "n": 17,
+    "avg": -0.32,
+    "win_rate": 29.4,
+    "avg_vs_spy": 0.04
    },
    "1d": {
-    "n": 4,
-    "avg": -0.32,
-    "win_rate": 50.0,
-    "avg_vs_spy": 0.4
+    "n": 9,
+    "avg": 0.19,
+    "win_rate": 44.4,
+    "avg_vs_spy": 0.9
    }
   }
  },
  "recent": [
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "CGON",
+   "entry": 84.78,
+   "score": 74
+  },
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "BILL",
+   "entry": 57.63,
+   "score": 56
+  },
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "CRTO",
+   "entry": 19.57,
+   "score": 55
+  },
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "TU",
+   "entry": 9.57,
+   "score": 52
+  },
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "WWW",
+   "entry": 25.29,
+   "score": 52
+  },
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "MOH",
+   "entry": 233.09,
+   "score": 51
+  },
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "HTHT",
+   "entry": 54.88,
+   "score": 51
+  },
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "SENS",
+   "entry": 10.9,
+   "score": 51
+  },
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "ZIP",
+   "entry": 6.11,
+   "score": 49
+  },
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "OFRM",
+   "entry": 11.7,
+   "score": 48
+  },
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "CHYM",
+   "entry": 34.29,
+   "score": 47
+  },
+  {
+   "date": "2026-11-16",
+   "list": "catalysts",
+   "symbol": "COLM",
+   "entry": 75.63,
+   "score": 46
+  },
+  {
+   "date": "2026-11-16",
+   "list": "core",
+   "symbol": "BTSG",
+   "entry": 71.37,
+   "score": 78
+  },
+  {
+   "date": "2026-11-16",
+   "list": "core",
+   "symbol": "SN",
+   "entry": 223.29,
+   "score": 74
+  },
+  {
+   "date": "2026-11-16",
+   "list": "core",
+   "symbol": "ONC",
+   "entry": 411.29,
+   "score": 73
+  },
+  {
+   "date": "2026-11-16",
+   "list": "core",
+   "symbol": "GMAB",
+   "entry": 51.57,
+   "score": 69
+  },
+  {
+   "date": "2026-11-16",
+   "list": "core",
+   "symbol": "CHYM",
+   "entry": 34.29,
+   "score": 67
+  },
+  {
+   "date": "2026-11-16",
+   "list": "core",
+   "symbol": "U",
+   "entry": 51.88,
+   "score": 66
+  },
+  {
+   "date": "2026-11-16",
+   "list": "core",
+   "symbol": "HAS",
+   "entry": 121.02,
+   "score": 66
+  },
+  {
+   "date": "2026-11-16",
+   "list": "core",
+   "symbol": "LTH",
+   "entry": 46.28,
+   "score": 65
+  },
+  {
+   "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "OBIO",
+   "entry": 6.79,
+   "score": 67,
+   "same_day": 6.77,
+   "same_day_vs_spy": 7.14
+  },
+  {
+   "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "HAWK",
+   "entry": 17.88,
+   "score": 66,
+   "same_day": 1.57,
+   "same_day_vs_spy": 1.93
+  },
+  {
+   "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "LFTO",
+   "entry": 23.8,
+   "score": 62,
+   "same_day": 2.69,
+   "same_day_vs_spy": 3.05
+  },
+  {
+   "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "TNDM",
+   "entry": 20.11,
+   "score": 62,
+   "same_day": -0.2,
+   "same_day_vs_spy": 0.16
+  },
+  {
+   "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "PUBM",
+   "entry": 20.44,
+   "score": 59,
+   "same_day": 0.83,
+   "same_day_vs_spy": 1.19
+  },
   {
    "date": "2026-11-13",
    "list": "catalysts",
@@ -42,12 +227,120 @@
   },
   {
    "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "LRMR",
+   "entry": 3.04,
+   "score": 56,
+   "same_day": -0.66,
+   "same_day_vs_spy": -0.29
+  },
+  {
+   "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "KOD",
+   "entry": 111.46,
+   "score": 51,
+   "same_day": -0.24,
+   "same_day_vs_spy": 0.12
+  },
+  {
+   "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "NMAX",
+   "entry": 9.28,
+   "score": 49,
+   "same_day": 3.23,
+   "same_day_vs_spy": 3.6
+  },
+  {
+   "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "CBRS",
+   "entry": 109.435,
+   "score": 49,
+   "same_day": -0.65,
+   "same_day_vs_spy": -0.29
+  },
+  {
+   "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "PRME",
+   "entry": 4.4,
+   "score": 48,
+   "same_day": -2.95,
+   "same_day_vs_spy": -2.59
+  },
+  {
+   "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "NUAI",
+   "entry": 3.115,
+   "score": 48,
+   "same_day": 2.73,
+   "same_day_vs_spy": 3.09
+  },
+  {
+   "date": "2026-11-13",
+   "list": "core",
+   "symbol": "BTSG",
+   "entry": 70.78,
+   "score": 79,
+   "same_day": 0.61,
+   "same_day_vs_spy": 0.97
+  },
+  {
+   "date": "2026-11-13",
+   "list": "core",
+   "symbol": "SN",
+   "entry": 225.07,
+   "score": 73,
+   "same_day": 0.59,
+   "same_day_vs_spy": 0.95
+  },
+  {
+   "date": "2026-11-13",
+   "list": "core",
+   "symbol": "ONC",
+   "entry": 416.17,
+   "score": 71,
+   "same_day": 0.09,
+   "same_day_vs_spy": 0.45
+  },
+  {
+   "date": "2026-11-13",
+   "list": "core",
+   "symbol": "GMAB",
+   "entry": 51.3,
+   "score": 70,
+   "same_day": 0.14,
+   "same_day_vs_spy": 0.5
+  },
+  {
+   "date": "2026-11-13",
    "list": "core",
    "symbol": "HAS",
    "entry": 121.08,
    "score": 66,
    "same_day": -0.44,
    "same_day_vs_spy": -0.07
+  },
+  {
+   "date": "2026-11-13",
+   "list": "core",
+   "symbol": "U",
+   "entry": 52.515,
+   "score": 65,
+   "same_day": 0.56,
+   "same_day_vs_spy": 0.92
+  },
+  {
+   "date": "2026-11-13",
+   "list": "core",
+   "symbol": "LTH",
+   "entry": 46.615,
+   "score": 65,
+   "same_day": -0.2,
+   "same_day_vs_spy": 0.16
   },
   {
    "date": "2026-11-13",
@@ -65,6 +358,15 @@
    "entry": 25.09,
    "score": 53,
    "same_day": 0.0,
+   "same_day_vs_spy": 0.36
+  },
+  {
+   "date": "2026-11-13",
+   "list": "catalysts",
+   "symbol": "FRMI",
+   "entry": 2.61,
+   "score": 53,
+   "same_day": -0.0,
    "same_day_vs_spy": 0.36
   },
   {
@@ -92,7 +394,9 @@
    "entry": 13.5701,
    "score": 58,
    "same_day": -3.98,
-   "same_day_vs_spy": -3.63
+   "same_day_vs_spy": -3.63,
+   "1d": -4.2,
+   "1d_vs_spy": -3.49
   },
   {
    "date": "2026-11-12",
@@ -101,7 +405,9 @@
    "entry": 9.395,
    "score": 56,
    "same_day": 0.69,
-   "same_day_vs_spy": 1.05
+   "same_day_vs_spy": 1.05,
+   "1d": -1.22,
+   "1d_vs_spy": -0.51
   },
   {
    "date": "2026-11-12",
@@ -110,7 +416,9 @@
    "entry": 2.08,
    "score": 55,
    "same_day": -0.96,
-   "same_day_vs_spy": -0.61
+   "same_day_vs_spy": -0.61,
+   "1d": 25.48,
+   "1d_vs_spy": 26.2
   },
   {
    "date": "2026-11-12",
@@ -119,7 +427,9 @@
    "entry": 6.475,
    "score": 52,
    "same_day": 0.23,
-   "same_day_vs_spy": 0.59
+   "same_day_vs_spy": 0.59,
+   "1d": -2.7,
+   "1d_vs_spy": -1.99
   },
   {
    "date": "2026-11-12",
@@ -139,7 +449,9 @@
    "entry": 10.02,
    "score": 51,
    "same_day": 1.9,
-   "same_day_vs_spy": 2.25
+   "same_day_vs_spy": 2.25,
+   "1d": 2.99,
+   "1d_vs_spy": 3.71
   },
   {
    "date": "2026-11-12",
@@ -148,7 +460,9 @@
    "entry": 60.245,
    "score": 50,
    "same_day": -0.54,
-   "same_day_vs_spy": -0.19
+   "same_day_vs_spy": -0.19,
+   "1d": -19.56,
+   "1d_vs_spy": -18.85
   },
   {
    "date": "2026-11-12",
@@ -168,7 +482,9 @@
    "entry": 13.9899,
    "score": 48,
    "same_day": -1.64,
-   "same_day_vs_spy": -1.29
+   "same_day_vs_spy": -1.29,
+   "1d": -10.58,
+   "1d_vs_spy": -9.86
   },
   {
    "date": "2026-11-12",
@@ -177,7 +493,9 @@
    "entry": 22.95,
    "score": 47,
    "same_day": 0.78,
-   "same_day_vs_spy": 1.14
+   "same_day_vs_spy": 1.14,
+   "1d": 1.44,
+   "1d_vs_spy": 2.15
   },
   {
    "date": "2026-11-12",
@@ -186,7 +504,9 @@
    "entry": 13.52,
    "score": 47,
    "same_day": -0.07,
-   "same_day_vs_spy": 0.28
+   "same_day_vs_spy": 0.28,
+   "1d": 6.29,
+   "1d_vs_spy": 7.0
   },
   {
    "date": "2026-11-12",
@@ -195,7 +515,9 @@
    "entry": 108.265,
    "score": 46,
    "same_day": -0.01,
-   "same_day_vs_spy": 0.34
+   "same_day_vs_spy": 0.34,
+   "1d": 2.7,
+   "1d_vs_spy": 3.42
   },
   {
    "date": "2026-11-12",
@@ -204,7 +526,9 @@
    "entry": 72.355,
    "score": 77,
    "same_day": -1.25,
-   "same_day_vs_spy": -0.9
+   "same_day_vs_spy": -0.9,
+   "1d": -1.58,
+   "1d_vs_spy": -0.87
   },
   {
    "date": "2026-11-12",
@@ -213,7 +537,9 @@
    "entry": 221.48,
    "score": 74,
    "same_day": -0.61,
-   "same_day_vs_spy": -0.25
+   "same_day_vs_spy": -0.25,
+   "1d": 2.22,
+   "1d_vs_spy": 2.93
   },
   {
    "date": "2026-11-12",
@@ -222,7 +548,9 @@
    "entry": 420.7,
    "score": 70,
    "same_day": -1.13,
-   "same_day_vs_spy": -0.77
+   "same_day_vs_spy": -0.77,
+   "1d": -0.99,
+   "1d_vs_spy": -0.27
   },
   {
    "date": "2026-11-12",
@@ -231,107 +559,9 @@
    "entry": 52.17,
    "score": 68,
    "same_day": -0.82,
-   "same_day_vs_spy": -0.47
-  },
-  {
-   "date": "2026-11-12",
-   "list": "core",
-   "symbol": "U",
-   "entry": 50.36,
-   "score": 67,
-   "same_day": -0.36,
-   "same_day_vs_spy": -0.0
-  },
-  {
-   "date": "2026-11-12",
-   "list": "core",
-   "symbol": "HAS",
-   "entry": 122.87,
-   "score": 66,
-   "same_day": -1.13,
-   "same_day_vs_spy": -0.78,
-   "1d": -1.89,
-   "1d_vs_spy": -1.17
-  },
-  {
-   "date": "2026-11-12",
-   "list": "core",
-   "symbol": "CPAY",
-   "entry": 459.335,
-   "score": 64,
-   "same_day": -0.72,
-   "same_day_vs_spy": -0.37,
-   "1d": 0.63,
-   "1d_vs_spy": 1.34
-  },
-  {
-   "date": "2026-11-12",
-   "list": "core",
-   "symbol": "EHC",
-   "entry": 141.66,
-   "score": 63,
-   "same_day": -0.59,
-   "same_day_vs_spy": -0.23,
-   "1d": -0.47,
-   "1d_vs_spy": 0.24
-  },
-  {
-   "date": "2026-11-12",
-   "list": "catalysts",
-   "symbol": "DCTH",
-   "entry": 21.425,
-   "score": 47,
-   "same_day": -0.21,
-   "same_day_vs_spy": 0.14
-  },
-  {
-   "date": "2026-11-12",
-   "list": "catalysts",
-   "symbol": "LFTO",
-   "entry": 18.71,
-   "score": 49,
-   "same_day": -0.0,
-   "same_day_vs_spy": 0.35
-  },
-  {
-   "date": "2026-11-12",
-   "list": "catalysts",
-   "symbol": "TPC",
-   "entry": 100.33,
-   "score": 48,
-   "same_day": 0.0,
-   "same_day_vs_spy": 0.35,
+   "same_day_vs_spy": -0.47,
    "1d": -1.53,
    "1d_vs_spy": -0.82
-  },
-  {
-   "date": "2026-11-12",
-   "list": "catalysts",
-   "symbol": "NUAI",
-   "entry": 2.72,
-   "score": 46,
-   "same_day": 0.0,
-   "same_day_vs_spy": 0.35
-  },
-  {
-   "date": "2026-11-12",
-   "list": "catalysts",
-   "symbol": "CBRS",
-   "entry": 97.75,
-   "score": 46,
-   "same_day": 0.0,
-   "same_day_vs_spy": 0.35
-  },
-  {
-   "date": "2026-11-12",
-   "list": "core",
-   "symbol": "REGN",
-   "entry": 951.19,
-   "score": 63,
-   "same_day": 0.0,
-   "same_day_vs_spy": 0.35,
-   "1d": 0.45,
-   "1d_vs_spy": 1.17
   }
  ]
 }
