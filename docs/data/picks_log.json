@@ -488,5 +488,145 @@
   "symbol": "LTH",
   "entry": 46.28,
   "score": 65
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "BILL",
+  "entry": 64.97,
+  "score": 80
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "RYTM",
+  "entry": 116.61,
+  "score": 65
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "ENR",
+  "entry": 27.38,
+  "score": 64
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "SLS",
+  "entry": 19.15,
+  "score": 59
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "SMWB",
+  "entry": 8.86,
+  "score": 52
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "ACM",
+  "entry": 80.56,
+  "score": 51
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "TFX",
+  "entry": 159.605,
+  "score": 48
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "RZLT",
+  "entry": 4.015,
+  "score": 47
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "SHAZ",
+  "entry": 22.59,
+  "score": 46
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "CHYM",
+  "entry": 32.97,
+  "score": 43
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "RMIX",
+  "entry": 6.05,
+  "score": 42
+ },
+ {
+  "date": "2026-11-17",
+  "list": "catalysts",
+  "symbol": "GFF",
+  "entry": 104.78,
+  "score": 41
+ },
+ {
+  "date": "2026-11-17",
+  "list": "core",
+  "symbol": "SN",
+  "entry": 220.14,
+  "score": 74
+ },
+ {
+  "date": "2026-11-17",
+  "list": "core",
+  "symbol": "ONC",
+  "entry": 413.26,
+  "score": 72
+ },
+ {
+  "date": "2026-11-17",
+  "list": "core",
+  "symbol": "CHYM",
+  "entry": 32.97,
+  "score": 70
+ },
+ {
+  "date": "2026-11-17",
+  "list": "core",
+  "symbol": "GMAB",
+  "entry": 51.96,
+  "score": 68
+ },
+ {
+  "date": "2026-11-17",
+  "list": "core",
+  "symbol": "U",
+  "entry": 50.355,
+  "score": 68
+ },
+ {
+  "date": "2026-11-17",
+  "list": "core",
+  "symbol": "EHC",
+  "entry": 137.88,
+  "score": 65
+ },
+ {
+  "date": "2026-11-17",
+  "list": "core",
+  "symbol": "LTH",
+  "entry": 46.76,
+  "score": 64
+ },
+ {
+  "date": "2026-11-17",
+  "list": "core",
+  "symbol": "REGN",
+  "entry": 957.76,
+  "score": 63
  }
 ]
