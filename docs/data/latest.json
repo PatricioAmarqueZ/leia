@@ -1,11 +1,11 @@
 {
  "assistant": "Leia",
- "generated_at": "2026-11-16T17:26:01.578381-05:00",
+ "generated_at": "2026-11-16T23:06:47.293304-05:00",
  "date": "2026-11-16",
- "market_state": "POST",
+ "market_state": "POSTPOST",
  "universe_size": 2768,
- "greeting": "Good afternoon. Leia here. Markets are closed, so this is your look ahead.",
- "summary": "I've been through 2,768 stocks. 12 short-term setups made the cut, led by CGON with a score of 74. For steadier holds, BTSG tops the list.",
+ "greeting": "Good evening. Leia here. Markets are closed, so this is your look ahead.",
+ "summary": "I've been through 2,768 stocks. 12 short-term setups made the cut, led by CGON with a score of 76. For steadier holds, BTSG tops the list.",
  "market": {
   "S&P 500": {
    "price": 739.95,
@@ -31,28 +31,29 @@
    "move_label": "today",
    "rel_volume": 9.89,
    "market_cap": 7572457472.0,
-   "score": 74,
+   "score": 76,
    "confidence": "High",
    "risk": "Very high",
    "reasons": [
     "Up 14.0% today",
     "Trading 9.9x its normal volume, so real money is behind the move",
     "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 41% over the past month"
+    "Momentum: up 41% over the past month",
+    "13 analysts see 21% upside on average (target $102.38)"
    ],
    "risks": [
     "Typically swings about 5.6% a day"
    ],
    "projection": {
     "target_low": 80.0,
-    "target_mean": 92.1539,
-    "target_high": 112.0,
+    "target_mean": 102.3846,
+    "target_high": 150.0,
     "bear": -5.6,
-    "base": 8.7,
-    "bull": 32.1,
+    "base": 20.8,
+    "bull": 76.9,
     "analysts": 13,
     "rating": "strong buy",
-    "rating_mean": 1.4286
+    "rating_mean": 1.2857
    },
    "daily_swing": 5.55,
    "ret_5d": 13.4332,
@@ -105,86 +106,84 @@
    ]
   },
   {
-   "symbol": "BILL",
-   "name": "BILL Holdings, Inc.",
-   "sector": "Technology",
-   "industry": "Software - Application",
-   "price": 57.63,
-   "move_pct": 5.78,
-   "move_label": "today",
-   "rel_volume": 1.51,
-   "market_cap": 4949439488.0,
+   "symbol": "WWW",
+   "name": "Wolverine World Wide, Inc.",
+   "sector": "Consumer Cyclical",
+   "industry": "Footwear & Accessories",
+   "price": 25.29,
+   "move_pct": 4.13,
+   "move_label": "day + after-hours",
+   "rel_volume": 2.75,
+   "market_cap": 2075976064.0,
    "score": 56,
    "confidence": "Medium",
    "risk": "High",
    "reasons": [
-    "Up 5.8% today",
-    "Trading 1.5x its normal volume, so real money is behind the move",
+    "Up 4.1% day + after-hours",
+    "Trading 2.7x its normal volume, so real money is behind the move",
     "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 26% over the past month"
+    "Momentum: up 30% over the past month"
    ],
-   "risks": [
-    "Heavily shorted stocks are violent in both directions"
-   ],
+   "risks": [],
    "projection": {
-    "target_low": 50.0,
-    "target_mean": 60.9,
-    "target_high": 75.0,
-    "bear": -13.2,
-    "base": 5.7,
-    "bull": 30.1,
-    "analysts": 20,
+    "target_low": 21.0,
+    "target_mean": 25.8,
+    "target_high": 33.0,
+    "bear": -17.0,
+    "base": 2.0,
+    "bull": 30.5,
+    "analysts": 10,
     "rating": "buy",
-    "rating_mean": 1.9546
+    "rating_mean": 2.0
    },
-   "daily_swing": 2.64,
-   "ret_5d": 7.0991,
-   "ret_20d": 26.1326,
-   "ret_60d": 20.5144,
+   "daily_swing": 3.83,
+   "ret_5d": 15.1639,
+   "ret_20d": 30.2266,
+   "ret_60d": 21.2931,
    "earnings": null,
    "spark": [
-    43.96,
-    44.0,
-    44.98,
-    44.83,
-    44.17,
-    43.98,
-    44.18,
-    46.92,
-    45.6,
-    45.69,
-    49.09,
-    49.01,
-    50.67,
-    50.7,
-    49.93,
-    49.41,
-    48.02,
-    48.47,
-    48.31,
-    49.72,
-    49.82,
-    51.87,
-    50.89,
-    52.41,
-    53.81,
-    53.74,
-    54.43,
-    54.0,
-    54.48,
-    57.63
+    19.31,
+    18.85,
+    19.0,
+    19.43,
+    19.37,
+    19.05,
+    18.83,
+    20.02,
+    19.79,
+    19.42,
+    20.15,
+    20.11,
+    20.68,
+    20.36,
+    20.28,
+    19.7,
+    19.56,
+    20.57,
+    20.8,
+    21.4,
+    21.63,
+    23.5,
+    21.69,
+    21.33,
+    21.96,
+    21.69,
+    21.93,
+    22.87,
+    24.89,
+    25.29
    ],
    "news": [
     {
-     "title": "William Blair upgrades Bill Holdings on margin and monetization tailwinds",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/william-blair-upgrades-bill-holdings-164003908.html",
-     "publisher": "Investing.com"
+     "title": "Raised Guidance Might Change The Case For Investing In Wolverine World Wide Stock (WWW)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/raised-guidance-might-change-case-010834891.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "BILL Bets on Bigger Customers and AI After Deep Job Cuts, Sees Growth Rebound",
-     "url": "https://www.marketbeat.com/instant-alerts/event-bill-bets-on-bigger-customers-and-ai-after-deep-job-cuts-sees-growth-rebound-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance",
-     "publisher": "MarketBeat"
+     "title": "Should You Buy, Sell or Hold Wolverine Stock Post Q3 Earnings?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-wolverine-stock-142400665.html",
+     "publisher": "Zacks"
     }
    ]
   },
@@ -273,165 +272,168 @@
    ]
   },
   {
-   "symbol": "TU",
-   "name": "Telus Corporation",
-   "sector": "Communication Services",
-   "industry": "Telecom Services",
-   "price": 9.57,
-   "move_pct": 13.03,
+   "symbol": "BILL",
+   "name": "BILL Holdings, Inc.",
+   "sector": "Technology",
+   "industry": "Software - Application",
+   "price": 57.63,
+   "move_pct": 4.64,
    "move_label": "day + after-hours",
-   "rel_volume": 7.26,
-   "market_cap": 15216299008.0,
-   "score": 52,
+   "rel_volume": 1.51,
+   "market_cap": 4949439488.0,
+   "score": 55,
    "confidence": "Medium",
    "risk": "High",
    "reasons": [
-    "Up 13.0% day + after-hours",
-    "Trading 7.3x its normal volume, so real money is behind the move",
-    "Momentum: up 15% over the past month"
+    "Up 4.6% day + after-hours",
+    "Trading 1.5x its normal volume, so real money is behind the move",
+    "At or breaking through its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 26% over the past month"
    ],
    "risks": [
-    "Still below its 200-day average, so the longer trend is down"
+    "Heavily shorted stocks are violent in both directions"
    ],
    "projection": {
-    "target_low": 9.5,
-    "target_mean": 10.0,
-    "target_high": 10.5,
-    "bear": -0.7,
-    "base": 4.5,
-    "bull": 9.7,
-    "analysts": 3,
-    "rating": "hold",
-    "rating_mean": 3.0556
+    "target_low": 50.0,
+    "target_mean": 60.9,
+    "target_high": 75.0,
+    "bear": -13.2,
+    "base": 5.7,
+    "bull": 30.1,
+    "analysts": 20,
+    "rating": "buy",
+    "rating_mean": 1.8636
    },
-   "daily_swing": 3.5,
-   "ret_5d": 7.287,
-   "ret_20d": 15.4403,
-   "ret_60d": -1.9234,
+   "daily_swing": 2.64,
+   "ret_5d": 7.0991,
+   "ret_20d": 26.1326,
+   "ret_60d": 20.5144,
    "earnings": null,
    "spark": [
-    7.88,
-    7.94,
-    8.04,
-    7.72,
-    7.79,
-    8.0,
-    8.11,
-    8.37,
-    8.44,
-    8.29,
-    8.46,
-    8.38,
-    8.86,
-    8.83,
-    8.69,
-    8.59,
-    8.55,
-    8.67,
-    8.87,
-    9.05,
-    8.9,
-    9.22,
-    9.42,
-    9.11,
-    8.92,
-    8.78,
-    8.66,
-    8.52,
-    8.53,
-    9.57
+    43.96,
+    44.0,
+    44.98,
+    44.83,
+    44.17,
+    43.98,
+    44.18,
+    46.92,
+    45.6,
+    45.69,
+    49.09,
+    49.01,
+    50.67,
+    50.7,
+    49.93,
+    49.41,
+    48.02,
+    48.47,
+    48.31,
+    49.72,
+    49.82,
+    51.87,
+    50.89,
+    52.41,
+    53.81,
+    53.74,
+    54.43,
+    54.0,
+    54.48,
+    57.63
    ],
    "news": [
     {
-     "title": "Tech, Media & Telecom Roundup: Market Talk",
-     "url": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-514a4a49?siteid=yhoof2&yptr=yahoo",
-     "publisher": "The Wall Street Journal"
+     "title": "William Blair upgrades Bill Holdings on margin and monetization tailwinds",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/william-blair-upgrades-bill-holdings-164003908.html",
+     "publisher": "Investing.com"
     },
     {
-     "title": "Sector Update: Consumer Stocks Mixed Monday Afternoon",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-monday-183618178.html",
-     "publisher": "MT Newswires"
+     "title": "BILL Bets on Bigger Customers and AI After Deep Job Cuts, Sees Growth Rebound",
+     "url": "https://www.marketbeat.com/instant-alerts/event-bill-bets-on-bigger-customers-and-ai-after-deep-job-cuts-sees-growth-rebound-2026-11-16/?utm_source=yahoofinance&utm_medium=yahoofinance",
+     "publisher": "MarketBeat"
     }
    ]
   },
   {
-   "symbol": "WWW",
-   "name": "Wolverine World Wide, Inc.",
+   "symbol": "HTHT",
+   "name": "H World Group Limited",
    "sector": "Consumer Cyclical",
-   "industry": "Footwear & Accessories",
-   "price": 25.29,
-   "move_pct": 1.61,
-   "move_label": "today",
-   "rel_volume": 2.75,
-   "market_cap": 2075976064.0,
-   "score": 52,
+   "industry": "Lodging",
+   "price": 54.88,
+   "move_pct": 8.22,
+   "move_label": "day + after-hours",
+   "rel_volume": 2.19,
+   "market_cap": 17309480960.0,
+   "score": 54,
    "confidence": "Medium",
-   "risk": "High",
+   "risk": "Moderate",
    "reasons": [
-    "Trading 2.7x its normal volume, so real money is behind the move",
-    "At or breaking through its 52-week high",
+    "Up 8.2% day + after-hours",
+    "Trading 2.2x its normal volume, so real money is behind the move",
+    "Within 3.1% of its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 30% over the past month"
+    "Momentum: up 18% over the past month"
    ],
    "risks": [],
    "projection": {
-    "target_low": 21.0,
-    "target_mean": 25.8,
-    "target_high": 33.0,
-    "bear": -17.0,
-    "base": 2.0,
-    "bull": 30.5,
-    "analysts": 10,
-    "rating": "buy",
-    "rating_mean": 2.0
+    "target_low": 55.9991,
+    "target_mean": 61.9987,
+    "target_high": 68.0245,
+    "bear": 2.0,
+    "base": 13.0,
+    "bull": 24.0,
+    "analysts": 16,
+    "rating": "strong buy",
+    "rating_mean": 1.1667
    },
-   "daily_swing": 3.83,
-   "ret_5d": 15.1639,
-   "ret_20d": 30.2266,
-   "ret_60d": 21.2931,
+   "daily_swing": 2.58,
+   "ret_5d": 9.3009,
+   "ret_20d": 18.1485,
+   "ret_60d": 13.7986,
    "earnings": null,
    "spark": [
-    19.31,
-    18.85,
-    19.0,
-    19.43,
-    19.37,
-    19.05,
-    18.83,
-    20.02,
-    19.79,
-    19.42,
-    20.15,
-    20.11,
-    20.68,
-    20.36,
-    20.28,
-    19.7,
-    19.56,
-    20.57,
-    20.8,
-    21.4,
-    21.63,
-    23.5,
-    21.69,
-    21.33,
-    21.96,
-    21.69,
-    21.93,
-    22.87,
-    24.89,
-    25.29
+    42.05,
+    41.93,
+    42.67,
+    44.16,
+    44.55,
+    44.17,
+    44.2,
+    45.94,
+    46.5,
+    46.45,
+    46.58,
+    45.77,
+    46.31,
+    46.23,
+    47.35,
+    46.57,
+    45.1,
+    46.89,
+    47.67,
+    48.44,
+    48.91,
+    50.23,
+    50.22,
+    51.04,
+    50.21,
+    50.65,
+    49.83,
+    49.95,
+    50.39,
+    54.88
    ],
    "news": [
     {
-     "title": "Should You Buy, Sell or Hold Wolverine Stock Post Q3 Earnings?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-wolverine-stock-142400665.html",
-     "publisher": "Zacks"
+     "title": "H World Group (HTHT) Stock May Be 17% Undervalued On Raised 2026 Outlook",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/h-world-group-htht-stock-002143520.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "Is Wolverine World Wide (WWW) Stock Still A Bargain After A 212% Run?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/wolverine-world-wide-stock-still-061840721.html",
-     "publisher": "Simply Wall St."
+     "title": "H World Group: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.fool.com/earnings/takeaways/2026/11/16/h-world-group-3-key-takeaways-for-long-term-investors/",
+     "publisher": "Motley Fool"
     }
    ]
   },
@@ -516,88 +518,6 @@
      "title": "Can Medicaid Rate Improvements Drive Elevance's 2027 Margin Recovery?",
      "url": "https://finance.yahoo.com/healthcare/articles/medicaid-rate-improvements-drive-elevances-142300424.html",
      "publisher": "Zacks"
-    }
-   ]
-  },
-  {
-   "symbol": "HTHT",
-   "name": "H World Group Limited",
-   "sector": "Consumer Cyclical",
-   "industry": "Lodging",
-   "price": 54.88,
-   "move_pct": 8.91,
-   "move_label": "today",
-   "rel_volume": 2.19,
-   "market_cap": 17309480960.0,
-   "score": 51,
-   "confidence": "Medium",
-   "risk": "Moderate",
-   "reasons": [
-    "Up 8.9% today",
-    "Trading 2.2x its normal volume, so real money is behind the move",
-    "Within 3.1% of its 52-week high",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 18% over the past month"
-   ],
-   "risks": [],
-   "projection": {
-    "target_low": 55.9966,
-    "target_mean": 60.8752,
-    "target_high": 65.5618,
-    "bear": 2.0,
-    "base": 10.9,
-    "bull": 19.5,
-    "analysts": 16,
-    "rating": "none",
-    "rating_mean": null
-   },
-   "daily_swing": 2.58,
-   "ret_5d": 9.3009,
-   "ret_20d": 18.1485,
-   "ret_60d": 13.7986,
-   "earnings": null,
-   "spark": [
-    42.05,
-    41.93,
-    42.67,
-    44.16,
-    44.55,
-    44.17,
-    44.2,
-    45.94,
-    46.5,
-    46.45,
-    46.58,
-    45.77,
-    46.31,
-    46.23,
-    47.35,
-    46.57,
-    45.1,
-    46.89,
-    47.67,
-    48.44,
-    48.91,
-    50.23,
-    50.22,
-    51.04,
-    50.21,
-    50.65,
-    49.83,
-    49.95,
-    50.39,
-    54.88
-   ],
-   "news": [
-    {
-     "title": "H World Group: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://www.fool.com/earnings/takeaways/2026/11/16/h-world-group-3-key-takeaways-for-long-term-investors/",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "H World Group (HTHT) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/16/h-world-group-htht-q3-2026-earnings-call-transcript/",
-     "publisher": "Motley Fool"
     }
    ]
   },
@@ -687,20 +607,273 @@
    ]
   },
   {
+   "symbol": "TU",
+   "name": "Telus Corporation",
+   "sector": "Communication Services",
+   "industry": "Telecom Services",
+   "price": 9.57,
+   "move_pct": 12.19,
+   "move_label": "today",
+   "rel_volume": 7.26,
+   "market_cap": 15216299008.0,
+   "score": 50,
+   "confidence": "Medium",
+   "risk": "High",
+   "reasons": [
+    "Up 12.2% today",
+    "Trading 7.3x its normal volume, so real money is behind the move",
+    "Momentum: up 15% over the past month"
+   ],
+   "risks": [
+    "Still below its 200-day average, so the longer trend is down"
+   ],
+   "projection": {
+    "target_low": 9.5,
+    "target_mean": 10.0,
+    "target_high": 10.5,
+    "bear": -0.7,
+    "base": 4.5,
+    "bull": 9.7,
+    "analysts": 3,
+    "rating": "hold",
+    "rating_mean": 3.0556
+   },
+   "daily_swing": 3.5,
+   "ret_5d": 7.287,
+   "ret_20d": 15.4403,
+   "ret_60d": -1.9234,
+   "earnings": null,
+   "spark": [
+    7.88,
+    7.94,
+    8.04,
+    7.72,
+    7.79,
+    8.0,
+    8.11,
+    8.37,
+    8.44,
+    8.29,
+    8.46,
+    8.38,
+    8.86,
+    8.83,
+    8.69,
+    8.59,
+    8.55,
+    8.67,
+    8.87,
+    9.05,
+    8.9,
+    9.22,
+    9.42,
+    9.11,
+    8.92,
+    8.78,
+    8.66,
+    8.52,
+    8.53,
+    9.57
+   ],
+   "news": [
+    {
+     "title": "TELUS (TSX:T) Drops Vancouver AI Data Centre Plans And Bets On Kamloops",
+     "url": "https://finance.yahoo.com/technology/ai/articles/telus-tsx-t-drops-vancouver-031021614.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "TELUS (TSX:T) Stock Trades Below Fair Value On Cash Flow Views",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/telus-tsx-t-stock-trades-020729514.html",
+     "publisher": "Simply Wall St."
+    }
+   ]
+  },
+  {
+   "symbol": "COLM",
+   "name": "Columbia Sportswear Company",
+   "sector": "Consumer Cyclical",
+   "industry": "Apparel Manufacturing",
+   "price": 75.63,
+   "move_pct": 4.87,
+   "move_label": "day + after-hours",
+   "rel_volume": 1.48,
+   "market_cap": 3809368064.0,
+   "score": 50,
+   "confidence": "Medium",
+   "risk": "High",
+   "reasons": [
+    "Up 4.9% day + after-hours",
+    "At or breaking through its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 26% over the past month",
+    "19% of the float is sold short: fuel for a squeeze if it keeps rising"
+   ],
+   "risks": [
+    "Already 4% above the average analyst target",
+    "Heavily shorted stocks are violent in both directions"
+   ],
+   "projection": {
+    "target_low": 49.0,
+    "target_mean": 73.0,
+    "target_high": 92.0,
+    "bear": -35.2,
+    "base": -3.5,
+    "bull": 21.6,
+    "analysts": 5,
+    "rating": "hold",
+    "rating_mean": 2.5714
+   },
+   "daily_swing": 2.58,
+   "ret_5d": 4.3892,
+   "ret_20d": 26.092,
+   "ret_60d": 25.3605,
+   "earnings": null,
+   "spark": [
+    57.45,
+    56.53,
+    56.76,
+    57.04,
+    56.34,
+    57.06,
+    57.7,
+    60.82,
+    60.16,
+    59.98,
+    61.1,
+    59.51,
+    62.07,
+    61.35,
+    60.82,
+    61.17,
+    60.9,
+    63.69,
+    67.54,
+    71.12,
+    70.06,
+    70.93,
+    69.12,
+    70.43,
+    72.45,
+    72.26,
+    72.19,
+    71.64,
+    73.47,
+    75.63
+   ],
+   "news": [
+    {
+     "title": "Columbia Sportswear raises FY26 outlook after Q3 profit growth",
+     "url": "https://www.just-style.com/news/columbia-2026-q3-result/",
+     "publisher": "Just Style"
+    },
+    {
+     "title": "Columbia Sportswear (COLM) Stock Gets Fair Value Bump After Split Analyst Views",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/columbia-sportswear-colm-stock-gets-050922091.html",
+     "publisher": "Simply Wall St."
+    }
+   ]
+  },
+  {
+   "symbol": "OFRM",
+   "name": "Once Upon a Farm, PBC",
+   "sector": "Consumer Defensive",
+   "industry": "Packaged Foods",
+   "price": 11.7,
+   "move_pct": 21.24,
+   "move_label": "today",
+   "rel_volume": 3.93,
+   "market_cap": 494357248.0,
+   "score": 48,
+   "confidence": "Speculative",
+   "risk": "Very high",
+   "reasons": [
+    "Up 21.2% today",
+    "Trading 3.9x its normal volume, so real money is behind the move",
+    "9 analysts see 10% upside on average (target $12.89)",
+    "27% of the float is sold short: fuel for a squeeze if it keeps rising"
+   ],
+   "risks": [
+    "Still below its 200-day average, so the longer trend is down",
+    "Heavily shorted stocks are violent in both directions",
+    "Small cap ($494M): moves fast both ways and can be thinly traded",
+    "Typically swings about 10.5% a day"
+   ],
+   "projection": {
+    "target_low": 10.0,
+    "target_mean": 12.8889,
+    "target_high": 16.0,
+    "bear": -14.5,
+    "base": 10.2,
+    "bull": 36.8,
+    "analysts": 9,
+    "rating": "buy",
+    "rating_mean": 2.3333
+   },
+   "daily_swing": 10.5,
+   "ret_5d": 15.6126,
+   "ret_20d": -32.8358,
+   "ret_60d": -32.526,
+   "earnings": null,
+   "spark": [
+    16.73,
+    16.59,
+    16.33,
+    16.94,
+    16.56,
+    16.38,
+    16.63,
+    17.26,
+    17.36,
+    17.42,
+    17.2,
+    16.02,
+    16.38,
+    15.92,
+    15.91,
+    16.08,
+    16.25,
+    15.97,
+    15.02,
+    9.44,
+    9.52,
+    9.92,
+    9.15,
+    9.26,
+    10.12,
+    10.02,
+    10.08,
+    10.18,
+    9.65,
+    11.7
+   ],
+   "news": [
+    {
+     "title": "Popular organic toddler snack recall could cost celebrity-backed food brand $30 million",
+     "url": "https://www.thestreet.com/retail/organic-toddler-snack-recall-cost-celebrity-food-brand-30-million-once-upon-a-farm",
+     "publisher": "TheStreet"
+    },
+    {
+     "title": "Once Upon a Farm Working to Bring Back Recalled Toddler Snacks",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-13-2026/card/once-upon-a-farm-working-to-bring-back-recalled-toddler-snacks-WGW93TuhsDxTfa47Kerk?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    }
+   ]
+  },
+  {
    "symbol": "ZIP",
    "name": "ZipRecruiter, Inc.",
    "sector": "Communication Services",
    "industry": "Internet Content & Information",
    "price": 6.11,
-   "move_pct": 12.2,
-   "move_label": "day + after-hours",
+   "move_pct": 10.89,
+   "move_label": "today",
    "rel_volume": 1.43,
    "market_cap": 498999904.0,
-   "score": 49,
+   "score": 47,
    "confidence": "Speculative",
    "risk": "Very high",
    "reasons": [
-    "Up 12.2% day + after-hours",
+    "Up 10.9% today",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 37% over the past month"
    ],
@@ -757,91 +930,6 @@
      "title": "ZipRecruiter (ZIP) Stock Sees Fair Value Lift After Analyst Target Increases",
      "url": "https://finance.yahoo.com/markets/stocks/articles/ziprecruiter-zip-stock-sees-fair-180939409.html",
      "publisher": "Simply Wall St."
-    }
-   ]
-  },
-  {
-   "symbol": "OFRM",
-   "name": "Once Upon a Farm, PBC",
-   "sector": "Consumer Defensive",
-   "industry": "Packaged Foods",
-   "price": 11.7,
-   "move_pct": 21.24,
-   "move_label": "today",
-   "rel_volume": 3.93,
-   "market_cap": 494357248.0,
-   "score": 48,
-   "confidence": "Speculative",
-   "risk": "Very high",
-   "reasons": [
-    "Up 21.2% today",
-    "Trading 3.9x its normal volume, so real money is behind the move",
-    "27% of the float is sold short: fuel for a squeeze if it keeps rising"
-   ],
-   "risks": [
-    "Still below its 200-day average, so the longer trend is down",
-    "Heavily shorted stocks are violent in both directions",
-    "Small cap ($494M): moves fast both ways and can be thinly traded",
-    "Typically swings about 10.5% a day"
-   ],
-   "projection": {
-    "target_low": 10.0,
-    "target_mean": 12.5,
-    "target_high": 15.0,
-    "bear": -14.5,
-    "base": 6.8,
-    "bull": 28.2,
-    "analysts": 8,
-    "rating": "buy",
-    "rating_mean": 2.3333
-   },
-   "daily_swing": 10.5,
-   "ret_5d": 15.6126,
-   "ret_20d": -32.8358,
-   "ret_60d": -32.526,
-   "earnings": null,
-   "spark": [
-    16.73,
-    16.59,
-    16.33,
-    16.94,
-    16.56,
-    16.38,
-    16.63,
-    17.26,
-    17.36,
-    17.42,
-    17.2,
-    16.02,
-    16.38,
-    15.92,
-    15.91,
-    16.08,
-    16.25,
-    15.97,
-    15.02,
-    9.44,
-    9.52,
-    9.92,
-    9.15,
-    9.26,
-    10.12,
-    10.02,
-    10.08,
-    10.18,
-    9.65,
-    11.7
-   ],
-   "news": [
-    {
-     "title": "Popular organic toddler snack recall could cost celebrity-backed food brand $30 million",
-     "url": "https://www.thestreet.com/retail/organic-toddler-snack-recall-cost-celebrity-food-brand-30-million-once-upon-a-farm",
-     "publisher": "TheStreet"
-    },
-    {
-     "title": "Once Upon a Farm Working to Bring Back Recalled Toddler Snacks",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-13-2026/card/once-upon-a-farm-working-to-bring-back-recalled-toddler-snacks-WGW93TuhsDxTfa47Kerk?siteid=yhoof2&yptr=yahoo",
-     "publisher": "The Wall Street Journal"
     }
    ]
   },
@@ -926,91 +1014,6 @@
      "publisher": "Simply Wall St."
     }
    ]
-  },
-  {
-   "symbol": "COLM",
-   "name": "Columbia Sportswear Company",
-   "sector": "Consumer Cyclical",
-   "industry": "Apparel Manufacturing",
-   "price": 75.63,
-   "move_pct": 2.94,
-   "move_label": "today",
-   "rel_volume": 1.48,
-   "market_cap": 3809368064.0,
-   "score": 46,
-   "confidence": "Speculative",
-   "risk": "High",
-   "reasons": [
-    "Up 2.9% today",
-    "At or breaking through its 52-week high",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 26% over the past month",
-    "19% of the float is sold short: fuel for a squeeze if it keeps rising"
-   ],
-   "risks": [
-    "Already 4% above the average analyst target",
-    "Heavily shorted stocks are violent in both directions"
-   ],
-   "projection": {
-    "target_low": 49.0,
-    "target_mean": 73.0,
-    "target_high": 92.0,
-    "bear": -35.2,
-    "base": -3.5,
-    "bull": 21.6,
-    "analysts": 5,
-    "rating": "hold",
-    "rating_mean": 2.5714
-   },
-   "daily_swing": 2.58,
-   "ret_5d": 4.3892,
-   "ret_20d": 26.092,
-   "ret_60d": 25.3605,
-   "earnings": null,
-   "spark": [
-    57.45,
-    56.53,
-    56.76,
-    57.04,
-    56.34,
-    57.06,
-    57.7,
-    60.82,
-    60.16,
-    59.98,
-    61.1,
-    59.51,
-    62.07,
-    61.35,
-    60.82,
-    61.17,
-    60.9,
-    63.69,
-    67.54,
-    71.12,
-    70.06,
-    70.93,
-    69.12,
-    70.43,
-    72.45,
-    72.26,
-    72.19,
-    71.64,
-    73.47,
-    75.63
-   ],
-   "news": [
-    {
-     "title": "Columbia Sportswear raises FY26 outlook after Q3 profit growth",
-     "url": "https://www.just-style.com/news/columbia-2026-q3-result/",
-     "publisher": "Just Style"
-    },
-    {
-     "title": "Columbia Sportswear (COLM) Stock Gets Fair Value Bump After Split Analyst Views",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/columbia-sportswear-colm-stock-gets-050922091.html",
-     "publisher": "Simply Wall St."
-    }
-   ]
   }
  ],
  "core": [
@@ -1020,7 +1023,7 @@
    "sector": "Healthcare",
    "industry": "Health Information Services",
    "price": 71.37,
-   "move_pct": 2.05,
+   "move_pct": 2.12,
    "move_label": "day + after-hours",
    "rel_volume": 1.23,
    "market_cap": 14201532416.0,
@@ -1343,6 +1346,90 @@
    ]
   },
   {
+   "symbol": "HAS",
+   "name": "Hasbro, Inc.",
+   "sector": "Consumer Cyclical",
+   "industry": "Leisure",
+   "price": 121.02,
+   "move_pct": 0.39,
+   "move_label": "today",
+   "rel_volume": 0.71,
+   "market_cap": 16926170112.0,
+   "score": 68,
+   "confidence": "Medium",
+   "risk": "Moderate",
+   "reasons": [
+    "Earnings growing 69% year over year",
+    "Revenue growing 15% year over year",
+    "In a steady uptrend, above its 50-day and 200-day averages",
+    "Up 29% over the past three months",
+    "Reasonably priced at 17x next year's earnings"
+   ],
+   "risks": [
+    "Trading at or above the average analyst target, so the easy upside may be priced in"
+   ],
+   "projection": {
+    "target_low": 100.0,
+    "target_mean": 123.3077,
+    "target_high": 145.0,
+    "bear": -17.4,
+    "base": 1.9,
+    "bull": 19.8,
+    "analysts": 13,
+    "rating": "strong buy",
+    "rating_mean": 1.5
+   },
+   "daily_swing": 2.84,
+   "ret_5d": 0.0827,
+   "ret_20d": 22.8754,
+   "ret_60d": 29.3778,
+   "earnings": null,
+   "spark": [
+    91.03,
+    90.75,
+    92.5,
+    93.32,
+    94.73,
+    95.94,
+    95.46,
+    98.41,
+    98.76,
+    98.49,
+    109.52,
+    114.0,
+    117.23,
+    117.44,
+    117.96,
+    118.33,
+    118.68,
+    119.57,
+    119.09,
+    118.36,
+    117.97,
+    121.58,
+    119.54,
+    118.91,
+    120.92,
+    121.82,
+    124.02,
+    121.48,
+    120.55,
+    121.02
+   ],
+   "news": [
+    {
+     "title": "Warehouse Giant GXO Pivots to Data Centers and Defense to Boost Margins",
+     "url": "https://www.wsj.com/logistics-report/warehouse-giant-gxo-pivots-to-data-centers-and-defense-to-boost-margins-986e2da1?siteid=yhoof2&yptr=yahoo",
+     "publisher": "The Wall Street Journal"
+    },
+    {
+     "title": "What Invesco S&P 500 Equal Weight ETF (RSP) Bought: Moderna Leads on Nov. 12",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110506567.html",
+     "publisher": "GuruFocus.com"
+    }
+   ]
+  },
+  {
    "symbol": "CHYM",
    "name": "Chime Financial, Inc.",
    "sector": "Technology",
@@ -1506,90 +1593,6 @@
    ]
   },
   {
-   "symbol": "HAS",
-   "name": "Hasbro, Inc.",
-   "sector": "Consumer Cyclical",
-   "industry": "Leisure",
-   "price": 121.02,
-   "move_pct": 0.39,
-   "move_label": "today",
-   "rel_volume": 0.71,
-   "market_cap": 16926170112.0,
-   "score": 66,
-   "confidence": "Medium",
-   "risk": "Moderate",
-   "reasons": [
-    "Earnings growing 69% year over year",
-    "Revenue growing 15% year over year",
-    "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 29% over the past three months",
-    "Reasonably priced at 17x next year's earnings"
-   ],
-   "risks": [
-    "Trading at or above the average analyst target, so the easy upside may be priced in"
-   ],
-   "projection": {
-    "target_low": 100.0,
-    "target_mean": 120.6923,
-    "target_high": 137.0,
-    "bear": -17.4,
-    "base": -0.3,
-    "bull": 13.2,
-    "analysts": 13,
-    "rating": "strong buy",
-    "rating_mean": 1.5
-   },
-   "daily_swing": 2.84,
-   "ret_5d": 0.0827,
-   "ret_20d": 22.8754,
-   "ret_60d": 29.3778,
-   "earnings": null,
-   "spark": [
-    91.03,
-    90.75,
-    92.5,
-    93.32,
-    94.73,
-    95.94,
-    95.46,
-    98.41,
-    98.76,
-    98.49,
-    109.52,
-    114.0,
-    117.23,
-    117.44,
-    117.96,
-    118.33,
-    118.68,
-    119.57,
-    119.09,
-    118.36,
-    117.97,
-    121.58,
-    119.54,
-    118.91,
-    120.92,
-    121.82,
-    124.02,
-    121.48,
-    120.55,
-    121.02
-   ],
-   "news": [
-    {
-     "title": "Warehouse Giant GXO Pivots to Data Centers and Defense to Boost Margins",
-     "url": "https://www.wsj.com/logistics-report/warehouse-giant-gxo-pivots-to-data-centers-and-defense-to-boost-margins-986e2da1?siteid=yhoof2&yptr=yahoo",
-     "publisher": "The Wall Street Journal"
-    },
-    {
-     "title": "What Invesco S&P 500 Equal Weight ETF (RSP) Bought: Moderna Leads on Nov. 12",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/invesco-p-500-equal-weight-110506567.html",
-     "publisher": "GuruFocus.com"
-    }
-   ]
-  },
-  {
    "symbol": "LTH",
    "name": "Life Time Group Holdings, Inc.",
    "sector": "Consumer Cyclical",
@@ -1673,12 +1676,60 @@
  ],
  "earnings": [
   {
+   "symbol": "GFF",
+   "date": "2026-11-17T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 1.59,
+   "company": "Griffon Corporation",
+   "market_cap": 4527659769.8914
+  },
+  {
+   "symbol": "AS",
+   "date": "2026-11-17T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 0.35,
+   "company": "Amer Sports, Inc.",
+   "market_cap": 16931021120.3475
+  },
+  {
+   "symbol": "HD",
+   "date": "2026-11-17T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 3.83,
+   "company": "The Home Depot, Inc.",
+   "market_cap": 346707131674.3228
+  },
+  {
    "symbol": "JD",
    "date": "2026-11-17T13:30:00+00:00",
    "timing": "before the open",
    "eps_est": 5.88,
    "company": "JD.com, Inc.",
    "market_cap": 37192771236.4197
+  },
+  {
+   "symbol": "TME",
+   "date": "2026-11-17T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 1.5,
+   "company": "Tencent Music Entertainment Group",
+   "market_cap": 14472314212.3518
+  },
+  {
+   "symbol": "KLAR",
+   "date": "2026-11-17T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": -0.13,
+   "company": "Klarna Group plc",
+   "market_cap": 5167951742.9714
+  },
+  {
+   "symbol": "SR",
+   "date": "2026-11-17T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": -1.02,
+   "company": "Spire Inc.",
+   "market_cap": 5253946123.8018
   },
   {
    "symbol": "VIK",
@@ -1697,92 +1748,12 @@
    "market_cap": 204957729997.9698
   },
   {
-   "symbol": "HD",
-   "date": "2026-11-17T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 3.83,
-   "company": "The Home Depot, Inc.",
-   "market_cap": 346707131674.3228
-  },
-  {
-   "symbol": "MNSO",
-   "date": "2026-11-17T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 2.14,
-   "company": "MINISO Group Holding Limited",
-   "market_cap": 3279011772.909
-  },
-  {
-   "symbol": "SR",
-   "date": "2026-11-17T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": -1.02,
-   "company": "Spire Inc.",
-   "market_cap": 5253946123.8018
-  },
-  {
-   "symbol": "KLAR",
-   "date": "2026-11-17T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": -0.13,
-   "company": "Klarna Group plc",
-   "market_cap": 5167951742.9714
-  },
-  {
-   "symbol": "TME",
-   "date": "2026-11-17T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 1.5,
-   "company": "Tencent Music Entertainment Group",
-   "market_cap": 14472314212.3518
-  },
-  {
-   "symbol": "AS",
-   "date": "2026-11-17T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 0.35,
-   "company": "Amer Sports, Inc.",
-   "market_cap": 16931021120.3475
-  },
-  {
-   "symbol": "GFF",
-   "date": "2026-11-17T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 1.59,
-   "company": "Griffon Corporation",
-   "market_cap": 4527659769.8914
-  },
-  {
-   "symbol": "GBDC",
-   "date": "2026-11-17T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 0.33,
-   "company": "Golub Capital BDC, Inc.",
-   "market_cap": 3219679604.5508
-  },
-  {
    "symbol": "NVDA",
    "date": "2026-11-17T21:00:00+00:00",
    "timing": "after the close",
    "eps_est": 2.47,
    "company": "NVIDIA Corporation",
    "market_cap": 3770312565261.841
-  },
-  {
-   "symbol": "DLB",
-   "date": "2026-11-17T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 1.2,
-   "company": "Dolby Laboratories, Inc.",
-   "market_cap": 5728783487.9073
-  },
-  {
-   "symbol": "ZTO",
-   "date": "2026-11-17T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 3.13,
-   "company": "ZTO Express (Cayman) Inc.",
-   "market_cap": 15291204798.6949
   },
   {
    "symbol": "SQM",
@@ -1793,20 +1764,20 @@
    "market_cap": 14604661428.1341
   },
   {
-   "symbol": "BLSH",
-   "date": "2026-11-18T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 0.08,
-   "company": "Bullish",
-   "market_cap": 2995054833.5
+   "symbol": "ZTO",
+   "date": "2026-11-17T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 3.13,
+   "company": "ZTO Express (Cayman) Inc.",
+   "market_cap": 15291204798.6949
   },
   {
-   "symbol": "TCEHY",
-   "date": "2026-11-18T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 5.81,
-   "company": "Tencent Holdings Limited",
-   "market_cap": 445908172523.5023
+   "symbol": "DLB",
+   "date": "2026-11-17T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 1.2,
+   "company": "Dolby Laboratories, Inc.",
+   "market_cap": 5728783487.9073
   },
   {
    "symbol": "GLBE",
@@ -1817,6 +1788,14 @@
    "market_cap": 6950490818.9885
   },
   {
+   "symbol": "TCEHY",
+   "date": "2026-11-18T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 5.81,
+   "company": "Tencent Holdings Limited",
+   "market_cap": 445908172523.5023
+  },
+  {
    "symbol": "GLNG",
    "date": "2026-11-18T13:30:00+00:00",
    "timing": "before the open",
@@ -1825,20 +1804,12 @@
    "market_cap": 4225794767.6849
   },
   {
-   "symbol": "ZIM",
+   "symbol": "TJX",
    "date": "2026-11-18T13:30:00+00:00",
    "timing": "before the open",
-   "eps_est": 7.52,
-   "company": "ZIM Integrated Shipping Services Ltd.",
-   "market_cap": 3512094559.5583
-  },
-  {
-   "symbol": "TGT",
-   "date": "2026-11-18T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 1.71,
-   "company": "Target Corporation",
-   "market_cap": 72832010354.85
+   "eps_est": 1.34,
+   "company": "The TJX Companies, Inc.",
+   "market_cap": 144815701780.5915
   },
   {
    "symbol": "LOW",
@@ -1849,20 +1820,52 @@
    "market_cap": 126197876384.3876
   },
   {
-   "symbol": "TJX",
+   "symbol": "TGT",
    "date": "2026-11-18T13:30:00+00:00",
    "timing": "before the open",
-   "eps_est": 1.33,
-   "company": "The TJX Companies, Inc.",
-   "market_cap": 144815701780.5915
+   "eps_est": 1.71,
+   "company": "Target Corporation",
+   "market_cap": 72832010354.85
   },
   {
-   "symbol": "HP",
+   "symbol": "UGI",
    "date": "2026-11-18T21:00:00+00:00",
    "timing": "after the close",
-   "eps_est": 0.26,
-   "company": "Helmerich & Payne, Inc.",
-   "market_cap": 3660763662.0963
+   "eps_est": -0.91,
+   "company": "UGI Corporation",
+   "market_cap": 8120779581.5373
+  },
+  {
+   "symbol": "HAFN",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "during the day",
+   "eps_est": 0.3,
+   "company": "Hafnia Limited",
+   "market_cap": 5026759719.8514
+  },
+  {
+   "symbol": "NJR",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 0.13,
+   "company": "New Jersey Resources Corporation",
+   "market_cap": 5672801525.9335
+  },
+  {
+   "symbol": "SNEX",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 0.92,
+   "company": "StoneX Group Inc.",
+   "market_cap": 6848618066.0628
+  },
+  {
+   "symbol": "CPA",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 3.76,
+   "company": "Copa Holdings, S.A.",
+   "market_cap": 5646142888.3304
   },
   {
    "symbol": "WWD",
