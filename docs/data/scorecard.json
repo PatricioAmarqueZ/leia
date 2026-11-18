@@ -1,32 +1,32 @@
 {
- "picks": 90,
+ "picks": 91,
  "lists": {
   "catalysts": {
    "same_day": {
-    "n": 45,
-    "avg": 0.19,
-    "win_rate": 26.7,
-    "avg_vs_spy": 0.96
+    "n": 58,
+    "avg": 0.14,
+    "win_rate": 22.4,
+    "avg_vs_spy": 0.97
    },
    "1d": {
-    "n": 33,
-    "avg": 0.5,
-    "win_rate": 42.4,
-    "avg_vs_spy": 1.97
+    "n": 45,
+    "avg": -0.22,
+    "win_rate": 33.3,
+    "avg_vs_spy": 1.63
    }
   },
   "core": {
    "same_day": {
-    "n": 25,
-    "avg": -0.22,
-    "win_rate": 20.0,
-    "avg_vs_spy": 0.64
+    "n": 33,
+    "avg": -0.17,
+    "win_rate": 18.2,
+    "avg_vs_spy": 0.73
    },
    "1d": {
-    "n": 17,
-    "avg": -0.07,
-    "win_rate": 35.3,
-    "avg_vs_spy": 1.38
+    "n": 25,
+    "avg": -0.46,
+    "win_rate": 36.0,
+    "avg_vs_spy": 1.45
    }
   }
  },
@@ -36,140 +36,189 @@
    "list": "catalysts",
    "symbol": "BILL",
    "entry": 64.97,
-   "score": 80
+   "score": 80,
+   "same_day": -0.14,
+   "same_day_vs_spy": 0.88
   },
   {
    "date": "2026-11-17",
    "list": "catalysts",
    "symbol": "RYTM",
    "entry": 116.61,
-   "score": 65
+   "score": 65,
+   "same_day": 0.0,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-17",
    "list": "catalysts",
    "symbol": "ENR",
    "entry": 27.38,
-   "score": 64
+   "score": 64,
+   "same_day": 0.07,
+   "same_day_vs_spy": 1.09
   },
   {
    "date": "2026-11-17",
    "list": "catalysts",
    "symbol": "SLS",
    "entry": 19.15,
-   "score": 59
+   "score": 59,
+   "same_day": -0.0,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-17",
    "list": "catalysts",
    "symbol": "SMWB",
    "entry": 8.86,
-   "score": 52
+   "score": 52,
+   "same_day": -0.23,
+   "same_day_vs_spy": 0.79
   },
   {
    "date": "2026-11-17",
    "list": "catalysts",
    "symbol": "ACM",
    "entry": 80.56,
-   "score": 51
+   "score": 51,
+   "same_day": -0.04,
+   "same_day_vs_spy": 0.98
   },
   {
    "date": "2026-11-17",
    "list": "catalysts",
    "symbol": "TFX",
    "entry": 159.605,
-   "score": 48
+   "score": 48,
+   "same_day": -0.03,
+   "same_day_vs_spy": 0.98
   },
   {
    "date": "2026-11-17",
    "list": "catalysts",
    "symbol": "RZLT",
    "entry": 4.015,
-   "score": 47
+   "score": 47,
+   "same_day": -0.0,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-17",
    "list": "catalysts",
    "symbol": "SHAZ",
    "entry": 22.59,
-   "score": 46
+   "score": 46,
+   "same_day": 0.0,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-17",
    "list": "catalysts",
    "symbol": "CHYM",
    "entry": 32.97,
-   "score": 43
+   "score": 43,
+   "same_day": 0.0,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-17",
    "list": "catalysts",
    "symbol": "RMIX",
    "entry": 6.05,
-   "score": 42
+   "score": 42,
+   "same_day": 0.0,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-17",
    "list": "catalysts",
    "symbol": "GFF",
    "entry": 104.78,
-   "score": 41
+   "score": 41,
+   "same_day": -0.03,
+   "same_day_vs_spy": 0.99
   },
   {
    "date": "2026-11-17",
    "list": "core",
    "symbol": "SN",
    "entry": 220.14,
-   "score": 74
+   "score": 74,
+   "same_day": -0.01,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-17",
    "list": "core",
    "symbol": "ONC",
    "entry": 413.26,
-   "score": 72
+   "score": 72,
+   "same_day": 0.0,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-17",
    "list": "core",
    "symbol": "CHYM",
    "entry": 32.97,
-   "score": 70
+   "score": 70,
+   "same_day": 0.0,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-17",
    "list": "core",
    "symbol": "GMAB",
    "entry": 51.96,
-   "score": 68
+   "score": 68,
+   "same_day": -0.0,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-17",
    "list": "core",
    "symbol": "U",
    "entry": 50.355,
-   "score": 68
+   "score": 68,
+   "same_day": 0.01,
+   "same_day_vs_spy": 1.02
   },
   {
    "date": "2026-11-17",
    "list": "core",
    "symbol": "EHC",
    "entry": 137.88,
-   "score": 65
+   "score": 65,
+   "same_day": 0.0,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-17",
    "list": "core",
    "symbol": "LTH",
    "entry": 46.76,
-   "score": 64
+   "score": 64,
+   "same_day": -0.06,
+   "same_day_vs_spy": 0.95
   },
   {
    "date": "2026-11-17",
    "list": "core",
    "symbol": "REGN",
    "entry": 957.76,
-   "score": 63
+   "score": 63,
+   "same_day": 0.0,
+   "same_day_vs_spy": 1.01
+  },
+  {
+   "date": "2026-11-17",
+   "list": "catalysts",
+   "symbol": "BJ",
+   "entry": 111.43,
+   "score": 46,
+   "same_day": 0.0,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-16",
@@ -178,7 +227,9 @@
    "entry": 84.78,
    "score": 74,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -6.89,
+   "1d_vs_spy": -3.98
   },
   {
    "date": "2026-11-16",
@@ -187,7 +238,9 @@
    "entry": 57.63,
    "score": 56,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": 12.58,
+   "1d_vs_spy": 15.49
   },
   {
    "date": "2026-11-16",
@@ -196,7 +249,9 @@
    "entry": 19.57,
    "score": 55,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -5.26,
+   "1d_vs_spy": -2.36
   },
   {
    "date": "2026-11-16",
@@ -205,7 +260,9 @@
    "entry": 9.57,
    "score": 52,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -3.24,
+   "1d_vs_spy": -0.33
   },
   {
    "date": "2026-11-16",
@@ -214,7 +271,9 @@
    "entry": 25.29,
    "score": 52,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -2.45,
+   "1d_vs_spy": 0.46
   },
   {
    "date": "2026-11-16",
@@ -223,7 +282,9 @@
    "entry": 233.09,
    "score": 51,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -5.1,
+   "1d_vs_spy": -2.19
   },
   {
    "date": "2026-11-16",
@@ -232,7 +293,9 @@
    "entry": 54.88,
    "score": 51,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -2.24,
+   "1d_vs_spy": 0.67
   },
   {
    "date": "2026-11-16",
@@ -241,7 +304,9 @@
    "entry": 10.9,
    "score": 51,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -6.79,
+   "1d_vs_spy": -3.88
   },
   {
    "date": "2026-11-16",
@@ -250,7 +315,9 @@
    "entry": 6.11,
    "score": 49,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -1.96,
+   "1d_vs_spy": 0.94
   },
   {
    "date": "2026-11-16",
@@ -259,7 +326,9 @@
    "entry": 11.7,
    "score": 48,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -0.34,
+   "1d_vs_spy": 2.57
   },
   {
    "date": "2026-11-16",
@@ -268,7 +337,9 @@
    "entry": 34.29,
    "score": 47,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -3.85,
+   "1d_vs_spy": -0.94
   },
   {
    "date": "2026-11-16",
@@ -277,7 +348,9 @@
    "entry": 75.63,
    "score": 46,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -0.79,
+   "1d_vs_spy": 2.11
   },
   {
    "date": "2026-11-16",
@@ -286,7 +359,9 @@
    "entry": 71.37,
    "score": 78,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -2.16,
+   "1d_vs_spy": 0.75
   },
   {
    "date": "2026-11-16",
@@ -295,7 +370,9 @@
    "entry": 223.29,
    "score": 74,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -1.42,
+   "1d_vs_spy": 1.49
   },
   {
    "date": "2026-11-16",
@@ -304,7 +381,9 @@
    "entry": 411.29,
    "score": 73,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": 0.48,
+   "1d_vs_spy": 3.39
   },
   {
    "date": "2026-11-16",
@@ -313,7 +392,9 @@
    "entry": 51.57,
    "score": 69,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": 0.76,
+   "1d_vs_spy": 3.66
   },
   {
    "date": "2026-11-16",
@@ -322,7 +403,9 @@
    "entry": 34.29,
    "score": 67,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -3.85,
+   "1d_vs_spy": -0.94
   },
   {
    "date": "2026-11-16",
@@ -331,7 +414,9 @@
    "entry": 51.88,
    "score": 66,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -2.93,
+   "1d_vs_spy": -0.02
   },
   {
    "date": "2026-11-16",
@@ -340,7 +425,9 @@
    "entry": 121.02,
    "score": 66,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": -2.21,
+   "1d_vs_spy": 0.7
   },
   {
    "date": "2026-11-16",
@@ -349,7 +436,9 @@
    "entry": 46.28,
    "score": 65,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.91
+   "same_day_vs_spy": 1.91,
+   "1d": 0.97,
+   "1d_vs_spy": 3.88
   },
   {
    "date": "2026-11-13",
@@ -559,17 +648,6 @@
    "same_day_vs_spy": 0.16,
    "1d": -0.72,
    "1d_vs_spy": 1.55
-  },
-  {
-   "date": "2026-11-13",
-   "list": "core",
-   "symbol": "CPAY",
-   "entry": 462.95,
-   "score": 64,
-   "same_day": -0.16,
-   "same_day_vs_spy": 0.21,
-   "1d": -0.26,
-   "1d_vs_spy": 2.0
   }
  ]
 }

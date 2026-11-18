@@ -1,23 +1,23 @@
 {
  "assistant": "Leia",
- "generated_at": "2026-11-17T16:12:22.240667-05:00",
+ "generated_at": "2026-11-17T22:04:37.554023-05:00",
  "date": "2026-11-17",
- "market_state": "POST",
- "universe_size": 2743,
- "greeting": "Good afternoon. Leia here. Markets are closed, so this is your look ahead.",
- "summary": "I've been through 2,743 stocks. 12 short-term setups made the cut, led by BILL with a score of 80. For steadier holds, SN tops the list.",
+ "market_state": "POSTPOST",
+ "universe_size": 2760,
+ "greeting": "Good evening. Leia here. Markets are closed, so this is your look ahead.",
+ "summary": "I've been through 2,760 stocks. 12 short-term setups made the cut, led by BILL with a score of 81. 1 of them report earnings shortly, so do mind the gap. For steadier holds, SN tops the list.",
  "market": {
   "S&P 500": {
-   "price": 732.21,
-   "change_pct": -1.05
+   "price": 732.44,
+   "change_pct": -1.01
   },
   "Nasdaq 100": {
    "price": 656.95,
    "change_pct": -0.73
   },
   "VIX": {
-   "price": 26.06,
-   "change_pct": 13.75
+   "price": 25.46,
+   "change_pct": 11.13
   }
  },
  "catalysts": [
@@ -26,17 +26,17 @@
    "name": "BILL Holdings, Inc.",
    "sector": "Technology",
    "industry": "Software - Application",
-   "price": 64.97,
-   "move_pct": 12.74,
+   "price": 64.88,
+   "move_pct": 12.58,
    "move_label": "today",
-   "rel_volume": 5.36,
-   "market_cap": 5579821056.0,
-   "score": 80,
+   "rel_volume": 5.82,
+   "market_cap": 5572091392.0,
+   "score": 81,
    "confidence": "High",
    "risk": "High",
    "reasons": [
-    "Up 12.7% today",
-    "Trading 5.4x its normal volume, so real money is behind the move",
+    "Up 12.6% today",
+    "Trading 5.8x its normal volume, so real money is behind the move",
     "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 32% over the past month"
@@ -49,17 +49,17 @@
     "target_low": 50.0,
     "target_mean": 61.3,
     "target_high": 75.0,
-    "bear": -23.0,
-    "base": -5.6,
-    "bull": 15.4,
+    "bear": -22.9,
+    "base": -5.5,
+    "bull": 15.6,
     "analysts": 20,
     "rating": "buy",
     "rating_mean": 1.8636
    },
-   "daily_swing": 3.44,
-   "ret_5d": 20.8969,
-   "ret_20d": 32.3487,
-   "ret_60d": 34.9045,
+   "daily_swing": 3.41,
+   "ret_5d": 20.7294,
+   "ret_20d": 32.1654,
+   "ret_60d": 34.7176,
    "earnings": null,
    "spark": [
     44.0,
@@ -91,18 +91,103 @@
     54.0,
     54.48,
     57.63,
-    64.97
+    64.88
    ],
    "news": [
+    {
+     "title": "BILL Holdings (BILL) Stock Still Looks Undervalued After A 78% Five Year Fall",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-stock-still-011455851.html",
+     "publisher": "Simply Wall St."
+    },
     {
      "title": "BILL Stock Hits Fresh 21-Month High On Report Of TPG Nearing Take-Private Deal",
      "url": "https://stocktwits.com/news-articles/markets/equity/bill-stock-hits-fresh-21-month-high-on-report-of-tpg-nearing-take-private-deal/cNbOP7LR9h9",
      "publisher": "Stocktwits"
+    }
+   ]
+  },
+  {
+   "symbol": "ENR",
+   "name": "Energizer Holdings, Inc.",
+   "sector": "Industrials",
+   "industry": "Electrical Equipment & Parts",
+   "price": 27.4,
+   "move_pct": 12.57,
+   "move_label": "today",
+   "rel_volume": 3.5,
+   "market_cap": 1876173568.0,
+   "score": 66,
+   "confidence": "Medium",
+   "risk": "High",
+   "reasons": [
+    "Up 12.6% today",
+    "Trading 3.5x its normal volume, so real money is behind the move",
+    "At or breaking through its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 23% over the past month"
+   ],
+   "risks": [
+    "Already 20% above the average analyst target",
+    "Small cap ($1.9B): moves fast both ways and can be thinly traded"
+   ],
+   "projection": {
+    "target_low": 17.0,
+    "target_mean": 22.0,
+    "target_high": 28.0,
+    "bear": -38.0,
+    "base": -19.7,
+    "bull": 2.2,
+    "analysts": 6,
+    "rating": "none",
+    "rating_mean": null
+   },
+   "daily_swing": 3.78,
+   "ret_5d": 10.2172,
+   "ret_20d": 23.2014,
+   "ret_60d": 27.5605,
+   "earnings": null,
+   "spark": [
+    21.54,
+    21.44,
+    21.33,
+    21.17,
+    21.85,
+    21.92,
+    22.0,
+    21.7,
+    21.6,
+    22.24,
+    22.76,
+    23.43,
+    22.57,
+    22.29,
+    22.72,
+    22.35,
+    23.15,
+    23.15,
+    24.18,
+    24.07,
+    25.19,
+    24.47,
+    23.84,
+    25.06,
+    24.86,
+    24.31,
+    24.17,
+    24.13,
+    24.34,
+    27.4
+   ],
+   "news": [
+    {
+     "title": "Energizer Holdings (ENR) Could Be 71% Undervalued After Results And New Guidance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/energizer-holdings-enr-could-71-231911187.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "Bill Holdings shares surge on reports of looming TPG take-private deal",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-shares-surge-reports-171640865.html",
-     "publisher": "Investing.com"
+     "title": "Energizer (ENR) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/17/energizer-enr-q4-2026-earnings-call-transcript/",
+     "publisher": "Motley Fool"
     }
    ]
   },
@@ -114,7 +199,7 @@
    "price": 116.61,
    "move_pct": 8.49,
    "move_label": "today",
-   "rel_volume": 2.45,
+   "rel_volume": 2.52,
    "market_cap": 8084676608.0,
    "score": 65,
    "confidence": "Medium",
@@ -192,112 +277,27 @@
    ]
   },
   {
-   "symbol": "ENR",
-   "name": "Energizer Holdings, Inc.",
-   "sector": "Industrials",
-   "industry": "Electrical Equipment & Parts",
-   "price": 27.38,
-   "move_pct": 12.49,
-   "move_label": "today",
-   "rel_volume": 2.95,
-   "market_cap": 1875081984.0,
-   "score": 64,
-   "confidence": "Medium",
-   "risk": "High",
-   "reasons": [
-    "Up 12.5% today",
-    "Trading 2.9x its normal volume, so real money is behind the move",
-    "At or breaking through its 52-week high",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 23% over the past month"
-   ],
-   "risks": [
-    "Already 20% above the average analyst target",
-    "Small cap ($1.9B): moves fast both ways and can be thinly traded"
-   ],
-   "projection": {
-    "target_low": 17.0,
-    "target_mean": 22.0,
-    "target_high": 28.0,
-    "bear": -37.9,
-    "base": -19.6,
-    "bull": 2.3,
-    "analysts": 6,
-    "rating": "none",
-    "rating_mean": null
-   },
-   "daily_swing": 3.76,
-   "ret_5d": 10.1368,
-   "ret_20d": 23.1115,
-   "ret_60d": 27.4674,
-   "earnings": null,
-   "spark": [
-    21.54,
-    21.44,
-    21.33,
-    21.17,
-    21.85,
-    21.92,
-    22.0,
-    21.7,
-    21.6,
-    22.24,
-    22.76,
-    23.43,
-    22.57,
-    22.29,
-    22.72,
-    22.35,
-    23.15,
-    23.15,
-    24.18,
-    24.07,
-    25.19,
-    24.47,
-    23.84,
-    25.06,
-    24.86,
-    24.31,
-    24.17,
-    24.13,
-    24.34,
-    27.38
-   ],
-   "news": [
-    {
-     "title": "Energizer (ENR) Q4 2026 Earnings Call Transcript",
-     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/17/energizer-enr-q4-2026-earnings-call-transcript/",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "Energizer Holdings, Inc. Q4 2026 Earnings Call Summary",
-     "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-energizer-holdings-inc-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-     "publisher": "Moby"
-    }
-   ]
-  },
-  {
    "symbol": "SLS",
    "name": "SELLAS Life Sciences Group, Inc",
    "sector": "Healthcare",
    "industry": "Biotechnology",
    "price": 19.15,
-   "move_pct": 142.52,
+   "move_pct": 145.79,
    "move_label": "day + after-hours",
-   "rel_volume": 16.33,
+   "rel_volume": 17.13,
    "market_cap": 3903902720.0,
    "score": 59,
    "confidence": "Medium",
    "risk": "Very high",
    "reasons": [
-    "Up 142.5% day + after-hours",
-    "Trading 16.3x its normal volume, so real money is behind the move",
+    "Up 145.8% day + after-hours",
+    "Trading 17.1x its normal volume, so real money is behind the move",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 60% over the past month",
     "28% of the float is sold short: fuel for a squeeze if it keeps rising"
    ],
    "risks": [
-    "Already up 143%: buying now means chasing, and sharp reversals are common",
+    "Already up 146%: buying now means chasing, and sharp reversals are common",
     "Little or no analyst coverage, so there is no consensus to lean on",
     "Heavily shorted stocks are violent in both directions",
     "Typically swings about 36.0% a day"
@@ -342,97 +342,14 @@
    ],
    "news": [
     {
-     "title": "\u2018Pharma Bro\u2019 Shkreli Calls SLS Results \u2018Sketch,\u2019 Compares Leukemia Vaccine Data To Capricor\u2019s Deramiocel",
-     "url": "https://stocktwits.com/news-articles/markets/equity/pharma-bro-shkreli-calls-sls-results-sketch-compares-leukemia-vaccine-data-to-capricor-s-deramiocel/cNbO4Q6R9hf",
+     "title": "SLS Joins MRNA And ANL In Biotech\u2019s Top 3 This Year \u2014 Here\u2019s How A Late-2025 Bet Could Grow 10x From Here",
+     "url": "https://stocktwits.com/news-articles/markets/equity/sls-mrna-anl-biotech-top-3-this-year-how-late-2025-bet-grow-10x/cNbXVXXR9hm",
      "publisher": "Stocktwits"
     },
     {
-     "title": "Another Cancer Vaccine Just Scored A Home Run; Shares Catapult 170%",
-     "url": "https://www.investors.com/news/technology/sellas-life-sciences-stock-cancer-vaccine-aml/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
-    }
-   ]
-  },
-  {
-   "symbol": "SMWB",
-   "name": "Similarweb Ltd.",
-   "sector": "Technology",
-   "industry": "Software - Application",
-   "price": 8.86,
-   "move_pct": 13.3,
-   "move_label": "today",
-   "rel_volume": 2.94,
-   "market_cap": 781883456.0,
-   "score": 52,
-   "confidence": "Medium",
-   "risk": "Very high",
-   "reasons": [
-    "Up 13.3% today",
-    "Trading 2.9x its normal volume, so real money is behind the move",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "6 analysts see 22% upside on average (target $10.83)"
-   ],
-   "risks": [
-    "Small cap ($782M): moves fast both ways and can be thinly traded"
-   ],
-   "projection": {
-    "target_low": 9.0,
-    "target_mean": 10.8333,
-    "target_high": 12.0,
-    "bear": 1.6,
-    "base": 22.3,
-    "bull": 35.4,
-    "analysts": 6,
-    "rating": "none",
-    "rating_mean": null
-   },
-   "daily_swing": 3.65,
-   "ret_5d": 13.2992,
-   "ret_20d": -0.7839,
-   "ret_60d": -1.4461,
-   "earnings": null,
-   "spark": [
-    8.13,
-    8.43,
-    9.05,
-    8.83,
-    8.69,
-    8.3,
-    8.79,
-    8.35,
-    8.65,
-    8.93,
-    8.85,
-    8.82,
-    8.79,
-    8.93,
-    9.02,
-    9.1,
-    8.98,
-    8.74,
-    8.7,
-    8.75,
-    8.81,
-    8.41,
-    8.26,
-    8.18,
-    7.82,
-    8.08,
-    7.96,
-    7.97,
-    7.82,
-    8.86
-   ],
-   "news": [
-    {
-     "title": "Similarweb Ltd (SMWB) (Q3 2026) Earnings Call Highlights: Record Profitability and AI-Driven ...",
-     "url": "https://finance.yahoo.com/technology/ai/articles/similarweb-ltd-smwb-q3-2026-210122442.html",
-     "publisher": "GuruFocus.com"
-    },
-    {
-     "title": "Similarweb (SMWB) Q3 2026 Earnings Call Transcript",
-     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/17/similarweb-smwb-q3-2026-earnings-call-transcript/",
-     "publisher": "Motley Fool"
+     "title": "SELLAS Stock In Focus After Phase 3 AML Trial Win",
+     "url": "https://finance.yahoo.com/healthcare/articles/sellas-stock-focus-phase-3-001833461.html",
+     "publisher": "Simply Wall St."
     }
    ]
   },
@@ -441,17 +358,17 @@
    "name": "AECOM",
    "sector": "Industrials",
    "industry": "Engineering & Construction",
-   "price": 80.56,
-   "move_pct": 11.12,
-   "move_label": "today",
-   "rel_volume": 2.07,
-   "market_cap": 10367783936.0,
-   "score": 51,
+   "price": 80.53,
+   "move_pct": 12.28,
+   "move_label": "day + after-hours",
+   "rel_volume": 2.47,
+   "market_cap": 10363922432.0,
+   "score": 55,
    "confidence": "Medium",
    "risk": "Moderate",
    "reasons": [
-    "Up 11.1% today",
-    "Trading 2.1x its normal volume, so real money is behind the move",
+    "Up 12.3% day + after-hours",
+    "Trading 2.5x its normal volume, so real money is behind the move",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 37% over the past month"
    ],
@@ -468,9 +385,9 @@
     "rating_mean": 1.4615
    },
    "daily_swing": 2.8,
-   "ret_5d": 14.0592,
-   "ret_20d": 36.5655,
-   "ret_60d": 24.608,
+   "ret_5d": 14.0167,
+   "ret_20d": 36.5147,
+   "ret_60d": 24.5616,
    "earnings": null,
    "spark": [
     57.98,
@@ -502,18 +419,101 @@
     70.11,
     70.5,
     72.5,
-    80.56
+    80.53
    ],
    "news": [
     {
-     "title": "AECOM Stocks Jump 11.21% as Record Margins Lead to Upbeat 2027 Outlook",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/aecom-stocks-jump-11-21-180235139.html",
-     "publisher": "GuruFocus.com"
+     "title": "Is AECOM (ACM) Fully Valued As Strong Earnings And 2027 Guidance Lift Interest?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/aecom-acm-fully-valued-strong-002355944.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "AECOM shares jump more than 12% as 2027 earnings outlook beats estimates",
-     "url": "https://www.proactiveinvestors.com/companies/news/1101947/aecom-shares-jump-more-than-12-as-2027-earnings-outlook-beats-estimates-1101947.html",
-     "publisher": "Proactive"
+     "title": "AECOM (ACM) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/17/aecom-acm-q4-2026-earnings-call-transcript/",
+     "publisher": "Motley Fool"
+    }
+   ]
+  },
+  {
+   "symbol": "SMWB",
+   "name": "Similarweb Ltd.",
+   "sector": "Technology",
+   "industry": "Software - Application",
+   "price": 8.84,
+   "move_pct": 13.04,
+   "move_label": "today",
+   "rel_volume": 3.15,
+   "market_cap": 780118528.0,
+   "score": 53,
+   "confidence": "Medium",
+   "risk": "Very high",
+   "reasons": [
+    "Up 13.0% today",
+    "Trading 3.2x its normal volume, so real money is behind the move",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "6 analysts see 28% upside on average (target $11.33)"
+   ],
+   "risks": [
+    "Small cap ($780M): moves fast both ways and can be thinly traded"
+   ],
+   "projection": {
+    "target_low": 9.0,
+    "target_mean": 11.3333,
+    "target_high": 14.0,
+    "bear": 1.8,
+    "base": 28.2,
+    "bull": 58.4,
+    "analysts": 6,
+    "rating": "none",
+    "rating_mean": null
+   },
+   "daily_swing": 3.6,
+   "ret_5d": 13.0435,
+   "ret_20d": -1.0078,
+   "ret_60d": -1.6685,
+   "earnings": null,
+   "spark": [
+    8.13,
+    8.43,
+    9.05,
+    8.83,
+    8.69,
+    8.3,
+    8.79,
+    8.35,
+    8.65,
+    8.93,
+    8.85,
+    8.82,
+    8.79,
+    8.93,
+    9.02,
+    9.1,
+    8.98,
+    8.74,
+    8.7,
+    8.75,
+    8.81,
+    8.41,
+    8.26,
+    8.18,
+    7.82,
+    8.08,
+    7.96,
+    7.97,
+    7.82,
+    8.84
+   ],
+   "news": [
+    {
+     "title": "Why Similarweb Stock Surged Today",
+     "url": "https://www.fool.com/investing/2026/11/17/why-similarweb-stock-surged-today/",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "Similarweb Ltd (SMWB) (Q3 2026) Earnings Call Highlights: Record Profitability and AI-Driven ...",
+     "url": "https://finance.yahoo.com/technology/ai/articles/similarweb-ltd-smwb-q3-2026-210122442.html",
+     "publisher": "GuruFocus.com"
     }
    ]
   },
@@ -522,16 +522,16 @@
    "name": "Teleflex Incorporated",
    "sector": "Healthcare",
    "industry": "Medical Instruments & Supplies",
-   "price": 159.605,
-   "move_pct": 1.59,
+   "price": 159.55,
+   "move_pct": 1.56,
    "move_label": "today",
-   "rel_volume": 1.53,
-   "market_cap": 6330135040.0,
-   "score": 48,
-   "confidence": "Speculative",
+   "rel_volume": 2.1,
+   "market_cap": 6327953920.0,
+   "score": 51,
+   "confidence": "Medium",
    "risk": "Moderate",
    "reasons": [
-    "Trading 1.5x its normal volume, so real money is behind the move",
+    "Trading 2.1x its normal volume, so real money is behind the move",
     "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 22% over the past month",
@@ -545,16 +545,16 @@
     "target_mean": 168.0909,
     "target_high": 178.0,
     "bear": -1.0,
-    "base": 5.3,
-    "bull": 11.5,
+    "base": 5.4,
+    "bull": 11.6,
     "analysts": 11,
     "rating": "buy",
     "rating_mean": 2.3333
    },
    "daily_swing": 2.06,
-   "ret_5d": 2.9978,
-   "ret_20d": 21.9639,
-   "ret_60d": 15.6501,
+   "ret_5d": 2.9623,
+   "ret_20d": 21.9219,
+   "ret_60d": 15.6102,
    "earnings": null,
    "spark": [
     124.21,
@@ -586,7 +586,7 @@
     152.81,
     154.76,
     157.1,
-    159.6
+    159.55
    ],
    "news": [
     {
@@ -602,108 +602,22 @@
    ]
   },
   {
-   "symbol": "RZLT",
-   "name": "Rezolute, Inc.",
-   "sector": "Healthcare",
-   "industry": "Biotechnology",
-   "price": 4.015,
-   "move_pct": 12.15,
-   "move_label": "today",
-   "rel_volume": 1.74,
-   "market_cap": 476861088.0,
-   "score": 47,
-   "confidence": "Speculative",
-   "risk": "Very high",
-   "reasons": [
-    "Up 12.2% today",
-    "Trading 1.7x its normal volume, so real money is behind the move",
-    "10 analysts see 159% upside on average (target $10.40)",
-    "25% of the float is sold short: fuel for a squeeze if it keeps rising"
-   ],
-   "risks": [
-    "Heavily shorted stocks are violent in both directions",
-    "Small cap ($477M): moves fast both ways and can be thinly traded",
-    "Low-priced stock: higher pump-and-dump risk",
-    "Typically swings about 4.9% a day"
-   ],
-   "projection": {
-    "target_low": 6.0,
-    "target_mean": 10.4,
-    "target_high": 15.0,
-    "bear": 49.4,
-    "base": 159.0,
-    "bull": 273.6,
-    "analysts": 10,
-    "rating": "strong buy",
-    "rating_mean": 1.1818
-   },
-   "daily_swing": 4.87,
-   "ret_5d": -0.1244,
-   "ret_20d": 8.5135,
-   "ret_60d": -19.8603,
-   "earnings": null,
-   "spark": [
-    4.38,
-    4.64,
-    4.87,
-    4.87,
-    4.61,
-    4.23,
-    3.9,
-    3.58,
-    3.7,
-    3.7,
-    3.7,
-    3.86,
-    3.86,
-    3.82,
-    4.11,
-    4.22,
-    4.12,
-    3.95,
-    3.88,
-    4.01,
-    3.96,
-    3.64,
-    3.88,
-    3.87,
-    4.02,
-    4.07,
-    3.87,
-    3.65,
-    3.58,
-    4.01
-   ],
-   "news": [
-    {
-     "title": "Rezolute Raises $100 Million, Advances Ersodetug Toward Commercialization",
-     "url": "https://finance.yahoo.com/healthcare/articles/rezolute-raises-100-million-advances-172742991.html",
-     "publisher": "Benzinga"
-    },
-    {
-     "title": "Rezolute Reports Phase 3 upLIFT Study Meets Primary Efficacy Endpoint in Tumor Hyperinsulinism",
-     "url": "https://investorshub.advfn.com/market-news/article/40008/rezolute-reports-phase-3-uplift-study-meets-primary-efficacy-endpoint-in-tumor-hyperinsulinism",
-     "publisher": "InvestorsHub"
-    }
-   ]
-  },
-  {
    "symbol": "SHAZ",
    "name": "SharonAI Holdings, Inc.",
    "sector": "Technology",
    "industry": "Information Technology Services",
    "price": 22.59,
-   "move_pct": 13.15,
+   "move_pct": 20.59,
    "move_label": "day + after-hours",
-   "rel_volume": 3.6,
+   "rel_volume": 3.61,
    "market_cap": 808801152.0,
-   "score": 46,
+   "score": 49,
    "confidence": "Speculative",
    "risk": "Very high",
    "reasons": [
-    "Up 13.2% day + after-hours",
+    "Up 20.6% day + after-hours",
     "Trading 3.6x its normal volume, so real money is behind the move",
-    "6 analysts see 318% upside on average (target $94.33)",
+    "6 analysts see 206% upside on average (target $69.17)",
     "17% of the float is sold short: fuel for a squeeze if it keeps rising"
    ],
    "risks": [
@@ -714,11 +628,11 @@
    ],
    "projection": {
     "target_low": 45.0,
-    "target_mean": 94.3333,
-    "target_high": 124.0,
+    "target_mean": 69.1667,
+    "target_high": 95.0,
     "bear": 99.2,
-    "base": 317.6,
-    "bull": 448.9,
+    "base": 206.2,
+    "bull": 320.5,
     "analysts": 6,
     "rating": "none",
     "rating_mean": null
@@ -774,103 +688,22 @@
    ]
   },
   {
-   "symbol": "CHYM",
-   "name": "Chime Financial, Inc.",
-   "sector": "Technology",
-   "industry": "Software - Application",
-   "price": 32.97,
-   "move_pct": -3.85,
-   "move_label": "today",
-   "rel_volume": 5.35,
-   "market_cap": 12653285376.0,
-   "score": 43,
-   "confidence": "Speculative",
-   "risk": "Moderate",
-   "reasons": [
-    "Trading 5.4x its normal volume, so real money is behind the move",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 8% over the past month",
-    "21 analysts see 27% upside on average (target $41.90)"
-   ],
-   "risks": [],
-   "projection": {
-    "target_low": 34.0,
-    "target_mean": 41.9048,
-    "target_high": 50.0,
-    "bear": 3.1,
-    "base": 27.1,
-    "bull": 51.7,
-    "analysts": 21,
-    "rating": "strong buy",
-    "rating_mean": 1.4348
-   },
-   "daily_swing": 2.51,
-   "ret_5d": 1.3215,
-   "ret_20d": 8.2403,
-   "ret_60d": 0.8257,
-   "earnings": null,
-   "spark": [
-    27.93,
-    28.96,
-    30.08,
-    30.45,
-    29.9,
-    29.0,
-    29.96,
-    29.67,
-    29.63,
-    30.46,
-    30.37,
-    30.16,
-    29.57,
-    28.55,
-    28.55,
-    28.8,
-    28.87,
-    27.95,
-    28.53,
-    28.2,
-    29.87,
-    30.18,
-    31.33,
-    32.53,
-    32.54,
-    33.08,
-    33.03,
-    33.55,
-    34.29,
-    32.97
-   ],
-   "news": [
-    {
-     "title": "Chime Financial, Stock Of The Day, Flashes A Bullish Signal Near Buy Point",
-     "url": "https://www.investors.com/research/ibd-stock-of-the-day/chime-financial-stock-eyes-buy-point-midcap-debut-ramping-growth/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
-    },
-    {
-     "title": "Chime (CHYM) Stock Looks Rich Following Raised 2026 Outlook",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/chime-chym-stock-looks-rich-180727447.html",
-     "publisher": "Simply Wall St."
-    }
-   ]
-  },
-  {
    "symbol": "RMIX",
    "name": "Suncrete, Inc.",
    "sector": "Basic Materials",
    "industry": "Building Materials",
    "price": 6.05,
-   "move_pct": 12.4,
+   "move_pct": 15.71,
    "move_label": "day + after-hours",
-   "rel_volume": 2.75,
+   "rel_volume": 2.77,
    "market_cap": 456962272.0,
-   "score": 42,
+   "score": 47,
    "confidence": "Speculative",
    "risk": "Very high",
    "reasons": [
-    "Up 12.4% day + after-hours",
+    "Up 15.7% day + after-hours",
     "Trading 2.8x its normal volume, so real money is behind the move",
-    "6 analysts see 156% upside on average (target $15.50)"
+    "6 analysts see 140% upside on average (target $14.50)"
    ],
    "risks": [
     "Still below its 200-day average, so the longer trend is down",
@@ -879,10 +712,10 @@
    ],
    "projection": {
     "target_low": 9.0,
-    "target_mean": 15.5,
+    "target_mean": 14.5,
     "target_high": 25.0,
     "bear": 48.8,
-    "base": 156.2,
+    "base": 139.7,
     "bull": 313.2,
     "analysts": 6,
     "rating": "strong buy",
@@ -939,84 +772,260 @@
    ]
   },
   {
-   "symbol": "GFF",
-   "name": "Griffon Corporation",
-   "sector": "Industrials",
-   "industry": "Building Products & Equipment",
-   "price": 104.78,
-   "move_pct": 4.82,
+   "symbol": "RZLT",
+   "name": "Rezolute, Inc.",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "price": 4.015,
+   "move_pct": 12.15,
    "move_label": "today",
-   "rel_volume": 1.79,
-   "market_cap": 4805905408.0,
-   "score": 41,
+   "rel_volume": 1.75,
+   "market_cap": 476861088.0,
+   "score": 47,
    "confidence": "Speculative",
-   "risk": "High",
+   "risk": "Very high",
    "reasons": [
-    "Up 4.8% today",
+    "Up 12.2% today",
     "Trading 1.8x its normal volume, so real money is behind the move",
-    "Within 3.9% of its 52-week high",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 10% over the past month"
+    "10 analysts see 169% upside on average (target $10.80)",
+    "25% of the float is sold short: fuel for a squeeze if it keeps rising"
    ],
-   "risks": [],
+   "risks": [
+    "Heavily shorted stocks are violent in both directions",
+    "Small cap ($477M): moves fast both ways and can be thinly traded",
+    "Low-priced stock: higher pump-and-dump risk",
+    "Typically swings about 4.9% a day"
+   ],
    "projection": {
-    "target_low": 120.0,
-    "target_mean": 126.8571,
-    "target_high": 135.0,
-    "bear": 14.5,
-    "base": 21.1,
-    "bull": 28.8,
-    "analysts": 7,
-    "rating": "none",
-    "rating_mean": null
+    "target_low": 6.0,
+    "target_mean": 10.8,
+    "target_high": 15.0,
+    "bear": 49.4,
+    "base": 169.0,
+    "bull": 273.6,
+    "analysts": 10,
+    "rating": "strong buy",
+    "rating_mean": 1.1818
    },
-   "daily_swing": 3.03,
-   "ret_5d": 0.3832,
-   "ret_20d": 10.3063,
-   "ret_60d": 3.584,
+   "daily_swing": 4.87,
+   "ret_5d": -0.1244,
+   "ret_20d": 8.5135,
+   "ret_60d": -19.8603,
    "earnings": null,
    "spark": [
-    94.0,
-    92.15,
-    90.59,
-    89.74,
-    92.23,
-    92.08,
-    93.21,
-    92.85,
-    92.66,
-    94.99,
-    94.63,
-    97.0,
-    97.04,
-    97.67,
-    100.26,
-    99.87,
-    102.92,
-    101.09,
-    104.13,
-    102.2,
-    107.52,
-    102.4,
-    101.03,
-    106.77,
-    104.38,
-    106.16,
-    104.84,
-    105.16,
-    99.96,
-    104.78
+    4.38,
+    4.64,
+    4.87,
+    4.87,
+    4.61,
+    4.23,
+    3.9,
+    3.58,
+    3.7,
+    3.7,
+    3.7,
+    3.86,
+    3.86,
+    3.82,
+    4.11,
+    4.22,
+    4.12,
+    3.95,
+    3.88,
+    4.01,
+    3.96,
+    3.64,
+    3.88,
+    3.87,
+    4.02,
+    4.07,
+    3.87,
+    3.65,
+    3.58,
+    4.01
    ],
    "news": [
     {
-     "title": "Griffon Corp (GFF) (Q4 2026) Earnings Call Highlights: Strong Cash Flow and Strategic ...",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/griffon-corp-gff-q4-2026-210129895.html",
-     "publisher": "GuruFocus.com"
+     "title": "Rezolute Raises $100 Million, Advances Ersodetug Toward Commercialization",
+     "url": "https://finance.yahoo.com/healthcare/articles/rezolute-raises-100-million-advances-172742991.html",
+     "publisher": "Benzinga"
     },
     {
-     "title": "Griffon (GFF) Q4 2026 Earnings Call Transcript",
-     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/17/griffon-gff-q4-2026-earnings-call-transcript/",
-     "publisher": "Motley Fool"
+     "title": "Rezolute Reports Phase 3 upLIFT Study Meets Primary Efficacy Endpoint in Tumor Hyperinsulinism",
+     "url": "https://investorshub.advfn.com/market-news/article/40008/rezolute-reports-phase-3-uplift-study-meets-primary-efficacy-endpoint-in-tumor-hyperinsulinism",
+     "publisher": "InvestorsHub"
+    }
+   ]
+  },
+  {
+   "symbol": "BJ",
+   "name": "BJ's Wholesale Club Holdings, I",
+   "sector": "Consumer Defensive",
+   "industry": "Discount Stores",
+   "price": 111.43,
+   "move_pct": -0.4,
+   "move_label": "today",
+   "rel_volume": 1.27,
+   "market_cap": 14075245568.0,
+   "score": 46,
+   "confidence": "Speculative",
+   "risk": "Moderate",
+   "reasons": [
+    "At or breaking through its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 9% over the past month",
+    "Reports earnings before the open (2026-11-20)"
+   ],
+   "risks": [
+    "Earnings are a coin-flip event: the stock can gap hard in either direction",
+    "Already 2% above the average analyst target"
+   ],
+   "projection": {
+    "target_low": 82.0,
+    "target_mean": 108.95,
+    "target_high": 132.0,
+    "bear": -26.4,
+    "base": -2.2,
+    "bull": 18.5,
+    "analysts": 20,
+    "rating": "buy",
+    "rating_mean": 2.2174
+   },
+   "daily_swing": 1.51,
+   "ret_5d": 0.933,
+   "ret_20d": 8.8928,
+   "ret_60d": 13.1384,
+   "earnings": {
+    "date": "2026-11-20T13:30:00+00:00",
+    "timing": "before the open",
+    "eps_est": 1.09,
+    "company": "BJ's Wholesale Club Holdings, Inc.",
+    "market_cap": 14075246168.1082,
+    "beats": null
+   },
+   "spark": [
+    95.9,
+    99.04,
+    98.58,
+    99.8,
+    99.57,
+    103.39,
+    103.27,
+    102.95,
+    102.61,
+    102.33,
+    102.41,
+    106.63,
+    105.84,
+    106.36,
+    105.12,
+    103.44,
+    105.41,
+    107.32,
+    110.67,
+    109.46,
+    110.9,
+    111.26,
+    109.4,
+    109.8,
+    110.4,
+    110.71,
+    110.88,
+    110.34,
+    111.88,
+    111.43
+   ],
+   "news": [
+    {
+     "title": "Church & Dwight Expands Hair Care Portfolio With BALI CARE Investment",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/church-dwight-expands-hair-care-150500696.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Is BJ's Wholesale Ready to Surprise the Street This Earnings Season?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bjs-wholesale-ready-surprise-street-133900761.html",
+     "publisher": "Zacks"
+    }
+   ]
+  },
+  {
+   "symbol": "CHYM",
+   "name": "Chime Financial, Inc.",
+   "sector": "Technology",
+   "industry": "Software - Application",
+   "price": 32.97,
+   "move_pct": -3.85,
+   "move_label": "today",
+   "rel_volume": 6.71,
+   "market_cap": 12653285376.0,
+   "score": 45,
+   "confidence": "Speculative",
+   "risk": "Moderate",
+   "reasons": [
+    "Trading 6.7x its normal volume, so real money is behind the move",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 8% over the past month",
+    "21 analysts see 27% upside on average (target $41.90)"
+   ],
+   "risks": [],
+   "projection": {
+    "target_low": 34.0,
+    "target_mean": 41.9048,
+    "target_high": 50.0,
+    "bear": 3.1,
+    "base": 27.1,
+    "bull": 51.7,
+    "analysts": 21,
+    "rating": "strong buy",
+    "rating_mean": 1.4348
+   },
+   "daily_swing": 2.51,
+   "ret_5d": 1.3215,
+   "ret_20d": 8.2403,
+   "ret_60d": 0.8257,
+   "earnings": null,
+   "spark": [
+    27.93,
+    28.96,
+    30.08,
+    30.45,
+    29.9,
+    29.0,
+    29.96,
+    29.67,
+    29.63,
+    30.46,
+    30.37,
+    30.16,
+    29.57,
+    28.55,
+    28.55,
+    28.8,
+    28.87,
+    27.95,
+    28.53,
+    28.2,
+    29.87,
+    30.18,
+    31.33,
+    32.53,
+    32.54,
+    33.08,
+    33.03,
+    33.55,
+    34.29,
+    32.97
+   ],
+   "news": [
+    {
+     "title": "Chime Financial, Stock Of The Day, Eyes A Buy Point As Growth Ramps, Big Debut Looms",
+     "url": "https://www.investors.com/research/ibd-stock-of-the-day/chime-financial-stock-eyes-buy-point-midcap-debut-ramping-growth/?src=A00220&yptr=yahoo",
+     "publisher": "Investor's Business Daily"
+    },
+    {
+     "title": "Chime (CHYM) Stock Looks Rich Following Raised 2026 Outlook",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/chime-chym-stock-looks-rich-180727447.html",
+     "publisher": "Simply Wall St."
     }
    ]
   }
@@ -1027,11 +1036,11 @@
    "name": "SharkNinja, Inc.",
    "sector": "Consumer Cyclical",
    "industry": "Furnishings, Fixtures & Appliances",
-   "price": 220.14,
-   "move_pct": -1.41,
+   "price": 220.12,
+   "move_pct": -1.42,
    "move_label": "today",
-   "rel_volume": 0.56,
-   "market_cap": 31020259328.0,
+   "rel_volume": 0.72,
+   "market_cap": 31017439232.0,
    "score": 74,
    "confidence": "High",
    "risk": "Moderate",
@@ -1055,9 +1064,9 @@
     "rating_mean": 1.1333
    },
    "daily_swing": 2.22,
-   "ret_5d": -2.8079,
-   "ret_20d": 10.779,
-   "ret_60d": 20.3017,
+   "ret_5d": -2.8168,
+   "ret_20d": 10.7689,
+   "ret_60d": 20.2907,
    "earnings": null,
    "spark": [
     185.19,
@@ -1089,18 +1098,18 @@
     220.14,
     226.39,
     223.29,
-    220.14
+    220.12
    ],
    "news": [
+    {
+     "title": "O\u2019Reilly Automotive, Dollar Tree, and 7 More Retail Stocks to Buy Right Now\u2014and 15 to Avoid",
+     "url": "https://www.barrons.com/articles/walmart-costco-retail-stocks-buy-avoid-0f4ea205?siteid=yhoof2&yptr=yahoo",
+     "publisher": "Barrons.com"
+    },
     {
      "title": "SharkNinja's International Sales Surge as Direct Expansion Pays Off",
      "url": "https://finance.yahoo.com/markets/stocks/articles/sharkninjas-international-sales-surge-direct-123300509.html",
      "publisher": "Zacks"
-    },
-    {
-     "title": "3 Growth Stocks Building Momentum for 2027",
-     "url": "https://www.fool.com/investing/2026/11/15/3-growth-stocks-building-momentum-for-2027/",
-     "publisher": "Motley Fool"
     }
    ]
   },
@@ -1194,7 +1203,7 @@
    "price": 32.97,
    "move_pct": -3.85,
    "move_label": "today",
-   "rel_volume": 5.35,
+   "rel_volume": 6.71,
    "market_cap": 12653285376.0,
    "score": 70,
    "confidence": "High",
@@ -1203,7 +1212,7 @@
     "21 analysts rate it 'strong buy' with 27% average upside (target $41.90)",
     "Revenue growing 32% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
-    "Reasonably priced at 20x next year's earnings"
+    "Reasonably priced at 17x next year's earnings"
    ],
    "risks": [],
    "projection": {
@@ -1256,7 +1265,7 @@
    ],
    "news": [
     {
-     "title": "Chime Financial, Stock Of The Day, Flashes A Bullish Signal Near Buy Point",
+     "title": "Chime Financial, Stock Of The Day, Eyes A Buy Point As Growth Ramps, Big Debut Looms",
      "url": "https://www.investors.com/research/ibd-stock-of-the-day/chime-financial-stock-eyes-buy-point-midcap-debut-ramping-growth/?src=A00220&yptr=yahoo",
      "publisher": "Investor's Business Daily"
     },
@@ -1275,7 +1284,7 @@
    "price": 51.96,
    "move_pct": 0.76,
    "move_label": "today",
-   "rel_volume": 0.77,
+   "rel_volume": 0.79,
    "market_cap": 32038205440.0,
    "score": 68,
    "confidence": "Medium",
@@ -1339,13 +1348,13 @@
    ],
    "news": [
     {
-     "title": "Genmab (CPSE:GMAB) Stock Could Be 47% Undervalued As Epcoritamab Approvals Expand",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/genmab-cpse-gmab-stock-could-131340843.html",
-     "publisher": "Simply Wall St."
+     "title": "Johnson & Johnson vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy for 2027?",
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/17/johnson-johnson-vs-vertex-pharmaceuticals-which-healthcare-stock-is-a-better-buy-for-2027/",
+     "publisher": "Motley Fool"
     },
     {
-     "title": "Is Genmab (CPSE:GMAB) Fully Priced After Holding 2026 Guidance Steady?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/genmab-cpse-gmab-fully-priced-131352220.html",
+     "title": "Genmab (CPSE:GMAB) Stock Could Be 47% Undervalued As Epcoritamab Approvals Expand",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/genmab-cpse-gmab-stock-could-131340843.html",
      "publisher": "Simply Wall St."
     }
    ]
@@ -1355,11 +1364,11 @@
    "name": "Unity Software Inc.",
    "sector": "Technology",
    "industry": "Software - Application",
-   "price": 50.355,
-   "move_pct": -2.94,
+   "price": 50.36,
+   "move_pct": -2.93,
    "move_label": "today",
-   "rel_volume": 0.68,
-   "market_cap": 22348994560.0,
+   "rel_volume": 0.96,
+   "market_cap": 22351214592.0,
    "score": 68,
    "confidence": "Medium",
    "risk": "High",
@@ -1382,9 +1391,9 @@
     "rating_mean": 1.44
    },
    "daily_swing": 4.32,
-   "ret_5d": 0.0298,
-   "ret_20d": 25.386,
-   "ret_60d": 9.088,
+   "ret_5d": 0.0397,
+   "ret_20d": 25.3984,
+   "ret_60d": 9.0988,
    "earnings": null,
    "spark": [
     45.44,
@@ -1416,7 +1425,7 @@
     50.18,
     52.81,
     51.88,
-    50.35
+    50.36
    ],
    "news": [
     {
@@ -1439,7 +1448,7 @@
    "price": 137.88,
    "move_pct": -2.98,
    "move_label": "today",
-   "rel_volume": 0.74,
+   "rel_volume": 0.93,
    "market_cap": 13529284608.0,
    "score": 65,
    "confidence": "Medium",
@@ -1518,11 +1527,11 @@
    "name": "Life Time Group Holdings, Inc.",
    "sector": "Consumer Cyclical",
    "industry": "Leisure",
-   "price": 46.76,
-   "move_pct": 1.04,
+   "price": 46.73,
+   "move_pct": 0.97,
    "move_label": "today",
-   "rel_volume": 0.77,
-   "market_cap": 10502459392.0,
+   "rel_volume": 1.04,
+   "market_cap": 10495721472.0,
    "score": 64,
    "confidence": "Medium",
    "risk": "Moderate",
@@ -1537,17 +1546,17 @@
     "target_low": 52.0,
     "target_mean": 57.6,
     "target_high": 70.0,
-    "bear": 11.2,
-    "base": 23.2,
-    "bull": 49.7,
+    "bear": 11.3,
+    "base": 23.3,
+    "bull": 49.8,
     "analysts": 15,
     "rating": "strong buy",
     "rating_mean": 1.2
    },
    "daily_swing": 2.63,
-   "ret_5d": -1.3918,
-   "ret_20d": 13.5778,
-   "ret_60d": 2.2523,
+   "ret_5d": -1.4551,
+   "ret_20d": 13.505,
+   "ret_60d": 2.1867,
    "earnings": null,
    "spark": [
     40.5,
@@ -1579,7 +1588,7 @@
     45.54,
     46.52,
     46.28,
-    46.76
+    46.73
    ],
    "news": [
     {
@@ -1602,7 +1611,7 @@
    "price": 957.76,
    "move_pct": 0.56,
    "move_label": "today",
-   "rel_volume": 0.86,
+   "rel_volume": 1.16,
    "market_cap": 99078217728.0,
    "score": 63,
    "confidence": "Medium",
@@ -1681,44 +1690,12 @@
  ],
  "earnings": [
   {
-   "symbol": "NVDA",
-   "date": "2026-11-17T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 2.47,
-   "company": "NVIDIA Corporation",
-   "market_cap": 3753892782119.751
-  },
-  {
-   "symbol": "SQM",
-   "date": "2026-11-17T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 2.08,
-   "company": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
-   "market_cap": 14737483052.439
-  },
-  {
-   "symbol": "DLB",
-   "date": "2026-11-17T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 1.2,
-   "company": "Dolby Laboratories, Inc.",
-   "market_cap": 5503510150.2741
-  },
-  {
-   "symbol": "ZTO",
-   "date": "2026-11-17T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 3.13,
-   "company": "ZTO Express (Cayman) Inc.",
-   "market_cap": 15321023736.624
-  },
-  {
-   "symbol": "GLNG",
+   "symbol": "BLSH",
    "date": "2026-11-18T13:30:00+00:00",
    "timing": "before the open",
-   "eps_est": 0.03,
-   "company": "Golar LNG Limited",
-   "market_cap": 4281948039.7911
+   "eps_est": 0.08,
+   "company": "Bullish",
+   "market_cap": 2922263696.8391
   },
   {
    "symbol": "TCEHY",
@@ -1726,39 +1703,7 @@
    "timing": "before the open",
    "eps_est": 5.81,
    "company": "Tencent Holdings Limited",
-   "market_cap": 425737836383.3274
-  },
-  {
-   "symbol": "ZIM",
-   "date": "2026-11-18T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 5.11,
-   "company": "ZIM Integrated Shipping Services Ltd.",
-   "market_cap": 3580261119.5521
-  },
-  {
-   "symbol": "TJX",
-   "date": "2026-11-18T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 1.34,
-   "company": "The TJX Companies, Inc.",
-   "market_cap": 142848137474.103
-  },
-  {
-   "symbol": "LOW",
-   "date": "2026-11-18T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 2.95,
-   "company": "Lowe's Companies, Inc.",
-   "market_cap": 123695580253.8104
-  },
-  {
-   "symbol": "TGT",
-   "date": "2026-11-18T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 1.71,
-   "company": "Target Corporation",
-   "market_cap": 72460329392.0
+   "market_cap": 425647805421.2523
   },
   {
    "symbol": "GLBE",
@@ -1769,28 +1714,44 @@
    "market_cap": 6686782066.3781
   },
   {
-   "symbol": "NJR",
-   "date": "2026-11-18T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 0.13,
-   "company": "New Jersey Resources Corporation",
-   "market_cap": 5617011634.9016
+   "symbol": "ZIM",
+   "date": "2026-11-18T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 5.11,
+   "company": "ZIM Integrated Shipping Services Ltd.",
+   "market_cap": 3582071012.1136
   },
   {
-   "symbol": "CPA",
-   "date": "2026-11-18T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 3.76,
-   "company": "Copa Holdings, S.A.",
-   "market_cap": 5487354734.9196
+   "symbol": "TGT",
+   "date": "2026-11-18T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 1.71,
+   "company": "Target Corporation",
+   "market_cap": 72473116218.775
   },
   {
-   "symbol": "JOYY",
-   "date": "2026-11-18T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 1.33,
-   "company": "JOYY Inc.",
-   "market_cap": 3858132506.5579
+   "symbol": "TJX",
+   "date": "2026-11-18T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 1.34,
+   "company": "The TJX Companies, Inc.",
+   "market_cap": 143445879055.6808
+  },
+  {
+   "symbol": "LOW",
+   "date": "2026-11-18T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 2.95,
+   "company": "Lowe's Companies, Inc.",
+   "market_cap": 123689972795.5822
+  },
+  {
+   "symbol": "GLNG",
+   "date": "2026-11-18T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 0.03,
+   "company": "Golar LNG Limited",
+   "market_cap": 4281948039.7911
   },
   {
    "symbol": "PANW",
@@ -1801,44 +1762,12 @@
    "market_cap": 253237884748.3296
   },
   {
-   "symbol": "HP",
-   "date": "2026-11-18T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 0.23,
-   "company": "Helmerich & Payne, Inc.",
-   "market_cap": 3595303393.8803
-  },
-  {
    "symbol": "KLIC",
    "date": "2026-11-18T21:00:00+00:00",
    "timing": "after the close",
    "eps_est": 1.43,
    "company": "Kulicke and Soffa Industries, Inc.",
    "market_cap": 3427557032.5
-  },
-  {
-   "symbol": "HAFN",
-   "date": "2026-11-18T21:00:00+00:00",
-   "timing": "during the day",
-   "eps_est": 0.3,
-   "company": "Hafnia Limited",
-   "market_cap": 4962520042.6352
-  },
-  {
-   "symbol": "P",
-   "date": "2026-11-18T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 0.78,
-   "company": "Everpure, Inc.",
-   "market_cap": 33915869200.0085
-  },
-  {
-   "symbol": "SNEX",
-   "date": "2026-11-18T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 0.92,
-   "company": "StoneX Group Inc.",
-   "market_cap": 6623064900.4453
   },
   {
    "symbol": "WWD",
@@ -1849,28 +1778,92 @@
    "market_cap": 18288851710.1807
   },
   {
+   "symbol": "SBLK",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 1.27,
+   "company": "Star Bulk Carriers Corp.",
+   "market_cap": 3152498826.0489
+  },
+  {
+   "symbol": "JOYY",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 1.33,
+   "company": "JOYY Inc.",
+   "market_cap": 3858132506.5579
+  },
+  {
+   "symbol": "HP",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 0.23,
+   "company": "Helmerich & Payne, Inc.",
+   "market_cap": 3593804370.7032
+  },
+  {
+   "symbol": "NJR",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 0.13,
+   "company": "New Jersey Resources Corporation",
+   "market_cap": 5586008911.5559
+  },
+  {
    "symbol": "UGI",
    "date": "2026-11-18T21:00:00+00:00",
    "timing": "after the close",
    "eps_est": -0.91,
    "company": "UGI Corporation",
-   "market_cap": 8032836677.7967
+   "market_cap": 8028546680.2687
   },
   {
-   "symbol": "WSM",
-   "date": "2026-11-19T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 1.87,
-   "company": "Williams-Sonoma, Inc.",
-   "market_cap": 29456571886.167
+   "symbol": "SNEX",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 0.92,
+   "company": "StoneX Group Inc.",
+   "market_cap": 6623064900.4453
   },
   {
-   "symbol": "NTES",
+   "symbol": "CPA",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 3.76,
+   "company": "Copa Holdings, S.A.",
+   "market_cap": 5488171297.779
+  },
+  {
+   "symbol": "HAFN",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "during the day",
+   "eps_est": 0.3,
+   "company": "Hafnia Limited",
+   "market_cap": 4967872966.1712
+  },
+  {
+   "symbol": "P",
+   "date": "2026-11-18T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 0.78,
+   "company": "Everpure, Inc.",
+   "market_cap": 33919202184.3687
+  },
+  {
+   "symbol": "WMG",
    "date": "2026-11-19T13:30:00+00:00",
    "timing": "before the open",
-   "eps_est": 16.07,
-   "company": "NetEase, Inc.",
-   "market_cap": 76591972789.8801
+   "eps_est": 0.43,
+   "company": "Warner Music Group Corp.",
+   "market_cap": 16964449968.3104
+  },
+  {
+   "symbol": "ROAD",
+   "date": "2026-11-19T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 1.03,
+   "company": "Construction Partners, Inc.",
+   "market_cap": 4468932279.4571
   },
   {
    "symbol": "PDD",
@@ -1879,6 +1872,22 @@
    "eps_est": 18.84,
    "company": "PDD Holdings Inc.",
    "market_cap": 110156651325.4077
+  },
+  {
+   "symbol": "MANU",
+   "date": "2026-11-19T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 0.06,
+   "company": "Manchester United plc",
+   "market_cap": 3739613452.8802
+  },
+  {
+   "symbol": "BBWI",
+   "date": "2026-11-19T13:30:00+00:00",
+   "timing": "before the open",
+   "eps_est": 0.4,
+   "company": "Bath & Body Works, Inc.",
+   "market_cap": 3710273682.2784
   }
  ],
  "disclaimer": "Leia ranks setups from public data; she does not predict prices and this is not financial advice. Short-term trading is risky and most picks with big upside carry matching downside."
