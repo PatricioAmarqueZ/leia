@@ -803,5 +803,145 @@
   "symbol": "REGN",
   "entry": 945.53,
   "score": 63
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "INSM",
+  "entry": 144.465,
+  "score": 71
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "SVRA",
+  "entry": 5.27,
+  "score": 61
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "NUAI",
+  "entry": 4.4032,
+  "score": 56
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "VRDN",
+  "entry": 31.415,
+  "score": 51
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "KRNT",
+  "entry": 14.77,
+  "score": 50
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "TU",
+  "entry": 10.84,
+  "score": 48
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "CTKB",
+  "entry": 6.285,
+  "score": 48
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "PDD",
+  "entry": 85.945,
+  "score": 48
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "BRBR",
+  "entry": 15.045,
+  "score": 48
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "CRMD",
+  "entry": 5.145,
+  "score": 48
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "VVV",
+  "entry": 36.615,
+  "score": 47
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "UTZ",
+  "entry": 14.285,
+  "score": 45
+ },
+ {
+  "date": "2026-11-19",
+  "list": "core",
+  "symbol": "SN",
+  "entry": 217.445,
+  "score": 74
+ },
+ {
+  "date": "2026-11-19",
+  "list": "core",
+  "symbol": "U",
+  "entry": 46.93,
+  "score": 74
+ },
+ {
+  "date": "2026-11-19",
+  "list": "core",
+  "symbol": "GMAB",
+  "entry": 51.315,
+  "score": 69
+ },
+ {
+  "date": "2026-11-19",
+  "list": "core",
+  "symbol": "DIS",
+  "entry": 120.65,
+  "score": 67
+ },
+ {
+  "date": "2026-11-19",
+  "list": "core",
+  "symbol": "LTH",
+  "entry": 46.635,
+  "score": 65
+ },
+ {
+  "date": "2026-11-19",
+  "list": "core",
+  "symbol": "PCOR",
+  "entry": 73.34,
+  "score": 59
+ },
+ {
+  "date": "2026-11-19",
+  "list": "core",
+  "symbol": "CDW",
+  "entry": 167.54,
+  "score": 59
+ },
+ {
+  "date": "2026-11-19",
+  "list": "core",
+  "symbol": "CAH",
+  "entry": 273.0,
+  "score": 59
  }
 ]
