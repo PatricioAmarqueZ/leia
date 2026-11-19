@@ -1,32 +1,32 @@
 {
- "picks": 111,
+ "picks": 115,
  "lists": {
   "catalysts": {
    "same_day": {
-    "n": 58,
-    "avg": 0.14,
-    "win_rate": 22.4,
-    "avg_vs_spy": 0.97
+    "n": 73,
+    "avg": 0.16,
+    "win_rate": 24.7,
+    "avg_vs_spy": 0.87
    },
    "1d": {
-    "n": 45,
-    "avg": -0.22,
-    "win_rate": 33.3,
-    "avg_vs_spy": 1.63
+    "n": 58,
+    "avg": 0.31,
+    "win_rate": 39.7,
+    "avg_vs_spy": 2.04
    }
   },
   "core": {
    "same_day": {
-    "n": 33,
-    "avg": -0.17,
-    "win_rate": 18.2,
-    "avg_vs_spy": 0.73
+    "n": 42,
+    "avg": -0.2,
+    "win_rate": 16.7,
+    "avg_vs_spy": 0.57
    },
    "1d": {
-    "n": 25,
-    "avg": -0.46,
-    "win_rate": 36.0,
-    "avg_vs_spy": 1.45
+    "n": 33,
+    "avg": -0.56,
+    "win_rate": 33.3,
+    "avg_vs_spy": 1.21
    }
   }
  },
@@ -36,140 +36,216 @@
    "list": "catalysts",
    "symbol": "OBIO",
    "entry": 7.5,
-   "score": 64
+   "score": 64,
+   "same_day": -0.53,
+   "same_day_vs_spy": -0.23
   },
   {
    "date": "2026-11-18",
    "list": "catalysts",
    "symbol": "BRBR",
    "entry": 13.69,
-   "score": 61
+   "score": 61,
+   "same_day": -0.22,
+   "same_day_vs_spy": 0.09
   },
   {
    "date": "2026-11-18",
    "list": "catalysts",
    "symbol": "SAIL",
    "entry": 22.53,
-   "score": 57
+   "score": 57,
+   "same_day": -1.24,
+   "same_day_vs_spy": -0.94
   },
   {
    "date": "2026-11-18",
    "list": "catalysts",
    "symbol": "VIA",
    "entry": 45.915,
-   "score": 55
+   "score": 55,
+   "same_day": 1.32,
+   "same_day_vs_spy": 1.62
   },
   {
    "date": "2026-11-18",
    "list": "catalysts",
    "symbol": "UPBD",
    "entry": 26.12,
-   "score": 53
+   "score": 53,
+   "same_day": 1.0,
+   "same_day_vs_spy": 1.3
   },
   {
    "date": "2026-11-18",
    "list": "catalysts",
    "symbol": "NUAI",
    "entry": 3.895,
-   "score": 53
+   "score": 53,
+   "same_day": 2.44,
+   "same_day_vs_spy": 2.74
   },
   {
    "date": "2026-11-18",
    "list": "catalysts",
    "symbol": "POWW",
    "entry": 2.705,
-   "score": 51
+   "score": 51,
+   "same_day": -0.18,
+   "same_day_vs_spy": 0.12
   },
   {
    "date": "2026-11-18",
    "list": "catalysts",
    "symbol": "IIIV",
    "entry": 20.7,
-   "score": 50
+   "score": 50,
+   "same_day": 1.55,
+   "same_day_vs_spy": 1.85
   },
   {
    "date": "2026-11-18",
    "list": "catalysts",
    "symbol": "FROG",
    "entry": 114.81,
-   "score": 49
+   "score": 49,
+   "same_day": -0.37,
+   "same_day_vs_spy": -0.07
   },
   {
    "date": "2026-11-18",
    "list": "catalysts",
    "symbol": "DIN",
    "entry": 39.01,
-   "score": 49
+   "score": 49,
+   "same_day": -0.38,
+   "same_day_vs_spy": -0.08
   },
   {
    "date": "2026-11-18",
    "list": "catalysts",
    "symbol": "WWW",
    "entry": 25.69,
-   "score": 49
+   "score": 49,
+   "same_day": 0.7,
+   "same_day_vs_spy": 1.01
   },
   {
    "date": "2026-11-18",
    "list": "catalysts",
    "symbol": "REF",
    "entry": 20.23,
-   "score": 49
+   "score": 49,
+   "same_day": -0.99,
+   "same_day_vs_spy": -0.68
   },
   {
    "date": "2026-11-18",
    "list": "core",
    "symbol": "ONC",
    "entry": 403.7975,
-   "score": 73
+   "score": 73,
+   "same_day": -0.05,
+   "same_day_vs_spy": 0.26
   },
   {
    "date": "2026-11-18",
    "list": "core",
    "symbol": "SN",
    "entry": 228.77,
-   "score": 72
+   "score": 72,
+   "same_day": 0.58,
+   "same_day_vs_spy": 0.88
   },
   {
    "date": "2026-11-18",
    "list": "core",
    "symbol": "U",
    "entry": 49.175,
-   "score": 71
+   "score": 71,
+   "same_day": -0.44,
+   "same_day_vs_spy": -0.13
   },
   {
    "date": "2026-11-18",
    "list": "core",
    "symbol": "GMAB",
    "entry": 51.18,
-   "score": 70
+   "score": 70,
+   "same_day": -0.41,
+   "same_day_vs_spy": -0.1
   },
   {
    "date": "2026-11-18",
    "list": "core",
    "symbol": "HAS",
    "entry": 118.64,
-   "score": 68
+   "score": 68,
+   "same_day": -0.0,
+   "same_day_vs_spy": 0.31
   },
   {
    "date": "2026-11-18",
    "list": "core",
    "symbol": "DIS",
    "entry": 122.68,
-   "score": 66
+   "score": 66,
+   "same_day": -0.26,
+   "same_day_vs_spy": 0.04
   },
   {
    "date": "2026-11-18",
    "list": "core",
    "symbol": "CPAY",
    "entry": 456.31,
-   "score": 65
+   "score": 65,
+   "same_day": -0.24,
+   "same_day_vs_spy": 0.07
   },
   {
    "date": "2026-11-18",
    "list": "core",
    "symbol": "LTH",
    "entry": 48.185,
-   "score": 63
+   "score": 63,
+   "same_day": -0.2,
+   "same_day_vs_spy": 0.11
+  },
+  {
+   "date": "2026-11-18",
+   "list": "catalysts",
+   "symbol": "TFX",
+   "entry": 165.85,
+   "score": 53,
+   "same_day": 0.0,
+   "same_day_vs_spy": 0.31
+  },
+  {
+   "date": "2026-11-18",
+   "list": "catalysts",
+   "symbol": "BILL",
+   "entry": 66.01,
+   "score": 53,
+   "same_day": 0.0,
+   "same_day_vs_spy": 0.31
+  },
+  {
+   "date": "2026-11-18",
+   "list": "catalysts",
+   "symbol": "CODI",
+   "entry": 12.62,
+   "score": 52,
+   "same_day": -0.0,
+   "same_day_vs_spy": 0.31
+  },
+  {
+   "date": "2026-11-18",
+   "list": "core",
+   "symbol": "REGN",
+   "entry": 945.53,
+   "score": 63,
+   "same_day": 0.0,
+   "same_day_vs_spy": 0.31
   },
   {
    "date": "2026-11-17",
@@ -178,7 +254,9 @@
    "entry": 64.97,
    "score": 80,
    "same_day": -0.14,
-   "same_day_vs_spy": 0.88
+   "same_day_vs_spy": 0.88,
+   "1d": 1.6,
+   "1d_vs_spy": 2.92
   },
   {
    "date": "2026-11-17",
@@ -187,7 +265,9 @@
    "entry": 116.61,
    "score": 65,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": 2.08,
+   "1d_vs_spy": 3.4
   },
   {
    "date": "2026-11-17",
@@ -196,7 +276,9 @@
    "entry": 27.38,
    "score": 64,
    "same_day": 0.07,
-   "same_day_vs_spy": 1.09
+   "same_day_vs_spy": 1.09,
+   "1d": 3.32,
+   "1d_vs_spy": 4.64
   },
   {
    "date": "2026-11-17",
@@ -205,7 +287,9 @@
    "entry": 19.15,
    "score": 59,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": -6.27,
+   "1d_vs_spy": -4.95
   },
   {
    "date": "2026-11-17",
@@ -214,7 +298,9 @@
    "entry": 8.86,
    "score": 52,
    "same_day": -0.23,
-   "same_day_vs_spy": 0.79
+   "same_day_vs_spy": 0.79,
+   "1d": -6.55,
+   "1d_vs_spy": -5.23
   },
   {
    "date": "2026-11-17",
@@ -223,7 +309,9 @@
    "entry": 80.56,
    "score": 51,
    "same_day": -0.04,
-   "same_day_vs_spy": 0.98
+   "same_day_vs_spy": 0.98,
+   "1d": 2.26,
+   "1d_vs_spy": 3.58
   },
   {
    "date": "2026-11-17",
@@ -232,7 +320,9 @@
    "entry": 159.605,
    "score": 48,
    "same_day": -0.03,
-   "same_day_vs_spy": 0.98
+   "same_day_vs_spy": 0.98,
+   "1d": 3.91,
+   "1d_vs_spy": 5.23
   },
   {
    "date": "2026-11-17",
@@ -241,7 +331,9 @@
    "entry": 4.015,
    "score": 47,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": 5.85,
+   "1d_vs_spy": 7.17
   },
   {
    "date": "2026-11-17",
@@ -250,7 +342,9 @@
    "entry": 22.59,
    "score": 46,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": -2.66,
+   "1d_vs_spy": -1.34
   },
   {
    "date": "2026-11-17",
@@ -259,7 +353,9 @@
    "entry": 32.97,
    "score": 43,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": -2.27,
+   "1d_vs_spy": -0.96
   },
   {
    "date": "2026-11-17",
@@ -268,7 +364,9 @@
    "entry": 6.05,
    "score": 42,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": 24.46,
+   "1d_vs_spy": 25.78
   },
   {
    "date": "2026-11-17",
@@ -277,7 +375,9 @@
    "entry": 104.78,
    "score": 41,
    "same_day": -0.03,
-   "same_day_vs_spy": 0.99
+   "same_day_vs_spy": 0.99,
+   "1d": 2.39,
+   "1d_vs_spy": 3.7
   },
   {
    "date": "2026-11-17",
@@ -286,7 +386,9 @@
    "entry": 220.14,
    "score": 74,
    "same_day": -0.01,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": 4.52,
+   "1d_vs_spy": 5.84
   },
   {
    "date": "2026-11-17",
@@ -295,7 +397,9 @@
    "entry": 413.26,
    "score": 72,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": -2.34,
+   "1d_vs_spy": -1.02
   },
   {
    "date": "2026-11-17",
@@ -304,7 +408,9 @@
    "entry": 32.97,
    "score": 70,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": -2.27,
+   "1d_vs_spy": -0.96
   },
   {
    "date": "2026-11-17",
@@ -313,7 +419,9 @@
    "entry": 51.96,
    "score": 68,
    "same_day": -0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": -1.91,
+   "1d_vs_spy": -0.59
   },
   {
    "date": "2026-11-17",
@@ -322,7 +430,9 @@
    "entry": 50.355,
    "score": 68,
    "same_day": 0.01,
-   "same_day_vs_spy": 1.02
+   "same_day_vs_spy": 1.02,
+   "1d": -2.77,
+   "1d_vs_spy": -1.45
   },
   {
    "date": "2026-11-17",
@@ -331,7 +441,9 @@
    "entry": 137.88,
    "score": 65,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": -2.14,
+   "1d_vs_spy": -0.82
   },
   {
    "date": "2026-11-17",
@@ -340,7 +452,9 @@
    "entry": 46.76,
    "score": 64,
    "same_day": -0.06,
-   "same_day_vs_spy": 0.95
+   "same_day_vs_spy": 0.95,
+   "1d": 2.84,
+   "1d_vs_spy": 4.16
   },
   {
    "date": "2026-11-17",
@@ -349,7 +463,9 @@
    "entry": 957.76,
    "score": 63,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": -1.28,
+   "1d_vs_spy": 0.04
   },
   {
    "date": "2026-11-17",
@@ -358,7 +474,9 @@
    "entry": 111.43,
    "score": 46,
    "same_day": 0.0,
-   "same_day_vs_spy": 1.01
+   "same_day_vs_spy": 1.01,
+   "1d": -0.49,
+   "1d_vs_spy": 0.82
   },
   {
    "date": "2026-11-16",
@@ -524,50 +642,6 @@
    "same_day_vs_spy": 1.91,
    "1d": 0.48,
    "1d_vs_spy": 3.39
-  },
-  {
-   "date": "2026-11-16",
-   "list": "core",
-   "symbol": "GMAB",
-   "entry": 51.57,
-   "score": 69,
-   "same_day": -0.0,
-   "same_day_vs_spy": 1.91,
-   "1d": 0.76,
-   "1d_vs_spy": 3.66
-  },
-  {
-   "date": "2026-11-16",
-   "list": "core",
-   "symbol": "CHYM",
-   "entry": 34.29,
-   "score": 67,
-   "same_day": 0.0,
-   "same_day_vs_spy": 1.91,
-   "1d": -3.85,
-   "1d_vs_spy": -0.94
-  },
-  {
-   "date": "2026-11-16",
-   "list": "core",
-   "symbol": "U",
-   "entry": 51.88,
-   "score": 66,
-   "same_day": 0.0,
-   "same_day_vs_spy": 1.91,
-   "1d": -2.93,
-   "1d_vs_spy": -0.02
-  },
-  {
-   "date": "2026-11-16",
-   "list": "core",
-   "symbol": "HAS",
-   "entry": 121.02,
-   "score": 66,
-   "same_day": -0.0,
-   "same_day_vs_spy": 1.91,
-   "1d": -2.21,
-   "1d_vs_spy": 0.7
   }
  ]
 }

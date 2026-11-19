@@ -775,5 +775,33 @@
   "symbol": "LTH",
   "entry": 48.185,
   "score": 63
+ },
+ {
+  "date": "2026-11-18",
+  "list": "catalysts",
+  "symbol": "TFX",
+  "entry": 165.85,
+  "score": 53
+ },
+ {
+  "date": "2026-11-18",
+  "list": "catalysts",
+  "symbol": "BILL",
+  "entry": 66.01,
+  "score": 53
+ },
+ {
+  "date": "2026-11-18",
+  "list": "catalysts",
+  "symbol": "CODI",
+  "entry": 12.62,
+  "score": 52
+ },
+ {
+  "date": "2026-11-18",
+  "list": "core",
+  "symbol": "REGN",
+  "entry": 945.53,
+  "score": 63
  }
 ]
