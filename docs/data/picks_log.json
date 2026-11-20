@@ -943,5 +943,19 @@
   "symbol": "CAH",
   "entry": 273.0,
   "score": 59
+ },
+ {
+  "date": "2026-11-19",
+  "list": "catalysts",
+  "symbol": "BILL",
+  "entry": 64.08,
+  "score": 44
+ },
+ {
+  "date": "2026-11-19",
+  "list": "core",
+  "symbol": "RGA",
+  "entry": 268.03,
+  "score": 66
  }
 ]
