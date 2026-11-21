@@ -1097,5 +1097,40 @@
   "symbol": "PCOR",
   "entry": 71.815,
   "score": 58
+ },
+ {
+  "date": "2026-11-20",
+  "list": "catalysts",
+  "symbol": "BIPC",
+  "entry": 42.82,
+  "score": 47
+ },
+ {
+  "date": "2026-11-20",
+  "list": "catalysts",
+  "symbol": "PSQL",
+  "entry": 3.3,
+  "score": 47
+ },
+ {
+  "date": "2026-11-20",
+  "list": "catalysts",
+  "symbol": "XERS",
+  "entry": 16.97,
+  "score": 43
+ },
+ {
+  "date": "2026-11-20",
+  "list": "catalysts",
+  "symbol": "GLOB",
+  "entry": 41.63,
+  "score": 41
+ },
+ {
+  "date": "2026-11-20",
+  "list": "core",
+  "symbol": "RGA",
+  "entry": 266.78,
+  "score": 68
  }
 ]
