@@ -1,11 +1,11 @@
 {
  "assistant": "Leia",
- "generated_at": "2026-11-20T21:42:24.302320-05:00",
- "date": "2026-11-20",
- "market_state": "POSTPOST",
- "universe_size": 2721,
- "greeting": "Good evening. Leia here. Markets are closed, so this is your look ahead.",
- "summary": "I've been through 2,721 stocks. 12 short-term setups made the cut, led by BIP with a score of 56. For steadier holds, SN tops the list.",
+ "generated_at": "2026-11-21T12:56:51.868040-05:00",
+ "date": "2026-11-21",
+ "market_state": "CLOSED",
+ "universe_size": 2746,
+ "greeting": "Good afternoon. Leia here. Markets are closed, so this is your look ahead.",
+ "summary": "I've been through 2,746 stocks. 12 short-term setups made the cut, led by BIP with a score of 55. For steadier holds, SN tops the list.",
  "market": {
   "S&P 500": {
    "price": 689.81,
@@ -29,14 +29,14 @@
    "price": 42.81,
    "move_pct": 5.87,
    "move_label": "day + after-hours",
-   "rel_volume": 4.74,
+   "rel_volume": 4.46,
    "market_cap": 33901916160.0,
-   "score": 56,
+   "score": 55,
    "confidence": "Medium",
    "risk": "Moderate",
    "reasons": [
     "Up 5.9% day + after-hours",
-    "Trading 4.7x its normal volume, so real money is behind the move",
+    "Trading 4.5x its normal volume, so real money is behind the move",
     "Within 2.8% of its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 16% over the past month"
@@ -92,16 +92,18 @@
    ],
    "news": [
     {
+     "title": "Brookfield Infrastructure (BIPC) Is Getting Wall Street Excited \u2014 Here\u2019s Why",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/brookfield-infrastructure-bipc-getting-wall-071324504.html",
+     "publisher": "Insider Monkey"
+    },
+    {
      "title": "Brookfield Infrastructure: 3 Key Takeaways for Long-Term Investors",
      "url": "https://www.fool.com/earnings/takeaways/2026/11/10/brookfield-infrastructure-3-key-takeaways-for-long-term-investors/",
      "publisher": "Motley Fool"
-    },
-    {
-     "title": "Learn Why The Bull Case For Brookfield Infrastructure Partners Stock Could Change Following Quarterly Loss",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-brookfield-031116751.html",
-     "publisher": "Simply Wall St."
     }
-   ]
+   ],
+   "streak": 1,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=BIP"
   },
   {
    "symbol": "GPN",
@@ -111,14 +113,14 @@
    "price": 91.83,
    "move_pct": 13.47,
    "move_label": "day + after-hours",
-   "rel_volume": 3.34,
+   "rel_volume": 3.24,
    "market_cap": 24301506560.0,
    "score": 52,
    "confidence": "Medium",
    "risk": "Very high",
    "reasons": [
     "Up 13.5% day + after-hours",
-    "Trading 3.3x its normal volume, so real money is behind the move",
+    "Trading 3.2x its normal volume, so real money is behind the move",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "33 analysts see 19% upside on average (target $109.30)"
    ],
@@ -175,99 +177,18 @@
    ],
    "news": [
     {
+     "title": "Global Payments (GPN) Gets a Potential Lifeline as New Takeover Buzz Heats Up",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/global-payments-gpn-gets-potential-065105957.html",
+     "publisher": "Insider Monkey"
+    },
+    {
      "title": "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover Bid",
      "url": "https://www.tikr.com/blog/global-payments-soars-10-as-gtcr-revives-buyout-talk-with-50-billion-takeover-bid?ref=yahoofinance&tlnk=yf-261120-frxg9pv4",
      "publisher": "TIKR"
-    },
-    {
-     "title": "The (Few) Stocks Defying The Tech Selloff",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026/card/the-few-stocks-defying-the-tech-selloff-PAYAB6pfefN2SlPPJfbh?siteid=yhoof2&yptr=yahoo",
-     "publisher": "The Wall Street Journal"
     }
-   ]
-  },
-  {
-   "symbol": "BILL",
-   "name": "BILL Holdings, Inc.",
-   "sector": "Technology",
-   "industry": "Software - Application",
-   "price": 61.44,
-   "move_pct": -4.12,
-   "move_label": "today",
-   "rel_volume": 16.26,
-   "market_cap": 5276654080.0,
-   "score": 50,
-   "confidence": "Medium",
-   "risk": "High",
-   "reasons": [
-    "Trading 16.3x its normal volume, so real money is behind the move",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 21% over the past month",
-    "19% of the float is sold short: fuel for a squeeze if it keeps rising"
    ],
-   "risks": [
-    "Heavily shorted stocks are violent in both directions"
-   ],
-   "projection": {
-    "target_low": 50.0,
-    "target_mean": 62.3036,
-    "target_high": 73.0,
-    "bear": -18.6,
-    "base": 1.4,
-    "bull": 18.8,
-    "analysts": 14,
-    "rating": "buy",
-    "rating_mean": 1.9546
-   },
-   "daily_swing": 3.7,
-   "ret_5d": 12.7753,
-   "ret_20d": 21.1834,
-   "ret_60d": 25.7213,
-   "earnings": null,
-   "spark": [
-    44.17,
-    43.98,
-    44.18,
-    46.92,
-    45.6,
-    45.69,
-    49.09,
-    49.01,
-    50.67,
-    50.7,
-    49.93,
-    49.41,
-    48.02,
-    48.47,
-    48.31,
-    49.72,
-    49.82,
-    51.87,
-    50.89,
-    52.41,
-    53.81,
-    53.74,
-    54.43,
-    54.0,
-    54.48,
-    57.63,
-    64.88,
-    66.01,
-    64.08,
-    61.44
-   ],
-   "news": [
-    {
-     "title": "BILL to Go Private in $6 Billion Acquisition Deal With TPG and Corpay",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/bill-private-6-billion-acquisition-171000924.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Bill sells for $6B to TPG, Corpay",
-     "url": "https://www.paymentsdive.com/news/bill-sells-for-6b-to-tpg-corpay/875331/",
-     "publisher": "Payments Dive"
-    }
-   ]
+   "streak": 1,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=GPN"
   },
   {
    "symbol": "UPBD",
@@ -277,7 +198,7 @@
    "price": 25.44,
    "move_pct": 3.31,
    "move_label": "day + after-hours",
-   "rel_volume": 1.46,
+   "rel_volume": 1.44,
    "market_cap": 1483212544.0,
    "score": 49,
    "confidence": "Speculative",
@@ -353,7 +274,94 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/upbound-group-upbd-posted-mixed-151437602.html",
      "publisher": "Simply Wall St."
     }
-   ]
+   ],
+   "streak": 1,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=UPBD"
+  },
+  {
+   "symbol": "BILL",
+   "name": "BILL Holdings, Inc.",
+   "sector": "Technology",
+   "industry": "Software - Application",
+   "price": 61.44,
+   "move_pct": -4.12,
+   "move_label": "today",
+   "rel_volume": 13.21,
+   "market_cap": 5276654080.0,
+   "score": 47,
+   "confidence": "Speculative",
+   "risk": "High",
+   "reasons": [
+    "Trading 13.2x its normal volume, so real money is behind the move",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 21% over the past month",
+    "19% of the float is sold short: fuel for a squeeze if it keeps rising"
+   ],
+   "risks": [
+    "Heavily shorted stocks are violent in both directions"
+   ],
+   "projection": {
+    "target_low": 58.0,
+    "target_mean": 63.4821,
+    "target_high": 73.0,
+    "bear": -5.6,
+    "base": 3.3,
+    "bull": 18.8,
+    "analysts": 14,
+    "rating": "hold",
+    "rating_mean": 2.9524
+   },
+   "daily_swing": 3.7,
+   "ret_5d": 12.7753,
+   "ret_20d": 21.1834,
+   "ret_60d": 25.7213,
+   "earnings": null,
+   "spark": [
+    44.17,
+    43.98,
+    44.18,
+    46.92,
+    45.6,
+    45.69,
+    49.09,
+    49.01,
+    50.67,
+    50.7,
+    49.93,
+    49.41,
+    48.02,
+    48.47,
+    48.31,
+    49.72,
+    49.82,
+    51.87,
+    50.89,
+    52.41,
+    53.81,
+    53.74,
+    54.43,
+    54.0,
+    54.48,
+    57.63,
+    64.88,
+    66.01,
+    64.08,
+    61.44
+   ],
+   "news": [
+    {
+     "title": "Is BILL Holdings (BILL) Fully Valued After Its $6b Go Private Deal?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-fully-valued-110952400.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "BILL to Go Private in $6 Billion Acquisition Deal With TPG and Corpay",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/bill-private-6-billion-acquisition-171000924.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "streak": 5,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=BILL"
   },
   {
    "symbol": "BIPC",
@@ -363,14 +371,14 @@
    "price": 42.82,
    "move_pct": 8.21,
    "move_label": "day + after-hours",
-   "rel_volume": 6.82,
+   "rel_volume": 6.2,
    "market_cap": 5267762176.0,
-   "score": 47,
+   "score": 46,
    "confidence": "Speculative",
    "risk": "Moderate",
    "reasons": [
     "Up 8.2% day + after-hours",
-    "Trading 6.8x its normal volume, so real money is behind the move",
+    "Trading 6.2x its normal volume, so real money is behind the move",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 15% over the past month"
    ],
@@ -417,16 +425,18 @@
    ],
    "news": [
     {
+     "title": "Brookfield Infrastructure (BIPC) Is Getting Wall Street Excited \u2014 Here\u2019s Why",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/brookfield-infrastructure-bipc-getting-wall-071324504.html",
+     "publisher": "Insider Monkey"
+    },
+    {
      "title": "Brookfield Infrastructure: 3 Key Takeaways for Long-Term Investors",
      "url": "https://www.fool.com/earnings/takeaways/2026/11/10/brookfield-infrastructure-3-key-takeaways-for-long-term-investors/",
      "publisher": "Motley Fool"
-    },
-    {
-     "title": "Brookfield Infrastructure Corp (BIPC) (Q3 2026) Earnings Call Highlights: 10% FFO Growth, $2 ...",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/brookfield-infrastructure-corp-bipc-q3-030801034.html",
-     "publisher": "GuruFocus.com"
     }
-   ]
+   ],
+   "streak": 1,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=BIPC"
   },
   {
    "symbol": "PSQL",
@@ -436,14 +446,14 @@
    "price": 3.3,
    "move_pct": 13.03,
    "move_label": "day + after-hours",
-   "rel_volume": 3.86,
+   "rel_volume": 3.65,
    "market_cap": 700569216.0,
-   "score": 47,
+   "score": 46,
    "confidence": "Speculative",
    "risk": "Very high",
    "reasons": [
     "Up 13.0% day + after-hours",
-    "Trading 3.9x its normal volume, so real money is behind the move",
+    "Trading 3.6x its normal volume, so real money is behind the move",
     "5 analysts see 311% upside on average (target $13.56)"
    ],
    "risks": [
@@ -511,7 +521,9 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/psql-stock-backed-aramco-google-133839910.html",
      "publisher": "Insider Monkey"
     }
-   ]
+   ],
+   "streak": 1,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=PSQL"
   },
   {
    "symbol": "UTZ",
@@ -521,8 +533,8 @@
    "price": 14.29,
    "move_pct": 0.21,
    "move_label": "today",
-   "rel_volume": 10.81,
-   "market_cap": 2057219968.0,
+   "rel_volume": 10.83,
+   "market_cap": 1266282880.0,
    "score": 45,
    "confidence": "Speculative",
    "risk": "High",
@@ -531,7 +543,9 @@
     "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages"
    ],
-   "risks": [],
+   "risks": [
+    "Small cap ($1.3B): moves fast both ways and can be thinly traded"
+   ],
    "projection": {
     "target_low": 14.0,
     "target_mean": 14.3214,
@@ -591,7 +605,9 @@
      "url": "https://www.fooddive.com/news/utz-ceo-merger-snacking/874104/",
      "publisher": "Food Dive"
     }
-   ]
+   ],
+   "streak": 2,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=UTZ"
   },
   {
    "symbol": "ENR",
@@ -601,14 +617,14 @@
    "price": 28.56,
    "move_pct": 3.44,
    "move_label": "day + after-hours",
-   "rel_volume": 1.56,
+   "rel_volume": 1.55,
    "market_cap": 1965428096.0,
    "score": 44,
    "confidence": "Speculative",
    "risk": "High",
    "reasons": [
     "Up 3.4% day + after-hours",
-    "Trading 1.6x its normal volume, so real money is behind the move",
+    "Trading 1.5x its normal volume, so real money is behind the move",
     "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 27% over the past month"
@@ -676,7 +692,9 @@
      "url": "https://www.fool.com/earnings/call-transcripts/2026/11/17/energizer-enr-q4-2026-earnings-call-transcript/",
      "publisher": "Motley Fool"
     }
-   ]
+   ],
+   "streak": 1,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ENR"
   },
   {
    "symbol": "TAK",
@@ -686,7 +704,7 @@
    "price": 21.77,
    "move_pct": 3.15,
    "move_label": "day + after-hours",
-   "rel_volume": 1.41,
+   "rel_volume": 1.39,
    "market_cap": 69552930816.0,
    "score": 43,
    "confidence": "Speculative",
@@ -757,7 +775,9 @@
      "url": "https://finance.yahoo.com/healthcare/articles/takeda-tse-4502-stock-may-181656317.html",
      "publisher": "Simply Wall St."
     }
-   ]
+   ],
+   "streak": 1,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=TAK"
   },
   {
    "symbol": "XERS",
@@ -767,7 +787,7 @@
    "price": 16.97,
    "move_pct": 2.11,
    "move_label": "today",
-   "rel_volume": 1.01,
+   "rel_volume": 1.0,
    "market_cap": 3100419328.0,
    "score": 43,
    "confidence": "Speculative",
@@ -840,7 +860,9 @@
      "url": "https://www.trefis.com/stock/cort/articles/626179/what-is-driving-the-move-in-corcept-therapeutics-stock/2026-11-18",
      "publisher": "Trefis"
     }
-   ]
+   ],
+   "streak": 1,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=XERS"
   },
   {
    "symbol": "IBN",
@@ -850,13 +872,13 @@
    "price": 35.47,
    "move_pct": 1.63,
    "move_label": "today",
-   "rel_volume": 1.87,
+   "rel_volume": 1.83,
    "market_cap": 127418630144.0,
    "score": 42,
    "confidence": "Speculative",
    "risk": "Lower",
    "reasons": [
-    "Trading 1.9x its normal volume, so real money is behind the move",
+    "Trading 1.8x its normal volume, so real money is behind the move",
     "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 20% over the past month"
@@ -921,92 +943,94 @@
      "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-153931695.html",
      "publisher": "MT Newswires"
     }
-   ]
+   ],
+   "streak": 1,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=IBN"
   },
   {
-   "symbol": "GLOB",
-   "name": "Globant S.A.",
-   "sector": "Technology",
-   "industry": "Information Technology Services",
-   "price": 41.63,
-   "move_pct": 2.54,
+   "symbol": "GAP",
+   "name": "Gap, Inc. (The)",
+   "sector": "Consumer Cyclical",
+   "industry": "Apparel Retail",
+   "price": 20.94,
+   "move_pct": 12.02,
    "move_label": "day + after-hours",
-   "rel_volume": 4.0,
-   "market_cap": 1797564928.0,
-   "score": 41,
+   "rel_volume": 3.75,
+   "market_cap": 7355596800.0,
+   "score": 40,
    "confidence": "Speculative",
    "risk": "High",
    "reasons": [
-    "Up 2.5% day + after-hours",
-    "Trading 4.0x its normal volume, so real money is behind the move",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "21 analysts see 25% upside on average (target $52.10)",
-    "26% of the float is sold short: fuel for a squeeze if it keeps rising"
+    "Up 12.0% day + after-hours",
+    "Trading 3.8x its normal volume, so real money is behind the move",
+    "18 analysts see 16% upside on average (target $24.21)"
    ],
    "risks": [
-    "Heavily shorted stocks are violent in both directions",
-    "Small cap ($1.8B): moves fast both ways and can be thinly traded"
+    "Still below its 200-day average, so the longer trend is down",
+    "Typically swings about 4.4% a day"
    ],
    "projection": {
-    "target_low": 35.0,
-    "target_mean": 52.0952,
-    "target_high": 100.0,
-    "bear": -15.9,
-    "base": 25.1,
-    "bull": 140.2,
-    "analysts": 21,
+    "target_low": 20.0,
+    "target_mean": 24.2111,
+    "target_high": 36.0,
+    "bear": -4.5,
+    "base": 15.6,
+    "bull": 71.9,
+    "analysts": 18,
     "rating": "buy",
-    "rating_mean": 2.3913
+    "rating_mean": 2.3182
    },
-   "daily_swing": 3.65,
-   "ret_5d": -8.3443,
-   "ret_20d": -7.5505,
-   "ret_60d": 3.6346,
+   "daily_swing": 4.43,
+   "ret_5d": -0.617,
+   "ret_20d": -6.1828,
+   "ret_60d": 1.4679,
    "earnings": null,
    "spark": [
-    36.43,
-    37.17,
-    36.87,
-    39.23,
-    39.56,
-    40.14,
-    41.65,
-    43.2,
-    45.78,
-    45.03,
-    45.0,
-    42.97,
-    43.28,
-    43.68,
-    46.72,
-    47.78,
-    45.77,
-    48.04,
-    49.24,
-    47.41,
-    47.41,
-    48.81,
-    46.34,
-    45.75,
-    45.42,
-    44.77,
-    42.63,
-    42.65,
-    39.98,
-    41.63
+    22.78,
+    22.83,
+    22.67,
+    23.46,
+    23.12,
+    23.54,
+    23.47,
+    22.69,
+    22.91,
+    22.32,
+    22.26,
+    21.7,
+    22.0,
+    22.89,
+    22.32,
+    22.22,
+    21.99,
+    23.75,
+    22.41,
+    21.48,
+    22.23,
+    21.97,
+    21.53,
+    21.25,
+    21.07,
+    19.76,
+    19.35,
+    19.84,
+    18.79,
+    20.94
    ],
    "news": [
     {
-     "title": "Globant (GLOB) Stock Could Be A Bargain After Fresh AI Growth News",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/globant-glob-stock-could-bargain-001723350.html",
+     "title": "Will Gap (GPS) Stock Get Hit If West Coast Ports Shut Down?",
+     "url": "https://finance.yahoo.com/news/gap-gps-stock-hit-west-121331171.html",
      "publisher": "Simply Wall St."
     },
     {
-     "title": "Why Globant Stock Flew Higher on a Lousy Friday for the Market",
-     "url": "https://www.fool.com/investing/2026/11/20/why-globant-stock-flew-higher-on-a-lousy-friday-for-the-market/",
-     "publisher": "Motley Fool"
+     "title": "The Gap Inc. (GAP) Is Showing Wall Street It Can Weather Economic Headwinds",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/gap-inc-gap-showing-wall-064629485.html",
+     "publisher": "Insider Monkey"
     }
-   ]
+   ],
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=GAP"
   }
  ],
  "core": [
@@ -1090,7 +1114,9 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/acco-vs-sn-stock-better-154002988.html",
      "publisher": "Zacks"
     }
-   ]
+   ],
+   "streak": 7,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=SN"
   },
   {
    "symbol": "U",
@@ -1100,7 +1126,7 @@
    "price": 44.75,
    "move_pct": -3.39,
    "move_label": "day + after-hours",
-   "rel_volume": 0.99,
+   "rel_volume": 0.98,
    "market_cap": 19861334016.0,
    "score": 73,
    "confidence": "High",
@@ -1171,7 +1197,9 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/unity-software-inc-u-trending-130005181.html",
      "publisher": "Zacks"
     }
-   ]
+   ],
+   "streak": 7,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=U"
   },
   {
    "symbol": "GMAB",
@@ -1245,16 +1273,18 @@
    ],
    "news": [
     {
-     "title": "Genmab's Scores A 'Hat Trick' And Cruises 60% In A Month. What Comes Next.",
-     "url": "https://www.investors.com/research/the-new-america/genmab-stock-epkinly-tivdak-royalties-adcs-bispecifics/?src=A00220&yptr=yahoo",
+     "title": "Target, Biotech Lead 5 Stocks Showing Strength In Brutal Market",
+     "url": "https://www.investors.com/news/target-biotech-lead-5-stocks-showing-strength-in-brutal-market/?src=A00220&yptr=yahoo",
      "publisher": "Investor's Business Daily"
     },
     {
-     "title": "Johnson & Johnson vs. Vertex Pharmaceuticals: Which Healthcare Stock Is a Better Buy for 2027?",
-     "url": "https://www.fool.com/coverage/better-buy/2026/11/17/johnson-johnson-vs-vertex-pharmaceuticals-which-healthcare-stock-is-a-better-buy-for-2027/",
-     "publisher": "Motley Fool"
+     "title": "Genmab's Scores A 'Hat Trick' And Cruises 60% In A Month. What Comes Next.",
+     "url": "https://www.investors.com/research/the-new-america/genmab-stock-epkinly-tivdak-royalties-adcs-bispecifics/?src=A00220&yptr=yahoo",
+     "publisher": "Investor's Business Daily"
     }
-   ]
+   ],
+   "streak": 7,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=GMAB"
   },
   {
    "symbol": "DIS",
@@ -1264,7 +1294,7 @@
    "price": 117.98,
    "move_pct": -1.89,
    "move_label": "today",
-   "rel_volume": 1.42,
+   "rel_volume": 1.4,
    "market_cap": 201513353216.0,
    "score": 69,
    "confidence": "Medium",
@@ -1336,7 +1366,9 @@
      "url": "https://finance.yahoo.com/technology/ai/articles/walt-disney-dis-says-house-211608108.html",
      "publisher": "Simply Wall St."
     }
-   ]
+   ],
+   "streak": 3,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=DIS"
   },
   {
    "symbol": "RGA",
@@ -1346,7 +1378,7 @@
    "price": 266.78,
    "move_pct": -0.47,
    "move_label": "today",
-   "rel_volume": 1.47,
+   "rel_volume": 1.45,
    "market_cap": 17352171520.0,
    "score": 68,
    "confidence": "Medium",
@@ -1418,7 +1450,9 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-reinsurance-group-rga-strong-160003973.html",
      "publisher": "Zacks"
     }
-   ]
+   ],
+   "streak": 2,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=RGA"
   },
   {
    "symbol": "LTH",
@@ -1428,7 +1462,7 @@
    "price": 46.33,
    "move_pct": -0.45,
    "move_label": "today",
-   "rel_volume": 0.82,
+   "rel_volume": 0.81,
    "market_cap": 10405880832.0,
    "score": 66,
    "confidence": "Medium",
@@ -1499,7 +1533,9 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/life-time-lth-q3-results-161303574.html",
      "publisher": "Simply Wall St."
     }
-   ]
+   ],
+   "streak": 6,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=LTH"
   },
   {
    "symbol": "CAH",
@@ -1581,7 +1617,9 @@
      "url": "https://www.fool.com/coverage/better-buy/2026/11/20/abbvie-vs-eli-lilly-which-healthcare-stock-is-a-better-buy-for-2027/",
      "publisher": "Motley Fool"
     }
-   ]
+   ],
+   "streak": 1,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=CAH"
   },
   {
    "symbol": "PCOR",
@@ -1591,7 +1629,7 @@
    "price": 71.76,
    "move_pct": -1.19,
    "move_label": "day + after-hours",
-   "rel_volume": 0.66,
+   "rel_volume": 0.67,
    "market_cap": 10735207424.0,
    "score": 58,
    "confidence": "Medium",
@@ -1662,9 +1700,126 @@
      "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-names-construction-software-maker-132034296.html",
      "publisher": "Investing.com"
     }
-   ]
+   ],
+   "streak": 2,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=PCOR"
   }
  ],
+ "since_last": {
+  "date": "2026-11-19",
+  "lists": {
+   "catalysts": {
+    "avg": -2.9,
+    "winners": 2,
+    "n": 12,
+    "best": {
+     "symbol": "CRMD",
+     "change_pct": 3.74
+    },
+    "worst": {
+     "symbol": "SVRA",
+     "change_pct": -18.23
+    },
+    "rows": [
+     {
+      "symbol": "CRMD",
+      "change_pct": 3.74
+     },
+     {
+      "symbol": "TU",
+      "change_pct": 2.69
+     },
+     {
+      "symbol": "UTZ",
+      "change_pct": 0.0
+     },
+     {
+      "symbol": "KRNT",
+      "change_pct": -1.02
+     },
+     {
+      "symbol": "VVV",
+      "change_pct": -1.6
+     },
+     {
+      "symbol": "INSM",
+      "change_pct": -2.17
+     },
+     {
+      "symbol": "PDD",
+      "change_pct": -2.7
+     },
+     {
+      "symbol": "CTKB",
+      "change_pct": -3.16
+     },
+     {
+      "symbol": "BRBR",
+      "change_pct": -3.57
+     },
+     {
+      "symbol": "BILL",
+      "change_pct": -4.12
+     },
+     {
+      "symbol": "VRDN",
+      "change_pct": -4.71
+     },
+     {
+      "symbol": "SVRA",
+      "change_pct": -18.23
+     }
+    ]
+   },
+   "core": {
+    "avg": -1.99,
+    "winners": 0,
+    "n": 8,
+    "best": {
+     "symbol": "LTH",
+     "change_pct": -0.45
+    },
+    "worst": {
+     "symbol": "U",
+     "change_pct": -4.18
+    },
+    "rows": [
+     {
+      "symbol": "LTH",
+      "change_pct": -0.45
+     },
+     {
+      "symbol": "RGA",
+      "change_pct": -0.47
+     },
+     {
+      "symbol": "GMAB",
+      "change_pct": -1.46
+     },
+     {
+      "symbol": "DIS",
+      "change_pct": -1.89
+     },
+     {
+      "symbol": "SN",
+      "change_pct": -1.92
+     },
+     {
+      "symbol": "PCOR",
+      "change_pct": -2.1
+     },
+     {
+      "symbol": "CDW",
+      "change_pct": -3.48
+     },
+     {
+      "symbol": "U",
+      "change_pct": -4.18
+     }
+    ]
+   }
+  }
+ },
  "earnings": [
   {
    "symbol": "HPE",
@@ -1680,7 +1835,7 @@
    "timing": "after the close",
    "eps_est": 1.73,
    "company": "Agilent Technologies, Inc.",
-   "market_cap": 48041336595.7262
+   "market_cap": 48035039521.1257
   },
   {
    "symbol": "CENTA",
@@ -1720,13 +1875,13 @@
    "timing": "after the close",
    "eps_est": 2.12,
    "company": "Jacobs Solutions Inc.",
-   "market_cap": 17628355017.3424
+   "market_cap": 17785341418.4132
   },
   {
    "symbol": "ZM",
    "date": "2026-11-23T21:00:00+00:00",
    "timing": "after the close",
-   "eps_est": 1.5,
+   "eps_est": 1.49,
    "company": "Zoom Communications, Inc.",
    "market_cap": 23710344979.1773
   }

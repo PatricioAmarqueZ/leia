@@ -1132,5 +1132,145 @@
   "symbol": "RGA",
   "entry": 266.78,
   "score": 68
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "BIP",
+  "entry": 42.81,
+  "score": 55
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "GPN",
+  "entry": 91.83,
+  "score": 52
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "UPBD",
+  "entry": 25.44,
+  "score": 49
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "BILL",
+  "entry": 61.44,
+  "score": 47
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "BIPC",
+  "entry": 42.82,
+  "score": 46
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "PSQL",
+  "entry": 3.3,
+  "score": 46
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "UTZ",
+  "entry": 14.29,
+  "score": 45
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "ENR",
+  "entry": 28.56,
+  "score": 44
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "TAK",
+  "entry": 21.77,
+  "score": 43
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "XERS",
+  "entry": 16.97,
+  "score": 43
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "IBN",
+  "entry": 35.47,
+  "score": 42
+ },
+ {
+  "date": "2026-11-21",
+  "list": "catalysts",
+  "symbol": "GAP",
+  "entry": 20.94,
+  "score": 40
+ },
+ {
+  "date": "2026-11-21",
+  "list": "core",
+  "symbol": "SN",
+  "entry": 212.64,
+  "score": 74
+ },
+ {
+  "date": "2026-11-21",
+  "list": "core",
+  "symbol": "U",
+  "entry": 44.75,
+  "score": 73
+ },
+ {
+  "date": "2026-11-21",
+  "list": "core",
+  "symbol": "GMAB",
+  "entry": 50.6,
+  "score": 71
+ },
+ {
+  "date": "2026-11-21",
+  "list": "core",
+  "symbol": "DIS",
+  "entry": 117.98,
+  "score": 69
+ },
+ {
+  "date": "2026-11-21",
+  "list": "core",
+  "symbol": "RGA",
+  "entry": 266.78,
+  "score": 68
+ },
+ {
+  "date": "2026-11-21",
+  "list": "core",
+  "symbol": "LTH",
+  "entry": 46.33,
+  "score": 66
+ },
+ {
+  "date": "2026-11-21",
+  "list": "core",
+  "symbol": "CAH",
+  "entry": 272.81,
+  "score": 60
+ },
+ {
+  "date": "2026-11-21",
+  "list": "core",
+  "symbol": "PCOR",
+  "entry": 71.76,
+  "score": 58
  }
 ]
