@@ -104,6 +104,18 @@ table{border-collapse:collapse;width:100%;font-size:13.5px}
 th{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);text-align:left;padding:6px 10px;border-bottom:1px solid var(--line2)}
 td{padding:8px 10px;border-bottom:1px solid var(--line)} td.n{font-family:var(--mono);text-align:right} th.n{text-align:right}
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.filters button{padding:8px 12px;font-size:11px}
+.filters button[aria-pressed="true"]{background:rgba(77,232,255,.18);border-color:var(--cy);box-shadow:0 0 12px rgba(77,232,255,.25)}
+.act{display:flex;gap:8px;margin-top:14px}
+.act a{flex:1;text-align:center;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:10px;
+  border:1px solid var(--cy-dim);background:rgba(77,232,255,.06)}
+.act a:hover{text-decoration:none;background:rgba(77,232,255,.16)}
+.recap{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.recap .tile .v{font-size:24px}
+.recap .tile small{display:block;color:var(--ink2);font-size:12.5px;margin-top:6px;line-height:1.4}
+.stale{border:1px solid var(--warn);color:var(--warn);padding:10px 14px;margin-top:12px;font-size:13.5px;display:none}
+.empty{color:var(--ink2);padding:8px 0}
 footer{margin-top:36px;color:var(--ink3);font-size:12.5px;line-height:1.5;border-top:1px solid var(--line);padding-top:14px}
 #err{color:var(--warn);font-family:var(--mono);margin-top:20px}
 </style>
@@ -123,11 +135,24 @@ footer{margin-top:36px;color:var(--ink3);font-size:12.5px;line-height:1.5;border
     </div>
   </header>
 
+  <div class="stale" id="stale" role="status"></div>
   <div class="strip" id="strip"></div>
   <div id="err"></div>
 
+  <section id="recapSec" hidden>
+    <h2>How the last list did</h2>
+    <p class="sub" id="recapSub"></p>
+    <div class="recap" id="recap"></div>
+  </section>
+
   <h2>Short-term setups</h2>
   <p class="sub">Stocks with a catalyst right now: unusual volume, breakouts, earnings. High upside, matching downside.</p>
+  <div class="filters" id="filters" role="group" aria-label="Filter setups">
+    <button type="button" data-f="all" aria-pressed="true">All</button>
+    <button type="button" data-f="calmer" aria-pressed="false">Skip very high risk</button>
+    <button type="button" data-f="earnings" aria-pressed="false">Earnings soon</button>
+    <button type="button" data-f="streak" aria-pressed="false">On a streak</button>
+  </div>
   <div class="grid" id="catalysts"></div>
 
   <h2>Steady holds</h2>
@@ -229,7 +254,8 @@ function card(p, i){
     h('span', {class: 'chip' + (/high/i.test(p.risk) ? ' hot' : '')}, 'Risk: ' + p.risk),
     p.market_cap ? h('span', {class: 'chip'}, cap(p.market_cap)) : null,
     p.rel_volume ? h('span', {class: 'chip'}, p.rel_volume.toFixed(1) + '× volume') : null,
-    p.earnings ? h('span', {class: 'chip hot'}, 'Earnings ' + p.earnings.date.slice(5, 10)) : null);
+    p.earnings ? h('span', {class: 'chip hot'}, 'Earnings ' + p.earnings.date.slice(5, 10)) : null,
+    p.streak ? h('span', {class: 'chip', title: 'Days in a row on Leia\'s lists'}, (p.streak + 1) + ' days on list') : null);
   c.append(chips);
   const sp = spark(p.spark); if (sp) c.append(sp);
   if (p.reasons.length) c.append(h('div', {class: 'label'}, 'Why'), h('ul', {class: 'why'}, p.reasons.map(r => h('li', {}, r))));
@@ -239,6 +265,11 @@ function card(p, i){
   if (p.daily_swing) c.append(h('div', {class: 'news', style: 'margin-top:10px'}, h('span', {}, 'Typical daily swing '), '±' + p.daily_swing.toFixed(1) + '%'));
   if (p.news && p.news.length) c.append(h('div', {class: 'sec'}, h('div', {class: 'label'}, 'News'),
     p.news.map(n => h('div', {class: 'news'}, h('a', {href: safeUrl(n.url), target: '_blank', rel: 'noopener noreferrer'}, n.title), n.publisher ? h('span', {}, ' · ' + n.publisher) : null))));
+  const sym = encodeURIComponent(p.symbol);
+  c.append(h('div', {class: 'act'},
+    h('a', {href: safeUrl(p.fidelity_url || ('https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=' + sym)), target: '_blank', rel: 'noopener noreferrer'}, 'Open in Fidelity'),
+    h('a', {href: 'https://finance.yahoo.com/quote/' + sym, target: '_blank', rel: 'noopener noreferrer'}, 'Chart & news')));
+  c.dataset.risk = p.risk; c.dataset.earn = p.earnings ? '1' : ''; c.dataset.streak = p.streak || 0;
   return c;
 }
 
@@ -262,6 +293,45 @@ function earnings(list){
     h('tbody', {}, list.slice(0, 14).map(e => h('tr', {}, h('td', {}, h('span', {class: 'mono'}, e.symbol), ' ', h('span', {style: 'color:var(--ink3)'}, (e.company || '').slice(0, 26))),
       h('td', {}, e.date.slice(5, 10) + ' ' + e.timing), h('td', {class: 'n'}, e.eps_est == null ? '–' : e.eps_est.toFixed(2)), h('td', {class: 'n'}, cap(e.market_cap)))))));
 }
+
+function recap(sl){
+  const sec = $('recapSec'), box = $('recap');
+  const c = sl && sl.lists && sl.lists.catalysts, k = sl && sl.lists && sl.lists.core;
+  if (!c && !k) { sec.hidden = true; return; }
+  sec.hidden = false; box.textContent = '';
+  $('recapSub').textContent = `Picks from the ${sl.date} list, priced then versus now. This is what following Leia would have done.`;
+  const tile = (label, x) => h('div', {class: 'tile'}, h('div', {class: 'label'}, label),
+    h('div', {class: 'v ' + cls(x.avg)}, pct(x.avg, 1)),
+    h('small', {}, `${x.winners} of ${x.n} up · best ${x.best.symbol} ${pct(x.best.change_pct, 1)} · worst ${x.worst.symbol} ${pct(x.worst.change_pct, 1)}`));
+  if (c) box.append(tile('Short-term setups', c));
+  if (k) box.append(tile('Steady holds', k));
+}
+
+function freshness(d){
+  const age = (Date.now() - new Date(d.generated_at)) / 36e5, el = $('stale');
+  const wd = new Date().getDay(), weekday = wd > 0 && wd < 6;
+  if (weekday && age > 20) { el.textContent = `Heads up: this scan is ${Math.round(age)} hours old. Today's scan may be running late.`; el.style.display = 'block'; }
+  else el.style.display = 'none';
+}
+
+let FILTER = 'all';
+try { FILTER = localStorage.getItem('leia-filter') || 'all'; } catch (e) {}
+function applyFilter(){
+  const cards = [...$('catalysts').children].filter(x => x.classList.contains('card'));
+  let shown = 0;
+  for (const c of cards) {
+    const ok = FILTER === 'all' || (FILTER === 'calmer' && c.dataset.risk !== 'Very high') || (FILTER === 'earnings' && c.dataset.earn) || (FILTER === 'streak' && +c.dataset.streak > 0);
+    c.hidden = !ok; if (ok) shown++;
+  }
+  $('catalysts').querySelector('.empty')?.remove();
+  if (!shown && cards.length) $('catalysts').append(h('p', {class: 'empty'}, 'Nothing on today\'s list matches this filter.'));
+  for (const b of $('filters').querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.f === FILTER));
+}
+$('filters').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  FILTER = b.dataset.f; try { localStorage.setItem('leia-filter', FILTER); } catch (err) {}
+  applyFilter();
+});
 
 let DIGEST = null;
 function brief(){
@@ -299,6 +369,7 @@ async function load(){
     strip.append(h('div', {class: 'tile'}, h('div', {class: 'label'}, 'Stocks scanned'), h('div', {class: 'v'}, d.universe_size.toLocaleString())));
     strip.append(h('div', {class: 'tile'}, h('div', {class: 'label'}, 'Market'), h('div', {class: 'v'}, ({PRE: 'Pre-market', REGULAR: 'Open', POST: 'After hours'})[d.market_state] || 'Closed')));
     $('catalysts').replaceChildren(...d.catalysts.map(card)); $('core').replaceChildren(...d.core.map(card));
+    applyFilter(); recap(d.since_last); freshness(d);
     scorecard(sc); earnings(d.earnings); $('disc').textContent = d.disclaimer + ' Data: Yahoo Finance (delayed, unofficial).';
   } catch (e) { $('err').textContent = 'Leia could not load the latest scan: ' + e.message; }
 }

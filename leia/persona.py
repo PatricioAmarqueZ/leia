@@ -25,11 +25,23 @@ def summary(catalysts, core, earnings_count, universe_size):
     return " ".join(bits)
 
 
-def push_text(catalysts, core):
+def recap_line(since):
+    c = ((since or {}).get("lists") or {}).get("catalysts")
+    if not c:
+        return None
+    return (f"Last list ({since['date']}): setups averaged {c['avg']:+.1f}%, {c['winners']}/{c['n']} up. "
+            f"Best {c['best']['symbol']} {c['best']['change_pct']:+.1f}%, worst {c['worst']['symbol']} {c['worst']['change_pct']:+.1f}%.")
+
+
+def push_text(catalysts, core, since=None, slot=None):
     lines = []
+    r = recap_line(since)
+    if r:
+        lines.append(r)
     for p in catalysts[:5]:
         why = p["reasons"][0] if p["reasons"] else "on the radar"
-        lines.append(f"{p['symbol']} ({p['score']}) {p['move_pct']:+.1f}% - {why}")
+        tag = f" [{p['streak'] + 1} days on list]" if p.get("streak") else ""
+        lines.append(f"{p['symbol']} ({p['score']}) {p['move_pct']:+.1f}%{tag} - {why}")
     if core:
         lines.append("Steady: " + ", ".join(p["symbol"] for p in core[:5]))
     return "\n".join(lines)
