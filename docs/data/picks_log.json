@@ -1412,5 +1412,145 @@
   "symbol": "PCOR",
   "entry": 73.43,
   "score": 57
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "KYMR",
+  "entry": 173.92,
+  "score": 78
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "TGLS",
+  "entry": 55.48,
+  "score": 71
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "SNY",
+  "entry": 51.9,
+  "score": 70
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "INSM",
+  "entry": 170.15,
+  "score": 69
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "VRDN",
+  "entry": 35.7,
+  "score": 69
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "KSS",
+  "entry": 25.33,
+  "score": 66
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "AMTM",
+  "entry": 24.8,
+  "score": 65
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "TGTX",
+  "entry": 70.13,
+  "score": 64
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "STOK",
+  "entry": 32.84,
+  "score": 64
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "DLTR",
+  "entry": 154.65,
+  "score": 61
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "ALEC",
+  "entry": 2.71,
+  "score": 61
+ },
+ {
+  "date": "2026-11-24",
+  "list": "catalysts",
+  "symbol": "ANF",
+  "entry": 168.1,
+  "score": 60
+ },
+ {
+  "date": "2026-11-24",
+  "list": "core",
+  "symbol": "U",
+  "entry": 48.37,
+  "score": 76
+ },
+ {
+  "date": "2026-11-24",
+  "list": "core",
+  "symbol": "ONC",
+  "entry": 415.62,
+  "score": 74
+ },
+ {
+  "date": "2026-11-24",
+  "list": "core",
+  "symbol": "SN",
+  "entry": 228.93,
+  "score": 70
+ },
+ {
+  "date": "2026-11-24",
+  "list": "core",
+  "symbol": "LTH",
+  "entry": 47.93,
+  "score": 65
+ },
+ {
+  "date": "2026-11-24",
+  "list": "core",
+  "symbol": "ABBV",
+  "entry": 300.28,
+  "score": 64
+ },
+ {
+  "date": "2026-11-24",
+  "list": "core",
+  "symbol": "REGN",
+  "entry": 987.09,
+  "score": 63
+ },
+ {
+  "date": "2026-11-24",
+  "list": "core",
+  "symbol": "ROIV",
+  "entry": 42.34,
+  "score": 61
+ },
+ {
+  "date": "2026-11-24",
+  "list": "core",
+  "symbol": "GMAB",
+  "entry": 56.57,
+  "score": 61
  }
 ]

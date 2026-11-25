@@ -1,155 +1,66 @@
 {
  "assistant": "Leia",
- "generated_at": "2026-11-23T23:57:38.874301-05:00",
- "date": "2026-11-23",
+ "generated_at": "2026-11-24T22:43:45.604760-05:00",
+ "date": "2026-11-24",
  "market_state": "POSTPOST",
- "universe_size": 2754,
+ "universe_size": 2735,
  "greeting": "Good evening. Leia here. Markets are closed, so this is your look ahead.",
- "summary": "I've been through 2,754 stocks. 12 short-term setups made the cut, led by CODI with a score of 71. 1 of them report earnings shortly, so do mind the gap. For steadier holds, U tops the list.",
+ "summary": "I've been through 2,735 stocks. 12 short-term setups made the cut, led by KYMR with a score of 78. For steadier holds, U tops the list.",
  "market": {
   "S&P 500": {
-   "price": 722.29,
-   "change_pct": 4.71
+   "price": 718.78,
+   "change_pct": -0.49
   },
   "Nasdaq 100": {
-   "price": 651.03,
-   "change_pct": 7.0
+   "price": 638.1,
+   "change_pct": -1.99
   },
   "VIX": {
-   "price": 26.62,
-   "change_pct": -25.83
+   "price": 26.36,
+   "change_pct": -0.98
   }
  },
  "catalysts": [
-  {
-   "symbol": "CODI",
-   "name": "D/B/A Compass Diversified Holdi",
-   "sector": "Industrials",
-   "industry": "Conglomerates",
-   "price": 13.46,
-   "move_pct": 12.26,
-   "move_label": "today",
-   "rel_volume": 1.94,
-   "market_cap": 1012676160.0,
-   "score": 71,
-   "confidence": "High",
-   "risk": "High",
-   "reasons": [
-    "Up 12.3% today",
-    "Trading 1.9x its normal volume, so real money is behind the move",
-    "At or breaking through its 52-week high",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 31% over the past month"
-   ],
-   "risks": [
-    "Small cap ($1.0B): moves fast both ways and can be thinly traded",
-    "Typically swings about 4.3% a day"
-   ],
-   "projection": {
-    "target_low": 15.0,
-    "target_mean": 17.0,
-    "target_high": 18.0,
-    "bear": 11.4,
-    "base": 26.3,
-    "bull": 33.7,
-    "analysts": 4,
-    "rating": "buy",
-    "rating_mean": 1.7143
-   },
-   "daily_swing": 4.25,
-   "ret_5d": 16.436,
-   "ret_20d": 31.1891,
-   "ret_60d": 17.5546,
-   "earnings": null,
-   "spark": [
-    11.04,
-    10.67,
-    10.62,
-    10.01,
-    10.05,
-    10.36,
-    10.28,
-    10.32,
-    10.41,
-    10.26,
-    10.78,
-    10.77,
-    11.28,
-    11.15,
-    11.67,
-    12.02,
-    12.31,
-    11.47,
-    11.31,
-    11.86,
-    11.93,
-    12.2,
-    11.8,
-    11.64,
-    11.56,
-    11.91,
-    12.62,
-    12.21,
-    11.99,
-    13.46
-   ],
-   "news": [
-    {
-     "title": "Here Is Why Bargain Hunters Would Love Fast-paced Mover Compass Diversified Holdings (CODI)",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/why-bargain-hunters-love-fast-125502825.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "US stocks with the highest debt-to-equity ratios",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/us-stocks-highest-debt-equity-122423199.html",
-     "publisher": "Investing.com"
-    }
-   ],
-   "streak": 0,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=CODI"
-  },
   {
    "symbol": "KYMR",
    "name": "Kymera Therapeutics, Inc.",
    "sector": "Healthcare",
    "industry": "Biotechnology",
-   "price": 150.37,
-   "move_pct": 33.14,
+   "price": 173.92,
+   "move_pct": 16.27,
    "move_label": "day + after-hours",
-   "rel_volume": 9.18,
-   "market_cap": 12837297152.0,
-   "score": 66,
-   "confidence": "Medium",
+   "rel_volume": 6.73,
+   "market_cap": 14847794176.0,
+   "score": 78,
+   "confidence": "High",
    "risk": "Very high",
    "reasons": [
-    "Up 33.1% day + after-hours",
-    "Trading 9.2x its normal volume, so real money is behind the move",
+    "Up 16.3% day + after-hours",
+    "Trading 6.7x its normal volume, so real money is behind the move",
+    "Within 3.3% of its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 31% over the past month",
-    "23 analysts see 12% upside on average (target $169.17)"
+    "Momentum: up 48% over the past month"
    ],
    "risks": [
-    "Already up 33%: buying now means chasing, and sharp reversals are common",
-    "Typically swings about 7.6% a day"
+    "Typically swings about 8.2% a day"
    ],
    "projection": {
-    "target_low": 116.0,
-    "target_mean": 169.1739,
+    "target_low": 134.0,
+    "target_mean": 182.3478,
     "target_high": 251.0,
-    "bear": -22.9,
-    "base": 12.5,
-    "bull": 66.9,
+    "bear": -23.0,
+    "base": 4.8,
+    "bull": 44.3,
     "analysts": 23,
     "rating": "strong buy",
-    "rating_mean": 1.375
+    "rating_mean": 1.3913
    },
-   "daily_swing": 7.6,
-   "ret_5d": 19.4835,
-   "ret_20d": 30.9387,
-   "ret_60d": 27.2704,
+   "daily_swing": 8.23,
+   "ret_5d": 43.1205,
+   "ret_20d": 47.9289,
+   "ret_60d": 46.385,
    "earnings": null,
    "spark": [
-    106.68,
     106.83,
     108.14,
     104.78,
@@ -178,580 +89,64 @@
     121.13,
     119.39,
     115.31,
-    150.37
+    150.37,
+    173.92
    ],
    "news": [
     {
-     "title": "Kymera Therapeutics (KYMR) Bounces Back Big After a Painful Losing Streak",
-     "url": "https://finance.yahoo.com/healthcare/articles/kymera-therapeutics-kymr-bounces-back-044318739.html",
+     "title": "Kymera Therapeutics (KYMR) Gets a Massive 16% Lift From Wall Street",
+     "url": "https://finance.yahoo.com/healthcare/articles/kymera-therapeutics-kymr-gets-massive-020804682.html",
      "publisher": "Insider Monkey"
     },
     {
-     "title": "What Is Kymera and Why Did an Eczema Pill Outperform All AI Stocks on Monday?",
-     "url": "https://beincrypto.com/what-is-kymera-eczema-pill-stock/",
-     "publisher": "BeInCrypto"
+     "title": "Top Midday Gainers",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/top-midday-gainers-192035875.html",
+     "publisher": "MT Newswires"
     }
    ],
-   "streak": 0,
+   "streak": 1,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=KYMR"
-  },
-  {
-   "symbol": "GCT",
-   "name": "GigaCloud Technology Inc",
-   "sector": "Technology",
-   "industry": "Software - Infrastructure",
-   "price": 66.16,
-   "move_pct": 14.42,
-   "move_label": "today",
-   "rel_volume": 1.45,
-   "market_cap": 2356885504.0,
-   "score": 63,
-   "confidence": "Medium",
-   "risk": "Very high",
-   "reasons": [
-    "Up 14.4% today",
-    "At or breaking through its 52-week high",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 11% over the past month",
-    "3 analysts see 11% upside on average (target $73.67)"
-   ],
-   "risks": [
-    "Typically swings about 5.4% a day"
-   ],
-   "projection": {
-    "target_low": 65.0,
-    "target_mean": 73.6667,
-    "target_high": 87.0,
-    "bear": -1.8,
-    "base": 11.3,
-    "bull": 31.5,
-    "analysts": 3,
-    "rating": "buy",
-    "rating_mean": 2.0
-   },
-   "daily_swing": 5.4,
-   "ret_5d": 3.1333,
-   "ret_20d": 11.3805,
-   "ret_60d": 24.9481,
-   "earnings": null,
-   "spark": [
-    57.03,
-    57.75,
-    59.34,
-    57.35,
-    57.96,
-    58.93,
-    60.39,
-    59.12,
-    58.24,
-    59.4,
-    59.6,
-    60.63,
-    60.62,
-    58.38,
-    57.46,
-    54.72,
-    57.88,
-    63.01,
-    58.37,
-    59.33,
-    61.77,
-    64.67,
-    64.79,
-    66.63,
-    64.15,
-    63.55,
-    65.3,
-    60.44,
-    57.82,
-    66.16
-   ],
-   "news": [
-    {
-     "title": "Are Business Services Stocks Lagging  GigaCloud Technology Inc. (GCT) This Year?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/business-services-stocks-lagging-gigacloud-134004719.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "Is Everpure Worth Betting on After the Q3 Earnings & Revenue Beat?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-worth-betting-q3-earnings-140900056.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "streak": 0,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=GCT"
-  },
-  {
-   "symbol": "NUAI",
-   "name": "New Era Energy & Digital, Inc.",
-   "sector": "Technology",
-   "industry": "Software - Infrastructure",
-   "price": 4.34,
-   "move_pct": 13.42,
-   "move_label": "day + after-hours",
-   "rel_volume": 1.99,
-   "market_cap": 610071552.0,
-   "score": 60,
-   "confidence": "Medium",
-   "risk": "Very high",
-   "reasons": [
-    "Up 13.4% day + after-hours",
-    "Trading 2.0x its normal volume, so real money is behind the move",
-    "Momentum: up 46% over the past month",
-    "4 analysts see 159% upside on average (target $11.25)",
-    "24% of the float is sold short: fuel for a squeeze if it keeps rising"
-   ],
-   "risks": [
-    "Still below its 200-day average, so the longer trend is down",
-    "Heavily shorted stocks are violent in both directions",
-    "Small cap ($610M): moves fast both ways and can be thinly traded",
-    "Low-priced stock: higher pump-and-dump risk"
-   ],
-   "projection": {
-    "target_low": 6.0,
-    "target_mean": 11.25,
-    "target_high": 17.0,
-    "bear": 38.2,
-    "base": 159.2,
-    "bull": 291.7,
-    "analysts": 4,
-    "rating": "strong buy",
-    "rating_mean": 1.0
-   },
-   "daily_swing": 15.25,
-   "ret_5d": 39.5498,
-   "ret_20d": 46.1279,
-   "ret_60d": -6.8669,
-   "earnings": null,
-   "spark": [
-    4.29,
-    3.41,
-    3.33,
-    3.11,
-    2.97,
-    2.82,
-    3.32,
-    2.78,
-    2.96,
-    2.97,
-    3.25,
-    3.33,
-    2.86,
-    2.73,
-    2.33,
-    2.78,
-    2.19,
-    1.63,
-    2.07,
-    2.2,
-    2.07,
-    2.33,
-    2.72,
-    3.2,
-    3.11,
-    3.2,
-    3.99,
-    4.28,
-    3.78,
-    4.34
-   ],
-   "news": [
-    {
-     "title": "New Era Energy: A closer look",
-     "url": "https://finance.yahoo.com/energy/articles/era-energy-closer-look-141542034.html",
-     "publisher": "Investing.com"
-    },
-    {
-     "title": "New Era Energy & Digital (NUAI) Stock Sees Modest Fair Value Cut As Funding Caution Weighs",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/era-energy-digital-nuai-stock-043228264.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "streak": 0,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=NUAI"
-  },
-  {
-   "symbol": "BIP",
-   "name": "Brookfield Infrastructure Partn",
-   "sector": "Utilities",
-   "industry": "Utilities - Diversified",
-   "price": 45.24,
-   "move_pct": 6.69,
-   "move_label": "day + after-hours",
-   "rel_volume": 5.3,
-   "market_cap": 35826270208.0,
-   "score": 59,
-   "confidence": "Medium",
-   "risk": "Moderate",
-   "reasons": [
-    "Up 6.7% day + after-hours",
-    "Trading 5.3x its normal volume, so real money is behind the move",
-    "Within 4.8% of its 52-week high",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 23% over the past month"
-   ],
-   "risks": [],
-   "projection": {
-    "target_low": 40.0,
-    "target_mean": 46.4545,
-    "target_high": 57.0,
-    "bear": -11.6,
-    "base": 2.7,
-    "bull": 26.0,
-    "analysts": 11,
-    "rating": "buy",
-    "rating_mean": 1.6667
-   },
-   "daily_swing": 2.1,
-   "ret_5d": 14.3579,
-   "ret_20d": 23.102,
-   "ret_60d": 20.1753,
-   "earnings": null,
-   "spark": [
-    36.33,
-    36.35,
-    37.27,
-    37.45,
-    37.11,
-    36.75,
-    36.37,
-    37.29,
-    37.04,
-    36.75,
-    36.61,
-    36.81,
-    37.34,
-    37.32,
-    38.12,
-    37.46,
-    38.17,
-    37.81,
-    39.45,
-    39.67,
-    39.49,
-    39.75,
-    39.15,
-    39.49,
-    39.56,
-    40.21,
-    41.71,
-    41.07,
-    42.81,
-    45.24
-   ],
-   "news": [
-    {
-     "title": "Brookfield Infrastructure (BIPC) is Back on Investors\u2019 Radar Ahead of This Key Event",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/brookfield-infrastructure-bipc-back-investors-043222176.html",
-     "publisher": "Insider Monkey"
-    },
-    {
-     "title": "Brookfield Infrastructure (BIPC) Is Getting Wall Street Excited \u2014 Here\u2019s Why",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/brookfield-infrastructure-bipc-getting-wall-071324504.html",
-     "publisher": "Insider Monkey"
-    }
-   ],
-   "streak": 2,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=BIP"
-  },
-  {
-   "symbol": "ULCC",
-   "name": "Frontier Group Holdings, Inc.",
-   "sector": "Industrials",
-   "industry": "Airlines",
-   "price": 8.58,
-   "move_pct": 10.93,
-   "move_label": "day + after-hours",
-   "rel_volume": 1.21,
-   "market_cap": 1976982528.0,
-   "score": 59,
-   "confidence": "Medium",
-   "risk": "Very high",
-   "reasons": [
-    "Up 10.9% day + after-hours",
-    "At or breaking through its 52-week high",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 75% over the past month",
-    "39% of the float is sold short: fuel for a squeeze if it keeps rising"
-   ],
-   "risks": [
-    "Already 13% above the average analyst target",
-    "Heavily shorted stocks are violent in both directions",
-    "Small cap ($2.0B): moves fast both ways and can be thinly traded",
-    "Typically swings about 7.4% a day"
-   ],
-   "projection": {
-    "target_low": 5.0,
-    "target_mean": 7.5,
-    "target_high": 10.0,
-    "bear": -41.7,
-    "base": -12.6,
-    "bull": 16.6,
-    "analysts": 9,
-    "rating": "hold",
-    "rating_mean": 3.0833
-   },
-   "daily_swing": 7.43,
-   "ret_5d": 7.7889,
-   "ret_20d": 74.7454,
-   "ret_60d": 46.9178,
-   "earnings": null,
-   "spark": [
-    5.58,
-    4.88,
-    5.03,
-    4.72,
-    4.61,
-    4.9,
-    5.04,
-    5.3,
-    4.94,
-    4.91,
-    5.53,
-    6.17,
-    6.48,
-    6.45,
-    7.43,
-    6.47,
-    7.09,
-    7.12,
-    7.43,
-    8.35,
-    8.09,
-    8.08,
-    7.7,
-    7.59,
-    7.96,
-    7.73,
-    8.16,
-    7.94,
-    7.67,
-    8.58
-   ],
-   "news": [
-    {
-     "title": "Frontier Group: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://www.fool.com/earnings/takeaways/2026/11/13/frontier-group-3-key-takeaways-for-long-term-investors/",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "3 Airline Stocks To Watch As Oil Prices Fall",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/3-airline-stocks-watch-oil-171836515.html",
-     "publisher": "Simply Wall St."
-    }
-   ],
-   "streak": 0,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ULCC"
-  },
-  {
-   "symbol": "ZS",
-   "name": "Zscaler, Inc.",
-   "sector": "Technology",
-   "industry": "Software - Infrastructure",
-   "price": 229.24,
-   "move_pct": 17.67,
-   "move_label": "today",
-   "rel_volume": 6.48,
-   "market_cap": 37378662400.0,
-   "score": 58,
-   "confidence": "Medium",
-   "risk": "Very high",
-   "reasons": [
-    "Up 17.7% today",
-    "Trading 6.5x its normal volume, so real money is behind the move",
-    "Uptrend intact: above both its 50-day and 200-day averages"
-   ],
-   "risks": [
-    "Typically swings about 5.5% a day"
-   ],
-   "projection": {
-    "target_low": 170.0,
-    "target_mean": 242.1102,
-    "target_high": 298.0,
-    "bear": -25.8,
-    "base": 5.6,
-    "bull": 30.0,
-    "analysts": 41,
-    "rating": "buy",
-    "rating_mean": 1.7046
-   },
-   "daily_swing": 5.48,
-   "ret_5d": 20.1216,
-   "ret_20d": -11.9831,
-   "ret_60d": 24.4314,
-   "earnings": null,
-   "spark": [
-    228.66,
-    220.79,
-    220.43,
-    207.38,
-    212.53,
-    214.51,
-    231.33,
-    237.76,
-    255.15,
-    260.45,
-    260.15,
-    255.8,
-    247.82,
-    237.83,
-    223.79,
-    225.09,
-    224.44,
-    203.88,
-    197.66,
-    199.04,
-    194.92,
-    193.79,
-    193.22,
-    192.47,
-    190.84,
-    185.19,
-    197.83,
-    205.71,
-    194.82,
-    229.24
-   ],
-   "news": [
-    {
-     "title": "CrowdStrike is spending $43.9 billion to buy Zscaler in a huge cybersecurity deal as tech outages spread",
-     "url": "https://finance.yahoo.com/technology/article/crowdstrike-is-spending-439-billion-to-buy-zscaler-in-a-huge-cybersecurity-deal-as-tech-outages-spread-110645119.html",
-     "publisher": "Yahoo Finance"
-    },
-    {
-     "title": "CrowdStrike CEO Sees $185B Opportunity, Says Zscaler Deal Will Create A \u2018Winning Combination\u2019 Amid Rising AI Threats",
-     "url": "https://stocktwits.com/news-articles/markets/equity/crowdstrike-zscaler-185b-opportunity-ceo-winning-combination/cNbruzKR9jx",
-     "publisher": "Stocktwits"
-    }
-   ],
-   "streak": 0,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ZS"
-  },
-  {
-   "symbol": "MPWR",
-   "name": "Monolithic Power Systems, Inc.",
-   "sector": "Technology",
-   "industry": "Semiconductors",
-   "price": 1333.88,
-   "move_pct": 16.8,
-   "move_label": "today",
-   "rel_volume": 1.64,
-   "market_cap": 65050660864.0,
-   "score": 56,
-   "confidence": "Medium",
-   "risk": "Very high",
-   "reasons": [
-    "Up 16.8% today",
-    "Trading 1.6x its normal volume, so real money is behind the move",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 14% over the past month",
-    "14 analysts see 37% upside on average (target $1831.36)"
-   ],
-   "risks": [
-    "Typically swings about 7.4% a day"
-   ],
-   "projection": {
-    "target_low": 1500.0,
-    "target_mean": 1831.3572,
-    "target_high": 2163.0,
-    "bear": 12.5,
-    "base": 37.3,
-    "bull": 62.2,
-    "analysts": 14,
-    "rating": "strong buy",
-    "rating_mean": 1.1875
-   },
-   "daily_swing": 7.42,
-   "ret_5d": 1.5129,
-   "ret_20d": 14.2735,
-   "ret_60d": 6.3355,
-   "earnings": null,
-   "spark": [
-    1319.55,
-    1243.11,
-    1249.2,
-    1210.86,
-    1253.66,
-    1248.74,
-    1283.32,
-    1167.93,
-    1140.12,
-    1167.27,
-    1211.89,
-    1211.22,
-    1198.81,
-    1211.63,
-    1243.95,
-    1328.3,
-    1261.08,
-    1131.43,
-    1190.44,
-    1388.05,
-    1357.6,
-    1478.69,
-    1447.4,
-    1390.54,
-    1314.0,
-    1317.37,
-    1310.91,
-    1295.86,
-    1142.05,
-    1333.88
-   ],
-   "news": [
-    {
-     "title": "Monolithic Power Stock Jumps 14.6% as Chip Rally Follows Nvidia News on Nov. 23",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/monolithic-power-stock-jumps-14-170208141.html",
-     "publisher": "GuruFocus.com"
-    },
-    {
-     "title": "Vicor Stock Drops 36% in a Month: Should You Still Buy it on the Dip?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/vicor-stock-drops-36-month-143400133.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "streak": 0,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=MPWR"
   },
   {
    "symbol": "TGLS",
    "name": "Tecnoglass Holdings Inc.",
    "sector": "Basic Materials",
    "industry": "Building Materials",
-   "price": 50.56,
-   "move_pct": 10.78,
+   "price": 55.48,
+   "move_pct": 11.68,
    "move_label": "day + after-hours",
-   "rel_volume": 1.89,
-   "market_cap": 2243069952.0,
-   "score": 56,
-   "confidence": "Medium",
+   "rel_volume": 3.34,
+   "market_cap": 2461343232.0,
+   "score": 71,
+   "confidence": "High",
    "risk": "High",
    "reasons": [
-    "Up 10.8% day + after-hours",
-    "Trading 1.9x its normal volume, so real money is behind the move",
+    "Up 11.7% day + after-hours",
+    "Trading 3.3x its normal volume, so real money is behind the move",
+    "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 33% over the past month",
-    "4 analysts see 13% upside on average (target $57.25)"
+    "Momentum: up 44% over the past month"
    ],
-   "risks": [],
+   "risks": [
+    "Typically swings about 4.0% a day"
+   ],
    "projection": {
     "target_low": 54.0,
     "target_mean": 57.25,
     "target_high": 63.0,
-    "bear": 6.8,
-    "base": 13.2,
-    "bull": 24.6,
+    "bear": -2.7,
+    "base": 3.2,
+    "bull": 13.6,
     "analysts": 4,
     "rating": "buy",
     "rating_mean": 1.75
    },
-   "daily_swing": 3.59,
-   "ret_5d": 9.2009,
-   "ret_20d": 33.0176,
-   "ret_60d": 26.9163,
+   "daily_swing": 4.03,
+   "ret_5d": 23.2068,
+   "ret_20d": 43.8051,
+   "ret_60d": 40.354,
    "earnings": null,
    "spark": [
-    38.48,
     36.77,
     37.35,
     37.98,
@@ -780,293 +175,888 @@
     46.37,
     45.93,
     47.72,
-    50.56
+    50.56,
+    55.48
    ],
    "news": [
+    {
+     "title": "Tecnoglass Inc. (TGLS) Is Facing Margin Pressure: Why Riverwater Partners Sold Its Shares",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/tecnoglass-inc-tgls-facing-margin-211927232.html",
+     "publisher": "Insider Monkey"
+    },
     {
      "title": "SharkNinja To Join S&P 500 Index",
      "url": "https://www.investors.com/news/sharkninja-stock-to-join-sp-500-index/?src=A00220&yptr=yahoo",
      "publisher": "Investor's Business Daily"
-    },
-    {
-     "title": "TGLS Q3 2026 deep dive: margin pressures offset strong backlog and geographic expansion",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/tgls-q3-2026-deep-dive-122136687.html",
-     "publisher": "StockStory"
     }
    ],
-   "streak": 0,
+   "streak": 1,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=TGLS"
   },
   {
-   "symbol": "DELL",
-   "name": "Dell Technologies Inc.",
-   "sector": "Technology",
-   "industry": "Computer Hardware",
-   "price": 334.91,
-   "move_pct": 21.53,
-   "move_label": "day + after-hours",
-   "rel_volume": 1.93,
-   "market_cap": 212940046336.0,
-   "score": 55,
-   "confidence": "Medium",
-   "risk": "Very high",
+   "symbol": "SNY",
+   "name": "Sanofi",
+   "sector": "Healthcare",
+   "industry": "Drug Manufacturers - General",
+   "price": 51.9,
+   "move_pct": 10.97,
+   "move_label": "today",
+   "rel_volume": 4.03,
+   "market_cap": 124622938112.0,
+   "score": 70,
+   "confidence": "High",
+   "risk": "Moderate",
    "reasons": [
-    "Up 21.5% day + after-hours",
-    "Trading 1.9x its normal volume, so real money is behind the move",
-    "Reports earnings after the close (2026-11-24); beat estimates in 21 of the last 24 quarters",
-    "25 analysts see 73% upside on average (target $578.88)"
+    "Up 11.0% today",
+    "Trading 4.0x its normal volume, so real money is behind the move",
+    "At or breaking through its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 24% over the past month"
    ],
-   "risks": [
-    "Still below its 200-day average, so the longer trend is down",
-    "Earnings are a coin-flip event: the stock can gap hard in either direction",
-    "Typically swings about 8.5% a day"
-   ],
+   "risks": [],
    "projection": {
-    "target_low": 403.0,
-    "target_mean": 578.88,
-    "target_high": 700.0,
-    "bear": 20.3,
-    "base": 72.8,
-    "bull": 109.0,
-    "analysts": 25,
+    "target_low": 48.0,
+    "target_mean": 56.1625,
+    "target_high": 63.0,
+    "bear": -7.5,
+    "base": 8.2,
+    "bull": 21.4,
+    "analysts": 8,
     "rating": "buy",
-    "rating_mean": 1.8276
+    "rating_mean": 2.0
    },
-   "daily_swing": 8.48,
-   "ret_5d": 4.4798,
-   "ret_20d": -28.2986,
-   "ret_60d": -26.4918,
-   "earnings": {
-    "date": "2026-11-24T21:00:00+00:00",
-    "timing": "after the close",
-    "eps_est": 6.55,
-    "company": "Dell Technologies Inc.",
-    "market_cap": 212940050430.9158,
-    "beats": [
-     21,
-     24
-    ]
-   },
+   "daily_swing": 2.86,
+   "ret_5d": 9.1942,
+   "ret_20d": 23.8959,
+   "ret_60d": 16.9973,
+   "earnings": null,
    "spark": [
-    571.68,
-    507.23,
-    472.74,
-    451.09,
-    454.81,
-    461.56,
-    485.88,
-    452.95,
-    456.44,
-    467.09,
-    501.96,
-    493.79,
-    475.51,
-    424.3,
-    392.78,
-    408.4,
-    372.36,
-    316.91,
-    328.53,
-    346.31,
-    334.38,
-    373.68,
-    371.17,
-    344.53,
-    320.55,
-    322.79,
-    313.11,
-    312.54,
-    278.02,
-    334.91
+    39.77,
+    40.29,
+    40.61,
+    39.57,
+    41.4,
+    40.97,
+    41.96,
+    41.6,
+    41.79,
+    41.89,
+    42.24,
+    43.13,
+    44.34,
+    45.55,
+    45.33,
+    47.47,
+    46.91,
+    47.04,
+    48.12,
+    48.23,
+    48.43,
+    48.46,
+    48.37,
+    48.39,
+    47.53,
+    47.12,
+    46.06,
+    46.52,
+    46.77,
+    51.9
    ],
    "news": [
     {
-     "title": "Dell Technologies (DELL) Roars Back, Gets 2 Major Catalysts Working in Its Favor",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-roars-back-030939608.html",
-     "publisher": "Insider Monkey"
+     "title": "Sanofi stock jumps after deal to acquire respiratory drugmaker Insmed",
+     "url": "https://finance.yahoo.com/video/sanofi-stock-jumps-after-deal-to-acquire-respiratory-drugmaker-insmed-142928410.html",
+     "publisher": "Yahoo Finance Video"
     },
     {
-     "title": "Own HP Stock? Memory Costs Are The Risk",
-     "url": "https://www.trefis.com/stock/hpq/articles/627662/own-hp-stock-memory-costs-are-the-risk/2026-11-23",
-     "publisher": "Trefis"
+     "title": "Insmed Inc. (INSM) Stages a Monster 14% Rally \u2014 Here\u2019s What Sparked Buying",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/insmed-inc-insm-stages-monster-020154811.html",
+     "publisher": "Insider Monkey"
     }
    ],
    "streak": 0,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=DELL"
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=SNY"
   },
   {
-   "symbol": "CBLL",
-   "name": "CeriBell, Inc.",
+   "symbol": "INSM",
+   "name": "Insmed Incorporated",
    "sector": "Healthcare",
-   "industry": "Medical Devices",
-   "price": 29.29,
-   "move_pct": 6.94,
+   "industry": "Biotechnology",
+   "price": 170.15,
+   "move_pct": 14.13,
    "move_label": "today",
-   "rel_volume": 2.6,
-   "market_cap": 1137477376.0,
-   "score": 54,
+   "rel_volume": 25.17,
+   "market_cap": 37327556608.0,
+   "score": 69,
+   "confidence": "Medium",
+   "risk": "Very high",
+   "reasons": [
+    "Up 14.1% today",
+    "Trading 25.2x its normal volume, so real money is behind the move",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 79% over the past month"
+   ],
+   "risks": [
+    "Typically swings about 6.5% a day"
+   ],
+   "projection": {
+    "target_low": 165.0,
+    "target_mean": 180.8947,
+    "target_high": 220.0,
+    "bear": -3.0,
+    "base": 6.3,
+    "bull": 29.3,
+    "analysts": 19,
+    "rating": "buy",
+    "rating_mean": 2.2381
+   },
+   "daily_swing": 6.52,
+   "ret_5d": 39.6274,
+   "ret_20d": 79.1807,
+   "ret_60d": 39.6733,
+   "earnings": null,
+   "spark": [
+    97.79,
+    99.21,
+    96.27,
+    95.29,
+    95.67,
+    94.04,
+    95.06,
+    93.39,
+    93.33,
+    94.96,
+    96.98,
+    111.59,
+    112.58,
+    109.31,
+    104.44,
+    110.0,
+    108.76,
+    114.41,
+    116.1,
+    119.49,
+    120.75,
+    118.07,
+    121.16,
+    122.88,
+    121.86,
+    119.8,
+    144.46,
+    141.33,
+    149.09,
+    170.15
+   ],
+   "news": [
+    {
+     "title": "Sanofi stock jumps after deal to acquire respiratory drugmaker Insmed",
+     "url": "https://finance.yahoo.com/video/sanofi-stock-jumps-after-deal-to-acquire-respiratory-drugmaker-insmed-142928410.html",
+     "publisher": "Yahoo Finance Video"
+    },
+    {
+     "title": "Insmed Inc. (INSM) Stages a Monster 14% Rally \u2014 Here\u2019s What Sparked Buying",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/insmed-inc-insm-stages-monster-020154811.html",
+     "publisher": "Insider Monkey"
+    }
+   ],
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=INSM"
+  },
+  {
+   "symbol": "VRDN",
+   "name": "Viridian Therapeutics, Inc.",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "price": 35.7,
+   "move_pct": 10.36,
+   "move_label": "day + after-hours",
+   "rel_volume": 1.65,
+   "market_cap": 4054036736.0,
+   "score": 69,
    "confidence": "Medium",
    "risk": "High",
    "reasons": [
-    "Up 6.9% today",
-    "Trading 2.6x its normal volume, so real money is behind the move",
+    "Up 10.4% day + after-hours",
+    "Trading 1.6x its normal volume, so real money is behind the move",
     "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 8% over the past month"
+    "Momentum: up 48% over the past month"
    ],
    "risks": [
-    "Small cap ($1.1B): moves fast both ways and can be thinly traded"
+    "Heavily shorted stocks are violent in both directions",
+    "Typically swings about 4.9% a day"
    ],
    "projection": {
-    "target_low": 30.0,
-    "target_mean": 31.5714,
-    "target_high": 33.0,
-    "bear": 2.4,
-    "base": 7.8,
-    "bull": 12.7,
-    "analysts": 7,
+    "target_low": 33.0,
+    "target_mean": 42.7647,
+    "target_high": 54.0,
+    "bear": -7.6,
+    "base": 19.8,
+    "bull": 51.3,
+    "analysts": 17,
     "rating": "strong buy",
-    "rating_mean": 1.125
+    "rating_mean": 1.1667
    },
-   "daily_swing": 3.44,
-   "ret_5d": 10.863,
-   "ret_20d": 8.3611,
-   "ret_60d": 23.4303,
+   "daily_swing": 4.91,
+   "ret_5d": 18.7625,
+   "ret_20d": 48.1943,
+   "ret_60d": 54.1451,
    "earnings": null,
    "spark": [
-    26.14,
-    26.37,
-    27.64,
-    25.04,
-    26.0,
-    27.68,
-    27.14,
-    27.4,
-    27.13,
-    27.03,
-    27.22,
-    27.22,
-    27.82,
-    26.58,
-    26.96,
-    28.27,
-    27.39,
-    26.01,
-    26.59,
-    27.6,
-    27.48,
-    27.8,
-    26.35,
-    26.14,
-    26.42,
-    25.97,
-    25.63,
-    25.75,
-    27.39,
-    29.29
+    18.38,
+    19.56,
+    19.03,
+    20.8,
+    22.43,
+    23.01,
+    22.82,
+    22.37,
+    23.34,
+    24.09,
+    24.27,
+    24.8,
+    24.67,
+    25.3,
+    25.15,
+    29.06,
+    28.55,
+    28.49,
+    30.19,
+    30.86,
+    31.25,
+    30.48,
+    30.87,
+    29.8,
+    30.06,
+    30.12,
+    31.44,
+    29.96,
+    31.89,
+    35.7
    ],
    "news": [
     {
-     "title": "CeriBell: 3 Key Takeaways for Long-Term Investors",
-     "url": "https://www.fool.com/earnings/takeaways/2026/11/22/ceribell-3-key-takeaways-for-long-term-investors/",
-     "publisher": "Motley Fool"
+     "title": "Why Viridian Therapeutics (VRDN) Stock Is Up 10.7% Today Without Company News",
+     "url": "https://finance.yahoo.com/healthcare/articles/why-viridian-therapeutics-vrdn-stock-203114609.html",
+     "publisher": "GuruFocus.com"
     },
     {
-     "title": "Ceribell (CBLL) Stock Looks Stretched Despite New AI Monitoring Launch",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/ceribell-cbll-stock-looks-stretched-081030013.html",
+     "title": "VRDN Stock Rises 34% in a Month on Lumvoa Launch & Pipeline Progress",
+     "url": "https://finance.yahoo.com/healthcare/articles/vrdn-stock-rises-34-month-132200238.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=VRDN"
+  },
+  {
+   "symbol": "KSS",
+   "name": "Kohl's Corporation",
+   "sector": "Consumer Cyclical",
+   "industry": "Department Stores",
+   "price": 25.33,
+   "move_pct": 19.48,
+   "move_label": "today",
+   "rel_volume": 2.65,
+   "market_cap": 2871825408.0,
+   "score": 66,
+   "confidence": "Medium",
+   "risk": "Very high",
+   "reasons": [
+    "Up 19.5% today",
+    "Trading 2.6x its normal volume, so real money is behind the move",
+    "At or breaking through its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "35% of the float is sold short: fuel for a squeeze if it keeps rising"
+   ],
+   "risks": [
+    "Already 18% above the average analyst target",
+    "Heavily shorted stocks are violent in both directions",
+    "Typically swings about 6.0% a day"
+   ],
+   "projection": {
+    "target_low": 9.0,
+    "target_mean": 20.7083,
+    "target_high": 41.5,
+    "bear": -64.5,
+    "base": -18.2,
+    "bull": 63.8,
+    "analysts": 12,
+    "rating": "hold",
+    "rating_mean": 3.3077
+   },
+   "daily_swing": 5.98,
+   "ret_5d": 9.7012,
+   "ret_20d": 6.5181,
+   "ret_60d": 43.1049,
+   "earnings": null,
+   "spark": [
+    21.15,
+    22.41,
+    21.59,
+    21.44,
+    21.74,
+    22.16,
+    24.78,
+    24.58,
+    23.65,
+    23.78,
+    23.34,
+    24.5,
+    24.31,
+    24.15,
+    23.62,
+    25.36,
+    23.9,
+    23.04,
+    24.92,
+    24.75,
+    24.65,
+    23.5,
+    24.0,
+    23.37,
+    23.09,
+    24.04,
+    22.99,
+    22.25,
+    21.2,
+    25.33
+   ],
+   "news": [
+    {
+     "title": "Kohl's stock soars after retailer posts sales growth for first time in 4 years",
+     "url": "https://finance.yahoo.com/markets/stocks/article/kohls-stock-soars-after-retailer-posts-sales-growth-for-first-time-in-4-years-200547242.html",
+     "publisher": "Yahoo Finance"
+    },
+    {
+     "title": "Stocks give back gains as Anthropic dips below IPO price",
+     "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html",
+     "publisher": "Yahoo Finance Video"
+    }
+   ],
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=KSS"
+  },
+  {
+   "symbol": "AMTM",
+   "name": "Amentum Holdings, Inc.",
+   "sector": "Industrials",
+   "industry": "Engineering & Construction",
+   "price": 24.8,
+   "move_pct": 19.23,
+   "move_label": "day + after-hours",
+   "rel_volume": 5.74,
+   "market_cap": 6063758848.0,
+   "score": 65,
+   "confidence": "Medium",
+   "risk": "Very high",
+   "reasons": [
+    "Up 19.2% day + after-hours",
+    "Trading 5.7x its normal volume, so real money is behind the move",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 14% over the past month",
+    "12 analysts see 21% upside on average (target $30.08)"
+   ],
+   "risks": [
+    "Typically swings about 5.1% a day"
+   ],
+   "projection": {
+    "target_low": 23.0,
+    "target_mean": 30.0833,
+    "target_high": 40.0,
+    "bear": -7.3,
+    "base": 21.3,
+    "bull": 61.3,
+    "analysts": 12,
+    "rating": "buy",
+    "rating_mean": 2.3333
+   },
+   "daily_swing": 5.08,
+   "ret_5d": 16.8709,
+   "ret_20d": 14.023,
+   "ret_60d": 24.062,
+   "earnings": null,
+   "spark": [
+    18.13,
+    19.09,
+    19.52,
+    19.48,
+    19.87,
+    20.15,
+    21.29,
+    21.76,
+    22.07,
+    21.75,
+    21.69,
+    22.07,
+    21.87,
+    22.47,
+    22.38,
+    22.23,
+    21.37,
+    21.25,
+    22.34,
+    23.13,
+    22.73,
+    22.15,
+    21.95,
+    21.47,
+    21.22,
+    20.93,
+    21.02,
+    20.34,
+    20.65,
+    24.8
+   ],
+   "news": [
+    {
+     "title": "Amentum Holdings (AMTM) Issues Fresh Guidance And Buyback, Is It Still 15% Below Fair Value?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/amentum-holdings-amtm-issues-fresh-031508100.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "Amentum (AMTM) Q4 2026 Earnings Call Transcript",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/24/amentum-amtm-q4-2026-earnings-call-transcript/",
+     "publisher": "Motley Fool"
+    }
+   ],
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=AMTM"
+  },
+  {
+   "symbol": "TGTX",
+   "name": "TG Therapeutics, Inc.",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "price": 70.13,
+   "move_pct": 9.6,
+   "move_label": "today",
+   "rel_volume": 2.05,
+   "market_cap": 10599996416.0,
+   "score": 64,
+   "confidence": "Medium",
+   "risk": "High",
+   "reasons": [
+    "Up 9.6% today",
+    "Trading 2.1x its normal volume, so real money is behind the move",
+    "At or breaking through its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 24% over the past month"
+   ],
+   "risks": [
+    "Already 1% above the average analyst target",
+    "Heavily shorted stocks are violent in both directions"
+   ],
+   "projection": {
+    "target_low": 21.0,
+    "target_mean": 69.4286,
+    "target_high": 86.0,
+    "bear": -70.1,
+    "base": -1.0,
+    "bull": 22.6,
+    "analysts": 7,
+    "rating": "strong buy",
+    "rating_mean": 1.5
+   },
+   "daily_swing": 3.59,
+   "ret_5d": 11.8322,
+   "ret_20d": 24.2558,
+   "ret_60d": 29.1529,
+   "earnings": null,
+   "spark": [
+    54.37,
+    56.0,
+    53.97,
+    53.3,
+    54.53,
+    53.2,
+    53.16,
+    54.17,
+    54.79,
+    56.44,
+    57.4,
+    58.08,
+    61.18,
+    59.95,
+    60.75,
+    61.63,
+    57.98,
+    59.83,
+    63.38,
+    64.26,
+    65.76,
+    64.56,
+    64.51,
+    62.76,
+    62.71,
+    66.12,
+    64.88,
+    63.34,
+    63.99,
+    70.13
+   ],
+   "news": [
+    {
+     "title": "TGTX Stock Hits Fresh All-Time High As FDA Reviews Easier Briumvi Launch Dose",
+     "url": "https://stocktwits.com/news-articles/markets/equity/tgtx-stock-hits-fresh-all-time-high-as-fda-reviews-easier-briumvi-launch-dose/cNbskt9R9kz",
+     "publisher": "Stocktwits"
+    },
+    {
+     "title": "TG Therapeutics (TGTX) Stock Is Up 9.2% Today: FDA Accepts Briumvi Filing",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/tg-therapeutics-tgtx-stock-9-203057470.html",
+     "publisher": "GuruFocus.com"
+    }
+   ],
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=TGTX"
+  },
+  {
+   "symbol": "STOK",
+   "name": "Stoke Therapeutics, Inc.",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "price": 32.84,
+   "move_pct": 16.74,
+   "move_label": "today",
+   "rel_volume": 1.59,
+   "market_cap": 2147941888.0,
+   "score": 64,
+   "confidence": "Medium",
+   "risk": "High",
+   "reasons": [
+    "Up 16.7% today",
+    "Trading 1.6x its normal volume, so real money is behind the move",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 26% over the past month",
+    "13 analysts see 41% upside on average (target $46.38)"
+   ],
+   "risks": [
+    "Heavily shorted stocks are violent in both directions",
+    "Typically swings about 4.4% a day"
+   ],
+   "projection": {
+    "target_low": 35.0,
+    "target_mean": 46.3846,
+    "target_high": 60.0,
+    "bear": 6.6,
+    "base": 41.2,
+    "bull": 82.7,
+    "analysts": 13,
+    "rating": "strong buy",
+    "rating_mean": 1.1429
+   },
+   "daily_swing": 4.45,
+   "ret_5d": 24.3468,
+   "ret_20d": 25.6793,
+   "ret_60d": 5.2564,
+   "earnings": null,
+   "spark": [
+    23.26,
+    24.61,
+    24.17,
+    24.82,
+    26.61,
+    25.68,
+    25.7,
+    25.04,
+    25.46,
+    26.13,
+    26.41,
+    26.35,
+    26.29,
+    26.48,
+    26.99,
+    27.45,
+    26.07,
+    26.54,
+    27.71,
+    27.21,
+    27.76,
+    26.2,
+    26.68,
+    26.63,
+    26.41,
+    26.69,
+    26.93,
+    26.81,
+    28.13,
+    32.84
+   ],
+   "news": [
+    {
+     "title": "Why Is Stoke (STOK) Stock Up Today? Biotech Rally on Insmed Deal",
+     "url": "https://finance.yahoo.com/healthcare/articles/why-stoke-stok-stock-today-204535299.html",
+     "publisher": "GuruFocus.com"
+    },
+    {
+     "title": "Stoke Therapeutics: 3 Key Takeaways for Long-Term Investors",
+     "url": "https://www.fool.com/earnings/takeaways/2026/11/22/stoke-therapeutics-3-key-takeaways-for-long-term-investors/",
+     "publisher": "Motley Fool"
+    }
+   ],
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=STOK"
+  },
+  {
+   "symbol": "DLTR",
+   "name": "Dollar Tree, Inc.",
+   "sector": "Consumer Defensive",
+   "industry": "Discount Stores",
+   "price": 154.65,
+   "move_pct": 11.18,
+   "move_label": "today",
+   "rel_volume": 2.61,
+   "market_cap": 29017024512.0,
+   "score": 61,
+   "confidence": "Medium",
+   "risk": "High",
+   "reasons": [
+    "Up 11.2% today",
+    "Trading 2.6x its normal volume, so real money is behind the move",
+    "At or breaking through its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 25% over the past month"
+   ],
+   "risks": [
+    "Already 8% above the average analyst target",
+    "Typically swings about 4.3% a day"
+   ],
+   "projection": {
+    "target_low": 98.0,
+    "target_mean": 141.8148,
+    "target_high": 170.0,
+    "bear": -36.6,
+    "base": -8.3,
+    "bull": 9.9,
+    "analysts": 27,
+    "rating": "hold",
+    "rating_mean": 2.5333
+   },
+   "daily_swing": 4.27,
+   "ret_5d": 10.6936,
+   "ret_20d": 25.0708,
+   "ret_60d": 22.166,
+   "earnings": null,
+   "spark": [
+    121.76,
+    124.41,
+    124.18,
+    123.15,
+    124.96,
+    125.48,
+    131.04,
+    125.31,
+    124.92,
+    123.65,
+    127.18,
+    132.03,
+    133.87,
+    138.6,
+    134.07,
+    147.0,
+    137.94,
+    131.14,
+    137.23,
+    140.83,
+    142.9,
+    141.27,
+    138.08,
+    138.7,
+    139.71,
+    142.44,
+    140.24,
+    137.96,
+    139.1,
+    154.65
+   ],
+   "news": [
+    {
+     "title": "Stocks give back gains as Anthropic dips below IPO price",
+     "url": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html",
+     "publisher": "Yahoo Finance Video"
+    },
+    {
+     "title": "Dollar Tree stock pops as thrifty shoppers power a 6th straight earnings beat",
+     "url": "https://finance.yahoo.com/markets/stocks/article/dollar-tree-stock-pops-as-thrifty-shoppers-power-a-6th-straight-earnings-beat-150530467.html",
+     "publisher": "Yahoo Finance"
+    }
+   ],
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=DLTR"
+  },
+  {
+   "symbol": "ALEC",
+   "name": "Alector, Inc.",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "price": 2.71,
+   "move_pct": 10.07,
+   "move_label": "day + after-hours",
+   "rel_volume": 1.33,
+   "market_cap": 403456864.0,
+   "score": 61,
+   "confidence": "Medium",
+   "risk": "Very high",
+   "reasons": [
+    "Up 10.1% day + after-hours",
+    "Within 4.6% of its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 29% over the past month",
+    "6 analysts see 63% upside on average (target $4.42)"
+   ],
+   "risks": [
+    "Small cap ($403M): moves fast both ways and can be thinly traded",
+    "Low-priced stock: higher pump-and-dump risk",
+    "Typically swings about 6.2% a day"
+   ],
+   "projection": {
+    "target_low": 1.0,
+    "target_mean": 4.4167,
+    "target_high": 8.0,
+    "bear": -63.1,
+    "base": 63.0,
+    "bull": 195.2,
+    "analysts": 6,
+    "rating": "buy",
+    "rating_mean": 2.375
+   },
+   "daily_swing": 6.17,
+   "ret_5d": 5.8594,
+   "ret_20d": 29.0476,
+   "ret_60d": 19.9115,
+   "earnings": null,
+   "spark": [
+    1.88,
+    1.91,
+    1.84,
+    1.95,
+    1.97,
+    1.87,
+    1.83,
+    1.83,
+    1.83,
+    2.1,
+    2.25,
+    2.24,
+    2.21,
+    2.15,
+    2.05,
+    2.28,
+    2.09,
+    2.29,
+    2.46,
+    2.53,
+    2.63,
+    2.45,
+    2.54,
+    2.57,
+    2.56,
+    2.57,
+    2.3,
+    2.34,
+    2.44,
+    2.71
+   ],
+   "news": [
+    {
+     "title": "Missed Alector's 82% Gain? Here's What Investors Got Right",
+     "url": "https://finance.yahoo.com/healthcare/articles/missed-alectors-82-gain-heres-070630646.html",
+     "publisher": "Simply Wall St."
+    },
+    {
+     "title": "Alector (ALEC) Stock Sees Fair Value Lift As Analysts Split On Genentech Deal",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/alector-alec-stock-sees-fair-232026987.html",
      "publisher": "Simply Wall St."
     }
    ],
    "streak": 0,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=CBLL"
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ALEC"
   },
   {
-   "symbol": "UPBD",
-   "name": "Upbound Group, Inc.",
-   "sector": "Technology",
-   "industry": "Software - Application",
-   "price": 26.6,
-   "move_pct": 3.12,
-   "move_label": "day + after-hours",
-   "rel_volume": 1.46,
-   "market_cap": 1550843392.0,
-   "score": 52,
+   "symbol": "ANF",
+   "name": "Abercrombie & Fitch Company",
+   "sector": "Consumer Cyclical",
+   "industry": "Apparel Retail",
+   "price": 168.1,
+   "move_pct": 19.69,
+   "move_label": "today",
+   "rel_volume": 2.96,
+   "market_cap": 7133218816.0,
+   "score": 60,
    "confidence": "Medium",
    "risk": "Very high",
    "reasons": [
-    "Up 3.1% day + after-hours",
-    "At or breaking through its 52-week high",
+    "Up 19.7% today",
+    "Trading 3.0x its normal volume, so real money is behind the move",
     "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 57% over the past month",
-    "17% of the float is sold short: fuel for a squeeze if it keeps rising"
+    "15% of the float is sold short: fuel for a squeeze if it keeps rising"
    ],
    "risks": [
     "Heavily shorted stocks are violent in both directions",
-    "Small cap ($1.6B): moves fast both ways and can be thinly traded",
-    "Typically swings about 5.5% a day"
+    "Typically swings about 5.9% a day"
    ],
    "projection": {
-    "target_low": 20.0,
-    "target_mean": 27.3333,
-    "target_high": 41.0,
-    "bear": -24.8,
-    "base": 2.8,
-    "bull": 54.1,
-    "analysts": 6,
+    "target_low": 150.0,
+    "target_mean": 176.5455,
+    "target_high": 205.0,
+    "bear": -10.8,
+    "base": 5.0,
+    "bull": 22.0,
+    "analysts": 11,
     "rating": "buy",
-    "rating_mean": 1.8333
+    "rating_mean": 1.8667
    },
-   "daily_swing": 5.52,
-   "ret_5d": 6.7416,
-   "ret_20d": 56.5627,
-   "ret_60d": 41.9184,
+   "daily_swing": 5.85,
+   "ret_5d": 17.6512,
+   "ret_20d": 1.6447,
+   "ret_60d": 17.4867,
    "earnings": null,
    "spark": [
-    15.41,
-    15.44,
-    16.45,
-    16.37,
-    15.98,
-    16.32,
-    16.17,
-    17.37,
-    17.08,
-    16.99,
-    16.95,
-    16.91,
-    19.98,
-    20.7,
-    22.84,
-    22.46,
-    24.14,
-    24.88,
-    24.24,
-    24.68,
-    24.66,
-    25.27,
-    23.88,
-    25.09,
-    24.92,
-    24.72,
-    26.38,
-    24.87,
-    25.44,
-    26.6
+    149.74,
+    151.99,
+    153.26,
+    162.01,
+    161.73,
+    159.64,
+    161.49,
+    155.82,
+    164.73,
+    165.38,
+    161.24,
+    165.77,
+    164.44,
+    164.17,
+    157.51,
+    171.09,
+    157.59,
+    149.54,
+    152.81,
+    154.0,
+    151.92,
+    150.49,
+    148.88,
+    145.77,
+    142.88,
+    147.01,
+    137.64,
+    137.92,
+    140.45,
+    168.1
    ],
    "news": [
     {
-     "title": "3 Consumer Discretionary Stocks Investors Are Screening After The Jobs Report",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/3-consumer-discretionary-stocks-investors-071027661.html",
+     "title": "Is Abercrombie & Fitch (ANF) Still Undervalued After Record Q3?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-anf-still-undervalued-031115863.html",
      "publisher": "Simply Wall St."
     },
     {
-     "title": "Upbound Group (UPBD) Posted Mixed Q3 Results, Is It Still 12% Undervalued?",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/upbound-group-upbd-posted-mixed-151437602.html",
-     "publisher": "Simply Wall St."
+     "title": "Abercrombie & Fitch (ANF) Has Investors Rushing Back. Here\u2019s Why",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-anf-investors-rushing-021907432.html",
+     "publisher": "Insider Monkey"
     }
    ],
-   "streak": 2,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=UPBD"
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ANF"
   }
  ],
  "core": [
@@ -1075,39 +1065,39 @@
    "name": "Unity Software Inc.",
    "sector": "Technology",
    "industry": "Software - Application",
-   "price": 47.48,
-   "move_pct": 6.1,
-   "move_label": "today",
-   "rel_volume": 0.95,
-   "market_cap": 21072986112.0,
-   "score": 75,
+   "price": 48.37,
+   "move_pct": 1.11,
+   "move_label": "day + after-hours",
+   "rel_volume": 0.71,
+   "market_cap": 21467994112.0,
+   "score": 76,
    "confidence": "High",
    "risk": "High",
    "reasons": [
-    "25 analysts rate it 'strong buy' with 31% average upside (target $62.04)",
+    "25 analysts rate it 'strong buy' with 29% average upside (target $62.48)",
     "Revenue growing 32% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
+    "Up 15% over the past three months",
     "Reasonably priced at 18x next year's earnings"
    ],
    "risks": [],
    "projection": {
     "target_low": 49.0,
-    "target_mean": 62.042,
+    "target_mean": 62.482,
     "target_high": 74.0,
-    "bear": 3.2,
-    "base": 30.7,
-    "bull": 55.9,
+    "bear": 1.3,
+    "base": 29.2,
+    "bull": 53.0,
     "analysts": 25,
     "rating": "strong buy",
     "rating_mean": 1.4231
    },
-   "daily_swing": 4.79,
-   "ret_5d": -8.4811,
-   "ret_20d": 17.7287,
-   "ret_60d": 9.6283,
+   "daily_swing": 4.78,
+   "ret_5d": -3.9516,
+   "ret_20d": 20.6234,
+   "ret_60d": 14.8931,
    "earnings": null,
    "spark": [
-    46.63,
     41.4,
     43.34,
     40.4,
@@ -1136,62 +1126,146 @@
     48.96,
     46.7,
     44.75,
-    47.48
+    47.48,
+    48.37
    ],
    "news": [
     {
-     "title": "What Is The Case For Waiting On Roblox Stock?",
-     "url": "https://www.trefis.com/stock/rblx/articles/627684/what-is-the-case-for-waiting-on-roblox-stock/2026-11-23",
-     "publisher": "Trefis"
+     "title": "Is Unity Software (U) Expensive Following Its Move Above The 20 Day Average?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/unity-software-u-expensive-following-031114535.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "AppLovin Q3 Beat & Q4 Guidance Put AI Growth & Margins to the Test",
-     "url": "https://finance.yahoo.com/technology/ai/articles/applovin-q3-beat-q4-guidance-153200673.html",
-     "publisher": "Zacks"
+     "title": "Unity (U) Stock Looks About Right Based On Its Sales",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/unity-u-stock-looks-based-001535041.html",
+     "publisher": "Simply Wall St."
     }
    ],
-   "streak": 8,
+   "streak": 9,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=U"
+  },
+  {
+   "symbol": "ONC",
+   "name": "BeOne Medicines Ltd.",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "price": 415.62,
+   "move_pct": -0.72,
+   "move_label": "day + after-hours",
+   "rel_volume": 1.02,
+   "market_cap": 47474642944.0,
+   "score": 74,
+   "confidence": "High",
+   "risk": "Moderate",
+   "reasons": [
+    "27 analysts rate it 'strong buy' with 14% average upside (target $472.77)",
+    "Earnings growing 212% year over year",
+    "Revenue growing 34% year over year",
+    "In a steady uptrend, above its 50-day and 200-day averages",
+    "Up 16% over the past three months"
+   ],
+   "risks": [],
+   "projection": {
+    "target_low": 412.0,
+    "target_mean": 472.7748,
+    "target_high": 561.3,
+    "bear": -0.9,
+    "base": 13.8,
+    "bull": 35.1,
+    "analysts": 27,
+    "rating": "strong buy",
+    "rating_mean": 1.3333
+   },
+   "daily_swing": 2.52,
+   "ret_5d": 0.5711,
+   "ret_20d": 13.5403,
+   "ret_60d": 15.5849,
+   "earnings": null,
+   "spark": [
+    351.48,
+    374.08,
+    369.06,
+    370.17,
+    384.5,
+    386.46,
+    382.27,
+    377.63,
+    370.87,
+    366.05,
+    373.36,
+    371.56,
+    370.33,
+    361.27,
+    355.0,
+    377.78,
+    387.25,
+    406.96,
+    417.33,
+    424.0,
+    419.98,
+    415.96,
+    416.54,
+    411.29,
+    413.26,
+    403.6,
+    399.7,
+    390.94,
+    403.36,
+    415.62
+   ],
+   "news": [
+    {
+     "title": "New Strong Buy Stocks for November 24th",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/strong-buy-stocks-november-24th-094000905.html",
+     "publisher": "Zacks"
+    },
+    {
+     "title": "Up 15% since October: Inside the oncology stock beating healthcare",
+     "url": "https://finance.yahoo.com/healthcare/articles/15-since-october-inside-oncology-092758856.html",
+     "publisher": "Investing.com"
+    }
+   ],
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ONC"
   },
   {
    "symbol": "SN",
    "name": "SharkNinja, Inc.",
    "sector": "Consumer Cyclical",
    "industry": "Furnishings, Fixtures & Appliances",
-   "price": 225.37,
-   "move_pct": 7.33,
-   "move_label": "day + after-hours",
-   "rel_volume": 0.8,
-   "market_cap": 31757225984.0,
-   "score": 71,
+   "price": 228.93,
+   "move_pct": 1.58,
+   "move_label": "today",
+   "rel_volume": 0.9,
+   "market_cap": 32258869248.0,
+   "score": 70,
    "confidence": "High",
    "risk": "High",
    "reasons": [
-    "14 analysts rate it 'strong buy' with 11% average upside (target $249.58)",
+    "14 analysts rate it 'strong buy' with 9% average upside (target $249.58)",
     "Earnings growing 80% year over year",
     "Revenue growing 21% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 18% over the past three months"
+    "Up 19% over the past three months"
    ],
    "risks": [],
    "projection": {
     "target_low": 214.0,
     "target_mean": 249.5821,
     "target_high": 300.0,
-    "bear": -5.0,
-    "base": 10.7,
-    "bull": 33.1,
+    "bear": -6.5,
+    "base": 9.0,
+    "bull": 31.0,
     "analysts": 14,
     "rating": "strong buy",
     "rating_mean": 1.1333
    },
    "daily_swing": 3.07,
-   "ret_5d": 0.9315,
-   "ret_20d": 13.4622,
-   "ret_60d": 17.8528,
+   "ret_5d": 4.0024,
+   "ret_20d": 15.8963,
+   "ret_60d": 18.9308,
    "earnings": null,
    "spark": [
-    188.8,
     186.32,
     193.68,
     186.51,
@@ -1220,293 +1294,42 @@
     230.09,
     216.8,
     212.64,
-    225.37
+    225.37,
+    228.93
    ],
    "news": [
     {
-     "title": "SharkNinja To Join S&P 500 Index",
-     "url": "https://www.investors.com/news/sharkninja-stock-to-join-sp-500-index/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
-    },
-    {
-     "title": "SharkNinja Stock to Join the S&P 500 as AES Leaves",
-     "url": "https://www.barrons.com/articles/sharkninja-stock-join-s-p-500-index-aes-c34cc6c1?siteid=yhoof2&yptr=yahoo",
-     "publisher": "Barrons.com"
-    }
-   ],
-   "streak": 8,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=SN"
-  },
-  {
-   "symbol": "RGA",
-   "name": "Reinsurance Group of America, I",
-   "sector": "Financial Services",
-   "industry": "Insurance - Reinsurance",
-   "price": 272.97,
-   "move_pct": 2.32,
-   "move_label": "today",
-   "rel_volume": 1.04,
-   "market_cap": 17754787840.0,
-   "score": 68,
-   "confidence": "Medium",
-   "risk": "Moderate",
-   "reasons": [
-    "9 analysts rate it 'buy' with 10% average upside (target $299.89)",
-    "Earnings growing 82% year over year",
-    "Revenue growing 22% year over year",
-    "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 12% over the past three months"
-   ],
-   "risks": [],
-   "projection": {
-    "target_low": 250.0,
-    "target_mean": 299.8889,
-    "target_high": 325.0,
-    "bear": -8.4,
-    "base": 9.9,
-    "bull": 19.1,
-    "analysts": 9,
-    "rating": "buy",
-    "rating_mean": 1.9
-   },
-   "daily_swing": 1.23,
-   "ret_5d": 0.7716,
-   "ret_20d": 3.3217,
-   "ret_60d": 11.5735,
-   "earnings": null,
-   "spark": [
-    257.4,
-    260.11,
-    263.09,
-    265.79,
-    265.84,
-    266.43,
-    268.21,
-    271.07,
-    262.99,
-    264.19,
-    261.77,
-    260.04,
-    262.5,
-    263.78,
-    266.45,
-    263.75,
-    265.69,
-    261.02,
-    260.96,
-    265.79,
-    273.07,
-    272.31,
-    272.75,
-    274.16,
-    270.88,
-    268.29,
-    265.55,
-    268.03,
-    266.78,
-    272.97
-   ],
-   "news": [
-    {
-     "title": "Zacks Industry Outlook Highlights AIA, Manulife Financial, Sun Life Financial, Reinsurance Group of America and Baldwin Insurance",
-     "url": "https://finance.yahoo.com/healthcare/articles/zacks-industry-outlook-highlights-aia-120800298.html",
-     "publisher": "Zacks"
-    },
-    {
-     "title": "5 Life Insurance Stocks to Watch Amid Rising Private Credit Risks",
-     "url": "https://finance.yahoo.com/healthcare/articles/5-life-insurance-stocks-watch-164400768.html",
-     "publisher": "Zacks"
-    }
-   ],
-   "streak": 3,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=RGA"
-  },
-  {
-   "symbol": "DIS",
-   "name": "Walt Disney Company (The)",
-   "sector": "Communication Services",
-   "industry": "Entertainment",
-   "price": 120.27,
-   "move_pct": 1.94,
-   "move_label": "today",
-   "rel_volume": 1.1,
-   "market_cap": 205424721920.0,
-   "score": 67,
-   "confidence": "Medium",
-   "risk": "Moderate",
-   "reasons": [
-    "31 analysts rate it 'buy' with 9% average upside (target $131.34)",
-    "Earnings growing 107% year over year",
-    "Revenue growing 16% year over year",
-    "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 11% over the past three months"
-   ],
-   "risks": [],
-   "projection": {
-    "target_low": 86.0,
-    "target_mean": 131.3435,
-    "target_high": 144.0,
-    "bear": -28.5,
-    "base": 9.2,
-    "bull": 19.7,
-    "analysts": 31,
-    "rating": "buy",
-    "rating_mean": 1.5625
-   },
-   "daily_swing": 1.85,
-   "ret_5d": 1.3227,
-   "ret_20d": 8.9402,
-   "ret_60d": 11.2581,
-   "earnings": null,
-   "spark": [
-    108.58,
-    108.99,
-    110.68,
-    110.59,
-    109.59,
-    111.67,
-    111.83,
-    113.13,
-    112.52,
-    110.4,
-    110.23,
-    109.04,
-    110.91,
-    110.94,
-    113.11,
-    114.18,
-    118.95,
-    117.22,
-    116.75,
-    119.12,
-    119.21,
-    119.65,
-    118.23,
-    118.97,
-    118.7,
-    116.94,
-    122.36,
-    120.25,
-    117.98,
-    120.27
-   ],
-   "news": [
-    {
-     "title": "Walt Disney (DIS) Plans To Merge Hulu Into Disney+ By December 2026",
-     "url": "https://finance.yahoo.com/media-advertising/articles/walt-disney-dis-plans-merge-221202990.html",
+     "title": "SharkNinja (SN) Joins The S&P 500 As Fair Value Debate Heats Up",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/sharkninja-sn-joins-p-500-221420996.html",
      "publisher": "Simply Wall St."
     },
     {
-     "title": "The Super Bowl Is Coming Live to IMAX Theaters. Here\u2019s the Appeal.",
-     "url": "https://www.barrons.com/articles/super-bowl-live-imax-theaters-disney-espn-nfl-14ab56ba?siteid=yhoof2&yptr=yahoo",
-     "publisher": "Barrons.com"
+     "title": "S&P 500 Addition Might Change The Case For Investing In SharkNinja (SN)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-addition-might-change-211144322.html",
+     "publisher": "Simply Wall St."
     }
    ],
-   "streak": 4,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=DIS"
-  },
-  {
-   "symbol": "GMAB",
-   "name": "Genmab A/S",
-   "sector": "Healthcare",
-   "industry": "Biotechnology",
-   "price": 53.17,
-   "move_pct": 5.08,
-   "move_label": "today",
-   "rel_volume": 0.86,
-   "market_cap": 32784283648.0,
-   "score": 66,
-   "confidence": "Medium",
-   "risk": "Very high",
-   "reasons": [
-    "11 analysts rate it 'strong buy' with 22% average upside (target $65.01)",
-    "Revenue growing 16% year over year",
-    "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 60% over the past three months"
-   ],
-   "risks": [
-    "Earnings shrinking (-15% year over year)"
-   ],
-   "projection": {
-    "target_low": 48.0,
-    "target_mean": 65.0091,
-    "target_high": 80.0,
-    "bear": -9.7,
-    "base": 22.3,
-    "bull": 50.5,
-    "analysts": 11,
-    "rating": "strong buy",
-    "rating_mean": 1.4167
-   },
-   "daily_swing": 6.85,
-   "ret_5d": 3.1026,
-   "ret_20d": 18.9885,
-   "ret_60d": 60.006,
-   "earnings": null,
-   "spark": [
-    36.57,
-    36.89,
-    37.82,
-    37.0,
-    38.5,
-    39.07,
-    39.57,
-    40.0,
-    43.79,
-    44.69,
-    44.67,
-    57.29,
-    56.49,
-    57.06,
-    54.92,
-    55.52,
-    55.12,
-    52.74,
-    53.63,
-    55.8,
-    54.07,
-    53.87,
-    51.74,
-    51.37,
-    51.57,
-    51.96,
-    50.97,
-    51.35,
-    50.6,
-    53.17
-   ],
-   "news": [
-    {
-     "title": "Johnson & Johnson vs. Pfizer: Which Healthcare Stock Is a Better Buy for 2027?",
-     "url": "https://www.fool.com/coverage/better-buy/2026/11/22/johnson-johnson-vs-pfizer-which-healthcare-stock-is-a-better-buy-for-2027/",
-     "publisher": "Motley Fool"
-    },
-    {
-     "title": "Target, Biotech Lead 5 Stocks Showing Strength In Brutal Market",
-     "url": "https://www.investors.com/news/target-biotech-lead-5-stocks-showing-strength-in-brutal-market/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
-    }
-   ],
-   "streak": 8,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=GMAB"
+   "streak": 9,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=SN"
   },
   {
    "symbol": "LTH",
    "name": "Life Time Group Holdings, Inc.",
    "sector": "Consumer Cyclical",
    "industry": "Leisure",
-   "price": 47.32,
-   "move_pct": 2.69,
-   "move_label": "day + after-hours",
-   "rel_volume": 0.7,
-   "market_cap": 10628237312.0,
+   "price": 47.93,
+   "move_pct": 1.29,
+   "move_label": "today",
+   "rel_volume": 0.91,
+   "market_cap": 10765246464.0,
    "score": 65,
    "confidence": "Medium",
    "risk": "Moderate",
    "reasons": [
-    "15 analysts rate it 'strong buy' with 22% average upside (target $57.60)",
+    "15 analysts rate it 'strong buy' with 20% average upside (target $57.60)",
     "Revenue growing 14% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
+    "Up 14% over the past three months",
     "Reasonably priced at 23x next year's earnings"
    ],
    "risks": [],
@@ -1514,20 +1337,19 @@
     "target_low": 52.0,
     "target_mean": 57.6,
     "target_high": 70.0,
-    "bear": 9.9,
-    "base": 21.7,
-    "bull": 47.9,
+    "bear": 8.5,
+    "base": 20.2,
+    "bull": 46.0,
     "analysts": 15,
     "rating": "strong buy",
     "rating_mean": 1.2
    },
-   "daily_swing": 2.61,
-   "ret_5d": 2.2472,
-   "ret_20d": 7.8887,
-   "ret_60d": 8.7566,
+   "daily_swing": 2.62,
+   "ret_5d": 2.5679,
+   "ret_20d": 8.7341,
+   "ret_60d": 14.0647,
    "earnings": null,
    "spark": [
-    39.66,
     40.22,
     40.56,
     40.52,
@@ -1556,7 +1378,8 @@
     48.09,
     46.54,
     46.33,
-    47.32
+    47.32,
+    47.93
    ],
    "news": [
     {
@@ -1570,48 +1393,133 @@
      "publisher": "Simply Wall St."
     }
    ],
-   "streak": 7,
+   "streak": 8,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=LTH"
+  },
+  {
+   "symbol": "ABBV",
+   "name": "AbbVie Inc.",
+   "sector": "Healthcare",
+   "industry": "Drug Manufacturers - General",
+   "price": 300.28,
+   "move_pct": 4.1,
+   "move_label": "today",
+   "rel_volume": 1.21,
+   "market_cap": 530779799552.0,
+   "score": 64,
+   "confidence": "Medium",
+   "risk": "Lower",
+   "reasons": [
+    "26 analysts rate it 'buy' with 5% average upside (target $315.88)",
+    "Earnings growing 2282% year over year",
+    "Revenue growing 10% year over year",
+    "In a steady uptrend, above its 50-day and 200-day averages",
+    "Up 18% over the past three months"
+   ],
+   "risks": [],
+   "projection": {
+    "target_low": 237.0,
+    "target_mean": 315.8846,
+    "target_high": 350.0,
+    "bear": -21.1,
+    "base": 5.2,
+    "bull": 16.6,
+    "analysts": 26,
+    "rating": "buy",
+    "rating_mean": 1.6897
+   },
+   "daily_swing": 1.62,
+   "ret_5d": 2.5476,
+   "ret_20d": 4.85,
+   "ret_60d": 17.8238,
+   "earnings": null,
+   "spark": [
+    281.75,
+    283.4,
+    285.42,
+    282.68,
+    289.08,
+    284.8,
+    285.19,
+    285.64,
+    286.74,
+    286.39,
+    285.99,
+    290.79,
+    294.89,
+    288.84,
+    286.0,
+    294.83,
+    288.24,
+    291.31,
+    293.3,
+    293.89,
+    294.98,
+    294.45,
+    295.03,
+    294.55,
+    292.82,
+    286.01,
+    283.54,
+    286.2,
+    288.45,
+    300.28
+   ],
+   "news": [
+    {
+     "title": "Why Is AbbVie (ABBV) Stock Up Today? Health Care Rally as Tech Slides",
+     "url": "https://finance.yahoo.com/healthcare/articles/why-abbvie-abbv-stock-today-210038489.html",
+     "publisher": "GuruFocus.com"
+    },
+    {
+     "title": "Why Gilead (GILD) Stock Is Up Today: Health Care Rally and New Rating",
+     "url": "https://finance.yahoo.com/healthcare/articles/why-gilead-gild-stock-today-204551335.html",
+     "publisher": "GuruFocus.com"
+    }
+   ],
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ABBV"
   },
   {
    "symbol": "REGN",
    "name": "Regeneron Pharmaceuticals, Inc.",
    "sector": "Healthcare",
    "industry": "Biotechnology",
-   "price": 942.24,
-   "move_pct": 2.34,
+   "price": 987.09,
+   "move_pct": 4.76,
    "move_label": "today",
-   "rel_volume": 0.96,
-   "market_cap": 97472708608.0,
-   "score": 65,
+   "rel_volume": 1.13,
+   "market_cap": 102112346112.0,
+   "score": 63,
    "confidence": "Medium",
    "risk": "High",
    "reasons": [
-    "27 analysts rate it 'buy' with 5% average upside (target $991.00)",
     "Earnings growing 36% year over year",
     "Revenue growing 36% year over year",
     "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 19% over the past three months"
+    "Up 24% over the past three months",
+    "Reasonably priced at 14x next year's earnings"
    ],
-   "risks": [],
+   "risks": [
+    "Trading at or above the average analyst target, so the easy upside may be priced in"
+   ],
    "projection": {
     "target_low": 812.0,
     "target_mean": 991.0,
     "target_high": 1175.0,
-    "bear": -13.8,
-    "base": 5.2,
-    "bull": 24.7,
+    "bear": -17.7,
+    "base": 0.4,
+    "bull": 19.0,
     "analysts": 27,
     "rating": "buy",
     "rating_mean": 1.7857
    },
-   "daily_swing": 3.61,
-   "ret_5d": -0.966,
-   "ret_20d": 16.7804,
-   "ret_60d": 18.7625,
+   "daily_swing": 3.71,
+   "ret_5d": 3.1674,
+   "ret_20d": 21.0754,
+   "ret_60d": 23.6542,
    "earnings": null,
    "spark": [
-    752.35,
     777.57,
     795.53,
     789.93,
@@ -1640,217 +1548,303 @@
     944.57,
     922.4,
     920.69,
-    942.24
+    942.24,
+    987.09
    ],
    "news": [
     {
-     "title": "What Is Kymera and Why Did an Eczema Pill Outperform All AI Stocks on Monday?",
-     "url": "https://beincrypto.com/what-is-kymera-eczema-pill-stock/",
-     "publisher": "BeInCrypto"
-    },
-    {
-     "title": "IBD Stock Of The Day Regeneron Shrugs Off Kymera's Dupixent Onslaught",
-     "url": "https://www.investors.com/research/ibd-stock-of-the-day/regeneron-stock-dupixent-livsayis-libtayo-mash-treatment/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
-    }
-   ],
-   "streak": 0,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=REGN"
-  },
-  {
-   "symbol": "PCOR",
-   "name": "Procore Technologies, Inc.",
-   "sector": "Technology",
-   "industry": "Software - Application",
-   "price": 73.43,
-   "move_pct": 2.33,
-   "move_label": "today",
-   "rel_volume": 0.57,
-   "market_cap": 10985037824.0,
-   "score": 57,
-   "confidence": "Medium",
-   "risk": "High",
-   "reasons": [
-    "22 analysts rate it 'buy' with 18% average upside (target $86.27)",
-    "Revenue growing 19% year over year",
-    "In a steady uptrend, above its 50-day and 200-day averages",
-    "Up 15% over the past three months"
-   ],
-   "risks": [],
-   "projection": {
-    "target_low": 68.0,
-    "target_mean": 86.2727,
-    "target_high": 105.0,
-    "bear": -7.4,
-    "base": 17.5,
-    "bull": 43.0,
-    "analysts": 22,
-    "rating": "buy",
-    "rating_mean": 1.56
-   },
-   "daily_swing": 4.75,
-   "ret_5d": -5.3127,
-   "ret_20d": 16.9826,
-   "ret_60d": 15.2385,
-   "earnings": null,
-   "spark": [
-    56.19,
-    55.97,
-    58.6,
-    56.98,
-    58.01,
-    60.73,
-    60.91,
-    62.29,
-    63.0,
-    62.77,
-    61.73,
-    62.05,
-    61.12,
-    61.38,
-    62.57,
-    63.17,
-    75.6,
-    75.6,
-    75.33,
-    76.46,
-    76.26,
-    77.52,
-    77.23,
-    77.62,
-    77.55,
-    74.78,
-    76.2,
-    73.3,
-    71.76,
-    73.43
-   ],
-   "news": [
-    {
-     "title": "Nvidia Shock Puts MongoDB Stock And Cloud Software Names Back In Focus",
-     "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-shock-puts-mongodb-stock-051540855.html",
+     "title": "What Regeneron Pharmaceuticals Doubters Overlooked",
+     "url": "https://finance.yahoo.com/healthcare/articles/regeneron-pharmaceuticals-doubters-overlooked-221722502.html",
      "publisher": "Simply Wall St."
     },
     {
-     "title": "Is Bentley Stock Cheaper After Its Multiple Halved?",
-     "url": "https://www.trefis.com/stock/bsy/articles/625787/is-bentley-stock-cheaper-after-its-multiple-halved/2026-11-17",
-     "publisher": "Trefis"
+     "title": "Insmed Snags A Whopping Price Tag As Sanofi Confirms Rumored Buyout",
+     "url": "https://www.investors.com/news/technology/insmed-stock-sanofi-buyout/?src=A00220&yptr=yahoo",
+     "publisher": "Investor's Business Daily"
     }
    ],
-   "streak": 3,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=PCOR"
+   "streak": 1,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=REGN"
+  },
+  {
+   "symbol": "ROIV",
+   "name": "Roivant Sciences Ltd.",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "price": 42.34,
+   "move_pct": 7.83,
+   "move_label": "day + after-hours",
+   "rel_volume": 1.35,
+   "market_cap": 30677932032.0,
+   "score": 61,
+   "confidence": "Medium",
+   "risk": "High",
+   "reasons": [
+    "11 analysts rate it 'strong buy' with 20% average upside (target $50.82)",
+    "Revenue growing 2136% year over year",
+    "In a steady uptrend, above its 50-day and 200-day averages",
+    "Up 22% over the past three months"
+   ],
+   "risks": [],
+   "projection": {
+    "target_low": 42.0,
+    "target_mean": 50.8182,
+    "target_high": 62.0,
+    "bear": -0.8,
+    "base": 20.0,
+    "bull": 46.4,
+    "analysts": 11,
+    "rating": "strong buy",
+    "rating_mean": 1.4615
+   },
+   "daily_swing": 3.25,
+   "ret_5d": 9.3774,
+   "ret_20d": 15.873,
+   "ret_60d": 22.2286,
+   "earnings": null,
+   "spark": [
+    33.62,
+    34.04,
+    33.53,
+    34.7,
+    34.92,
+    36.8,
+    37.45,
+    36.49,
+    36.05,
+    36.54,
+    37.11,
+    37.52,
+    36.91,
+    35.89,
+    36.04,
+    38.23,
+    36.62,
+    38.88,
+    40.67,
+    41.19,
+    41.85,
+    39.99,
+    39.53,
+    38.61,
+    38.71,
+    38.73,
+    38.96,
+    38.65,
+    39.63,
+    42.34
+   ],
+   "news": [
+    {
+     "title": "5 Best Affordable Growth Stocks to Buy for 2027",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/5-best-affordable-growth-stocks-191207351.html",
+     "publisher": "Insider Monkey"
+    },
+    {
+     "title": "Montes Archimedes Acquisition (ROIV) Upgraded to Buy: Here's Why",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/montes-archimedes-acquisition-roiv-upgraded-160004434.html",
+     "publisher": "Zacks"
+    }
+   ],
+   "streak": 0,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ROIV"
+  },
+  {
+   "symbol": "GMAB",
+   "name": "Genmab A/S",
+   "sector": "Healthcare",
+   "industry": "Biotechnology",
+   "price": 56.57,
+   "move_pct": 5.49,
+   "move_label": "day + after-hours",
+   "rel_volume": 1.29,
+   "market_cap": 34880704512.0,
+   "score": 61,
+   "confidence": "Medium",
+   "risk": "Very high",
+   "reasons": [
+    "11 analysts rate it 'strong buy' with 17% average upside (target $66.15)",
+    "Revenue growing 16% year over year",
+    "In a steady uptrend, above its 50-day and 200-day averages",
+    "Up 71% over the past three months"
+   ],
+   "risks": [
+    "Earnings shrinking (-15% year over year)"
+   ],
+   "projection": {
+    "target_low": 56.0,
+    "target_mean": 66.1454,
+    "target_high": 80.0,
+    "bear": -1.0,
+    "base": 16.9,
+    "bull": 41.4,
+    "analysts": 11,
+    "rating": "strong buy",
+    "rating_mean": 1.4167
+   },
+   "daily_swing": 6.94,
+   "ret_5d": 8.8722,
+   "ret_20d": 26.6398,
+   "ret_60d": 70.5971,
+   "earnings": null,
+   "spark": [
+    36.89,
+    37.82,
+    37.0,
+    38.5,
+    39.07,
+    39.57,
+    40.0,
+    43.79,
+    44.69,
+    44.67,
+    57.29,
+    56.49,
+    57.06,
+    54.92,
+    55.52,
+    55.12,
+    52.74,
+    53.63,
+    55.8,
+    54.07,
+    53.87,
+    51.74,
+    51.37,
+    51.57,
+    51.96,
+    50.97,
+    51.35,
+    50.6,
+    53.17,
+    56.57
+   ],
+   "news": [
+    {
+     "title": "Johnson & Johnson vs. Pfizer: Which Healthcare Stock Is a Better Buy for 2027?",
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/22/johnson-johnson-vs-pfizer-which-healthcare-stock-is-a-better-buy-for-2027/",
+     "publisher": "Motley Fool"
+    },
+    {
+     "title": "Target, Biotech Lead 5 Stocks Showing Strength In Brutal Market",
+     "url": "https://www.investors.com/news/target-biotech-lead-5-stocks-showing-strength-in-brutal-market/?src=A00220&yptr=yahoo",
+     "publisher": "Investor's Business Daily"
+    }
+   ],
+   "streak": 9,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=GMAB"
   }
  ],
  "since_last": {
-  "date": "2026-11-21",
+  "date": "2026-11-23",
   "lists": {
    "catalysts": {
-    "avg": 2.73,
-    "winners": 8,
+    "avg": -1.23,
+    "winners": 6,
     "n": 12,
     "best": {
-     "symbol": "PSQL",
-     "change_pct": 12.73
+     "symbol": "KYMR",
+     "change_pct": 15.66
     },
     "worst": {
-     "symbol": "GPN",
-     "change_pct": -0.39
+     "symbol": "DELL",
+     "change_pct": -11.83
     },
     "rows": [
      {
-      "symbol": "PSQL",
-      "change_pct": 12.73
+      "symbol": "KYMR",
+      "change_pct": 15.66
      },
      {
-      "symbol": "BIP",
-      "change_pct": 5.68
+      "symbol": "TGLS",
+      "change_pct": 9.73
+     },
+     {
+      "symbol": "CBLL",
+      "change_pct": 2.22
      },
      {
       "symbol": "UPBD",
-      "change_pct": 4.56
+      "change_pct": 1.43
      },
      {
-      "symbol": "GAP",
-      "change_pct": 3.87
+      "symbol": "ZS",
+      "change_pct": 1.04
      },
      {
-      "symbol": "XERS",
-      "change_pct": 3.24
+      "symbol": "BIP",
+      "change_pct": 0.62
      },
      {
-      "symbol": "ENR",
-      "change_pct": 1.44
+      "symbol": "CODI",
+      "change_pct": -2.08
      },
      {
-      "symbol": "TAK",
-      "change_pct": 1.38
+      "symbol": "ULCC",
+      "change_pct": -4.55
      },
      {
-      "symbol": "BILL",
-      "change_pct": 0.28
+      "symbol": "NUAI",
+      "change_pct": -5.3
      },
      {
-      "symbol": "BIPC",
-      "change_pct": 0.0
+      "symbol": "MPWR",
+      "change_pct": -10.77
      },
      {
-      "symbol": "UTZ",
-      "change_pct": 0.0
+      "symbol": "GCT",
+      "change_pct": -10.88
      },
      {
-      "symbol": "IBN",
-      "change_pct": 0.0
-     },
-     {
-      "symbol": "GPN",
-      "change_pct": -0.39
+      "symbol": "DELL",
+      "change_pct": -11.83
      }
     ]
    },
    "core": {
-    "avg": 3.2,
-    "winners": 7,
+    "avg": 2.38,
+    "winners": 8,
     "n": 8,
     "best": {
-     "symbol": "U",
-     "change_pct": 6.1
+     "symbol": "GMAB",
+     "change_pct": 6.39
     },
     "worst": {
-     "symbol": "CAH",
-     "change_pct": -0.31
+     "symbol": "RGA",
+     "change_pct": 0.55
     },
     "rows": [
      {
-      "symbol": "U",
-      "change_pct": 6.1
-     },
-     {
-      "symbol": "SN",
-      "change_pct": 5.99
-     },
-     {
       "symbol": "GMAB",
-      "change_pct": 5.08
+      "change_pct": 6.39
      },
      {
-      "symbol": "PCOR",
-      "change_pct": 2.33
+      "symbol": "REGN",
+      "change_pct": 4.76
      },
      {
-      "symbol": "RGA",
-      "change_pct": 2.32
-     },
-     {
-      "symbol": "LTH",
-      "change_pct": 2.14
+      "symbol": "U",
+      "change_pct": 1.87
      },
      {
       "symbol": "DIS",
-      "change_pct": 1.94
+      "change_pct": 1.86
      },
      {
-      "symbol": "CAH",
-      "change_pct": -0.31
+      "symbol": "SN",
+      "change_pct": 1.58
+     },
+     {
+      "symbol": "LTH",
+      "change_pct": 1.29
+     },
+     {
+      "symbol": "PCOR",
+      "change_pct": 0.74
+     },
+     {
+      "symbol": "RGA",
+      "change_pct": 0.55
      }
     ]
    }
@@ -1858,196 +1852,28 @@
  },
  "earnings": [
   {
-   "symbol": "MDT",
-   "date": "2026-11-24T13:30:00+00:00",
+   "symbol": "BZ",
+   "date": "2026-11-25T13:30:00+00:00",
    "timing": "before the open",
-   "eps_est": 1.33,
-   "company": "Medtronic plc",
-   "market_cap": 128834769842.2476
+   "eps_est": 2.24,
+   "company": "Kanzhun Limited",
+   "market_cap": 5573822645.2629
   },
   {
-   "symbol": "BILI",
-   "date": "2026-11-24T13:30:00+00:00",
+   "symbol": "GDS",
+   "date": "2026-11-25T13:30:00+00:00",
    "timing": "before the open",
-   "eps_est": 1.78,
-   "company": "Bilibili Inc.",
-   "market_cap": 4353290356.7637
+   "eps_est": -1.28,
+   "company": "GDS Holdings Limited",
+   "market_cap": 2763207275.6262
   },
   {
-   "symbol": "GGAL",
-   "date": "2026-11-24T13:30:00+00:00",
+   "symbol": "LI",
+   "date": "2026-11-25T13:30:00+00:00",
    "timing": "before the open",
-   "eps_est": 1.22,
-   "company": "Grupo Financiero Galicia S.A.",
-   "market_cap": 4510850848.111
-  },
-  {
-   "symbol": "ADI",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 3.88,
-   "company": "Analog Devices, Inc.",
-   "market_cap": 183529169868.75
-  },
-  {
-   "symbol": "CMBT",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 0.76,
-   "company": "Cmb.Tech NV",
-   "market_cap": 4883557190.1318
-  },
-  {
-   "symbol": "DLTR",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 1.08,
-   "company": "Dollar Tree, Inc.",
-   "market_cap": 26099375736.1045
-  },
-  {
-   "symbol": "ANF",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 2.16,
-   "company": "Abercrombie & Fitch Co.",
-   "market_cap": 5959908120.1506
-  },
-  {
-   "symbol": "BBY",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 1.49,
-   "company": "Best Buy Co., Inc.",
-   "market_cap": 20343586706.0
-  },
-  {
-   "symbol": "VIPS",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 2.72,
-   "company": "Vipshop Holdings Limited",
-   "market_cap": 5996054836.75
-  },
-  {
-   "symbol": "BURL",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 1.64,
-   "company": "Burlington Stores, Inc.",
-   "market_cap": 14771621486.2361
-  },
-  {
-   "symbol": "KSS",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": -0.16,
-   "company": "Kohl's Corporation",
-   "market_cap": 2403580720.4994
-  },
-  {
-   "symbol": "SJM",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 2.56,
-   "company": "The J. M. Smucker Company",
-   "market_cap": 14183982108.3406
-  },
-  {
-   "symbol": "DY",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 4.57,
-   "company": "Dycom Industries, Inc.",
-   "market_cap": 6586248032.8197
-  },
-  {
-   "symbol": "DKS",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 2.71,
-   "company": "DICK'S Sporting Goods, Inc.",
-   "market_cap": 11886812577.6906
-  },
-  {
-   "symbol": "MMED",
-   "date": "2026-11-24T13:30:00+00:00",
-   "timing": "before the open",
-   "eps_est": 0.11,
-   "company": "MiniMed Group, Inc.",
-   "market_cap": 4702764139.5956
-  },
-  {
-   "symbol": "AMBA",
-   "date": "2026-11-24T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 0.31,
-   "company": "Ambarella, Inc.",
-   "market_cap": 2452472409.3784
-  },
-  {
-   "symbol": "BWLP",
-   "date": "2026-11-24T21:00:00+00:00",
-   "timing": "during the day",
-   "eps_est": 1.86,
-   "company": "BW LPG Limited",
-   "market_cap": 3373320396.6372
-  },
-  {
-   "symbol": "DELL",
-   "date": "2026-11-24T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 6.55,
-   "company": "Dell Technologies Inc.",
-   "market_cap": 212940050430.9158
-  },
-  {
-   "symbol": "ADSK",
-   "date": "2026-11-24T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 3.07,
-   "company": "Autodesk, Inc.",
-   "market_cap": 53363970382.6904
-  },
-  {
-   "symbol": "WDAY",
-   "date": "2026-11-24T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 2.74,
-   "company": "Workday, Inc.",
-   "market_cap": 42435280441.2842
-  },
-  {
-   "symbol": "HPQ",
-   "date": "2026-11-24T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 0.74,
-   "company": "HP Inc.",
-   "market_cap": 26061758660.094
-  },
-  {
-   "symbol": "NTNX",
-   "date": "2026-11-24T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 0.61,
-   "company": "Nutanix, Inc.",
-   "market_cap": 15698470584.0208
-  },
-  {
-   "symbol": "DIDIY",
-   "date": "2026-11-24T21:00:00+00:00",
-   "timing": "during the day",
-   "eps_est": -0.04,
-   "company": "DiDi Global Inc.",
-   "market_cap": 13387323349.8811
-  },
-  {
-   "symbol": "URBN",
-   "date": "2026-11-24T21:00:00+00:00",
-   "timing": "after the close",
-   "eps_est": 1.53,
-   "company": "Urban Outfitters, Inc.",
-   "market_cap": 7305956915.9142
+   "eps_est": -0.84,
+   "company": "Li Auto Inc.",
+   "market_cap": 10456836674.6997
   },
   {
    "symbol": "DE",
@@ -2055,7 +1881,23 @@
    "timing": "before the open",
    "eps_est": 4.06,
    "company": "Deere & Company",
-   "market_cap": 170680982457.542
+   "market_cap": 165485295502.1807
+  },
+  {
+   "symbol": "BMA",
+   "date": "2026-11-25T21:00:00+00:00",
+   "timing": "after the close",
+   "eps_est": 2529.28,
+   "company": "Banco Macro S.A.",
+   "market_cap": 3202706022.4563
+  },
+  {
+   "symbol": "DIDIY",
+   "date": "2026-11-27T21:00:00+00:00",
+   "timing": "during the day",
+   "eps_est": -0.04,
+   "company": "DiDi Global Inc.",
+   "market_cap": 13071797514.2702
   }
  ],
  "disclaimer": "Leia ranks setups from public data; she does not predict prices and this is not financial advice. Short-term trading is risky and most picks with big upside carry matching downside."
