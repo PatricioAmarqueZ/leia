@@ -1,5 +1,5 @@
 {
- "picks": 222,
+ "picks": 242,
  "lists": {
   "catalysts": {
    "same_day": {
@@ -43,6 +43,139 @@
   }
  },
  "recent": [
+  {
+   "date": "2026-11-25",
+   "list": "catalysts",
+   "symbol": "SNY",
+   "entry": 54.345,
+   "score": 56
+  },
+  {
+   "date": "2026-11-25",
+   "list": "catalysts",
+   "symbol": "VRDN",
+   "entry": 38.045,
+   "score": 56
+  },
+  {
+   "date": "2026-11-25",
+   "list": "catalysts",
+   "symbol": "TGLS",
+   "entry": 56.97,
+   "score": 52
+  },
+  {
+   "date": "2026-11-25",
+   "list": "catalysts",
+   "symbol": "LVWR",
+   "entry": 2.1899,
+   "score": 51
+  },
+  {
+   "date": "2026-11-25",
+   "list": "catalysts",
+   "symbol": "OTLY",
+   "entry": 14.025,
+   "score": 51
+  },
+  {
+   "date": "2026-11-25",
+   "list": "catalysts",
+   "symbol": "FLYW",
+   "entry": 23.395,
+   "score": 50
+  },
+  {
+   "date": "2026-11-25",
+   "list": "catalysts",
+   "symbol": "GRDN",
+   "entry": 51.99,
+   "score": 49
+  },
+  {
+   "date": "2026-11-25",
+   "list": "catalysts",
+   "symbol": "COGT",
+   "entry": 35.88,
+   "score": 49
+  },
+  {
+   "date": "2026-11-25",
+   "list": "catalysts",
+   "symbol": "BMRN",
+   "entry": 68.885,
+   "score": 48
+  },
+  {
+   "date": "2026-11-25",
+   "list": "catalysts",
+   "symbol": "CODI",
+   "entry": 13.525,
+   "score": 47
+  },
+  {
+   "date": "2026-11-25",
+   "list": "catalysts",
+   "symbol": "AWI",
+   "entry": 185.59,
+   "score": 46
+  },
+  {
+   "date": "2026-11-25",
+   "list": "core",
+   "symbol": "ONC",
+   "entry": 414.35,
+   "score": 74
+  },
+  {
+   "date": "2026-11-25",
+   "list": "core",
+   "symbol": "SN",
+   "entry": 232.81,
+   "score": 72
+  },
+  {
+   "date": "2026-11-25",
+   "list": "core",
+   "symbol": "BMRN",
+   "entry": 68.885,
+   "score": 67
+  },
+  {
+   "date": "2026-11-25",
+   "list": "core",
+   "symbol": "LTH",
+   "entry": 47.64,
+   "score": 66
+  },
+  {
+   "date": "2026-11-25",
+   "list": "core",
+   "symbol": "DIS",
+   "entry": 125.52,
+   "score": 66
+  },
+  {
+   "date": "2026-11-25",
+   "list": "core",
+   "symbol": "REGN",
+   "entry": 976.18,
+   "score": 62
+  },
+  {
+   "date": "2026-11-25",
+   "list": "core",
+   "symbol": "ROIV",
+   "entry": 42.08,
+   "score": 61
+  },
+  {
+   "date": "2026-11-25",
+   "list": "core",
+   "symbol": "GMAB",
+   "entry": 56.625,
+   "score": 61
+  },
   {
    "date": "2026-11-24",
    "list": "catalysts",
@@ -453,215 +586,6 @@
    "same_day_vs_spy": 0.97,
    "1d": 6.33,
    "1d_vs_spy": 2.13
-  },
-  {
-   "date": "2026-11-21",
-   "list": "catalysts",
-   "symbol": "GPN",
-   "entry": 91.83,
-   "score": 52,
-   "same_day": -0.39,
-   "same_day_vs_spy": -5.1,
-   "1d": 2.67,
-   "1d_vs_spy": -1.53
-  },
-  {
-   "date": "2026-11-21",
-   "list": "catalysts",
-   "symbol": "UPBD",
-   "entry": 25.44,
-   "score": 49,
-   "same_day": 4.56,
-   "same_day_vs_spy": -0.15,
-   "1d": 6.05,
-   "1d_vs_spy": 1.85
-  },
-  {
-   "date": "2026-11-21",
-   "list": "catalysts",
-   "symbol": "BILL",
-   "entry": 61.44,
-   "score": 47,
-   "same_day": 0.28,
-   "same_day_vs_spy": -4.43,
-   "1d": 0.02,
-   "1d_vs_spy": -4.18
-  },
-  {
-   "date": "2026-11-21",
-   "list": "catalysts",
-   "symbol": "PSQL",
-   "entry": 3.3,
-   "score": 46,
-   "same_day": 12.73,
-   "same_day_vs_spy": 8.02,
-   "1d": 2.12,
-   "1d_vs_spy": -2.08
-  },
-  {
-   "date": "2026-11-21",
-   "list": "catalysts",
-   "symbol": "ENR",
-   "entry": 28.56,
-   "score": 44,
-   "same_day": 0.39,
-   "same_day_vs_spy": -4.32,
-   "1d": -2.03,
-   "1d_vs_spy": -6.23
-  },
-  {
-   "date": "2026-11-21",
-   "list": "catalysts",
-   "symbol": "TAK",
-   "entry": 21.77,
-   "score": 43,
-   "same_day": 1.38,
-   "same_day_vs_spy": -3.33,
-   "1d": 3.81,
-   "1d_vs_spy": -0.39
-  },
-  {
-   "date": "2026-11-21",
-   "list": "catalysts",
-   "symbol": "XERS",
-   "entry": 16.97,
-   "score": 43,
-   "same_day": 3.24,
-   "same_day_vs_spy": -1.47,
-   "1d": 4.24,
-   "1d_vs_spy": 0.04
-  },
-  {
-   "date": "2026-11-21",
-   "list": "catalysts",
-   "symbol": "IBN",
-   "entry": 35.47,
-   "score": 42,
-   "same_day": 0.0,
-   "same_day_vs_spy": -4.71,
-   "1d": 1.21,
-   "1d_vs_spy": -2.99
-  },
-  {
-   "date": "2026-11-21",
-   "list": "catalysts",
-   "symbol": "GAP",
-   "entry": 20.94,
-   "score": 40,
-   "same_day": 3.87,
-   "same_day_vs_spy": -0.84,
-   "1d": 8.12,
-   "1d_vs_spy": 3.92
-  },
-  {
-   "date": "2026-11-21",
-   "list": "core",
-   "symbol": "SN",
-   "entry": 212.64,
-   "score": 74,
-   "same_day": 5.99,
-   "same_day_vs_spy": 1.28,
-   "1d": 7.66,
-   "1d_vs_spy": 3.46
-  },
-  {
-   "date": "2026-11-21",
-   "list": "core",
-   "symbol": "U",
-   "entry": 44.75,
-   "score": 73,
-   "same_day": 6.1,
-   "same_day_vs_spy": 1.39,
-   "1d": 8.09,
-   "1d_vs_spy": 3.89
-  },
-  {
-   "date": "2026-11-21",
-   "list": "core",
-   "symbol": "GMAB",
-   "entry": 50.6,
-   "score": 71,
-   "same_day": 5.08,
-   "same_day_vs_spy": 0.37,
-   "1d": 11.8,
-   "1d_vs_spy": 7.6
-  },
-  {
-   "date": "2026-11-21",
-   "list": "core",
-   "symbol": "DIS",
-   "entry": 117.98,
-   "score": 69,
-   "same_day": 1.94,
-   "same_day_vs_spy": -2.77,
-   "1d": 3.84,
-   "1d_vs_spy": -0.36
-  },
-  {
-   "date": "2026-11-21",
-   "list": "core",
-   "symbol": "RGA",
-   "entry": 266.78,
-   "score": 68,
-   "same_day": 2.32,
-   "same_day_vs_spy": -2.39,
-   "1d": 2.88,
-   "1d_vs_spy": -1.32
-  },
-  {
-   "date": "2026-11-21",
-   "list": "core",
-   "symbol": "LTH",
-   "entry": 46.33,
-   "score": 66,
-   "same_day": 2.14,
-   "same_day_vs_spy": -2.57,
-   "1d": 3.45,
-   "1d_vs_spy": -0.75
-  },
-  {
-   "date": "2026-11-21",
-   "list": "core",
-   "symbol": "CAH",
-   "entry": 272.81,
-   "score": 60,
-   "same_day": -0.31,
-   "same_day_vs_spy": -5.02,
-   "1d": 2.51,
-   "1d_vs_spy": -1.69
-  },
-  {
-   "date": "2026-11-21",
-   "list": "core",
-   "symbol": "PCOR",
-   "entry": 71.76,
-   "score": 58,
-   "same_day": 2.33,
-   "same_day_vs_spy": -2.38,
-   "1d": 3.08,
-   "1d_vs_spy": -1.12
-  },
-  {
-   "date": "2026-11-20",
-   "list": "catalysts",
-   "symbol": "BILL",
-   "entry": 61.465,
-   "score": 51,
-   "same_day": -0.04,
-   "same_day_vs_spy": 3.6,
-   "1d": 0.24,
-   "1d_vs_spy": -0.66
-  },
-  {
-   "date": "2026-11-20",
-   "list": "catalysts",
-   "symbol": "GPN",
-   "entry": 92.19,
-   "score": 48,
-   "same_day": -0.39,
-   "same_day_vs_spy": 3.25,
-   "1d": -0.78,
-   "1d_vs_spy": -1.68
   }
  ]
 }

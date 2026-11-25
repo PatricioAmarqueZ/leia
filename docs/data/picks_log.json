@@ -1552,5 +1552,145 @@
   "symbol": "GMAB",
   "entry": 56.57,
   "score": 61
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "SNY",
+  "entry": 54.345,
+  "score": 56
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "VRDN",
+  "entry": 38.045,
+  "score": 56
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "TGLS",
+  "entry": 56.97,
+  "score": 52
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "LVWR",
+  "entry": 2.1899,
+  "score": 51
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "OTLY",
+  "entry": 14.025,
+  "score": 51
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "FLYW",
+  "entry": 23.395,
+  "score": 50
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "GRDN",
+  "entry": 51.99,
+  "score": 49
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "COGT",
+  "entry": 35.88,
+  "score": 49
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "BMRN",
+  "entry": 68.885,
+  "score": 48
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "CODI",
+  "entry": 13.525,
+  "score": 47
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "AWI",
+  "entry": 185.59,
+  "score": 46
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "UTZ",
+  "entry": 14.29,
+  "score": 45
+ },
+ {
+  "date": "2026-11-25",
+  "list": "core",
+  "symbol": "ONC",
+  "entry": 414.35,
+  "score": 74
+ },
+ {
+  "date": "2026-11-25",
+  "list": "core",
+  "symbol": "SN",
+  "entry": 232.81,
+  "score": 72
+ },
+ {
+  "date": "2026-11-25",
+  "list": "core",
+  "symbol": "BMRN",
+  "entry": 68.885,
+  "score": 67
+ },
+ {
+  "date": "2026-11-25",
+  "list": "core",
+  "symbol": "LTH",
+  "entry": 47.64,
+  "score": 66
+ },
+ {
+  "date": "2026-11-25",
+  "list": "core",
+  "symbol": "DIS",
+  "entry": 125.52,
+  "score": 66
+ },
+ {
+  "date": "2026-11-25",
+  "list": "core",
+  "symbol": "REGN",
+  "entry": 976.18,
+  "score": 62
+ },
+ {
+  "date": "2026-11-25",
+  "list": "core",
+  "symbol": "ROIV",
+  "entry": 42.08,
+  "score": 61
+ },
+ {
+  "date": "2026-11-25",
+  "list": "core",
+  "symbol": "GMAB",
+  "entry": 56.625,
+  "score": 61
  }
 ]
