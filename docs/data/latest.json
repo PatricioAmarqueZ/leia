@@ -1,11 +1,11 @@
 {
  "assistant": "Leia",
- "generated_at": "2026-11-25T22:04:11.523597-05:00",
- "date": "2026-11-25",
- "market_state": "POSTPOST",
- "universe_size": 2744,
- "greeting": "Good evening. Leia here. Markets are closed, so this is your look ahead.",
- "summary": "I've been through 2,744 stocks. 12 short-term setups made the cut, led by OTLY with a score of 76. For steadier holds, ONC tops the list.",
+ "generated_at": "2026-11-26T15:15:44.752537-05:00",
+ "date": "2026-11-26",
+ "market_state": "CLOSED",
+ "universe_size": 2747,
+ "greeting": "Good afternoon. Leia here. Markets are closed, so this is your look ahead.",
+ "summary": "I've been through 2,747 stocks. 12 short-term setups made the cut, led by OTLY with a score of 76. For steadier holds, ONC tops the list.",
  "market": {
   "S&P 500": {
    "price": 716.7,
@@ -16,8 +16,8 @@
    "change_pct": -0.65
   },
   "VIX": {
-   "price": 28.29,
-   "change_pct": 7.32
+   "price": 26.8,
+   "change_pct": -5.27
   }
  },
  "catalysts": [
@@ -29,14 +29,14 @@
    "price": 16.08,
    "move_pct": 19.53,
    "move_label": "day + after-hours",
-   "rel_volume": 3.51,
+   "rel_volume": 3.34,
    "market_cap": 513154208.0,
    "score": 76,
    "confidence": "High",
    "risk": "Very high",
    "reasons": [
     "Up 19.5% day + after-hours",
-    "Trading 3.5x its normal volume, so real money is behind the move",
+    "Trading 3.3x its normal volume, so real money is behind the move",
     "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 88% over the past month"
@@ -106,7 +106,7 @@
      "publisher": "Just Food"
     }
    ],
-   "streak": 0,
+   "streak": 1,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=OTLY"
   },
   {
@@ -117,7 +117,7 @@
    "price": 52.11,
    "move_pct": 9.16,
    "move_label": "day + after-hours",
-   "rel_volume": 2.35,
+   "rel_volume": 2.28,
    "market_cap": 3301372928.0,
    "score": 62,
    "confidence": "Medium",
@@ -192,7 +192,7 @@
      "publisher": "GuruFocus.com"
     }
    ],
-   "streak": 0,
+   "streak": 1,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=GRDN"
   },
   {
@@ -203,14 +203,14 @@
    "price": 37.91,
    "move_pct": 9.07,
    "move_label": "day + after-hours",
-   "rel_volume": 1.67,
+   "rel_volume": 1.63,
    "market_cap": 4305000960.0,
-   "score": 62,
+   "score": 61,
    "confidence": "Medium",
    "risk": "High",
    "reasons": [
     "Up 9.1% day + after-hours",
-    "Trading 1.7x its normal volume, so real money is behind the move",
+    "Trading 1.6x its normal volume, so real money is behind the move",
     "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 56% over the past month"
@@ -268,17 +268,17 @@
    ],
    "news": [
     {
+     "title": "Viridian Therapeutics (VRDN) Stock Looks Pricey On Fresh Analyst Coverage",
+     "url": "https://finance.yahoo.com/healthcare/articles/viridian-therapeutics-vrdn-stock-looks-181208345.html",
+     "publisher": "Simply Wall St."
+    },
+    {
      "title": "Why Viridian Therapeutics (VRDN) Stock Is Up 10.7% Today Without Company News",
      "url": "https://finance.yahoo.com/healthcare/articles/why-viridian-therapeutics-vrdn-stock-203114609.html",
      "publisher": "GuruFocus.com"
-    },
-    {
-     "title": "VRDN Stock Rises 34% in a Month on Lumvoa Launch & Pipeline Progress",
-     "url": "https://finance.yahoo.com/healthcare/articles/vrdn-stock-rises-34-month-132200238.html",
-     "publisher": "Zacks"
     }
    ],
-   "streak": 1,
+   "streak": 2,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=VRDN"
   },
   {
@@ -289,14 +289,14 @@
    "price": 54.39,
    "move_pct": 4.8,
    "move_label": "today",
-   "rel_volume": 2.71,
+   "rel_volume": 2.62,
    "market_cap": 130601959424.0,
    "score": 57,
    "confidence": "Medium",
    "risk": "Moderate",
    "reasons": [
     "Up 4.8% today",
-    "Trading 2.7x its normal volume, so real money is behind the move",
+    "Trading 2.6x its normal volume, so real money is behind the move",
     "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 29% over the past month"
@@ -311,7 +311,7 @@
     "bull": 21.2,
     "analysts": 8,
     "rating": "buy",
-    "rating_mean": 2.0
+    "rating_mean": 1.8
    },
    "daily_swing": 2.98,
    "ret_5d": 15.4287,
@@ -352,17 +352,17 @@
    ],
    "news": [
     {
-     "title": "Insmed (INSM) Boards Back $39.1 Billion All Cash Deal and Set 2027 Timeline",
-     "url": "https://finance.yahoo.com/healthcare/articles/insmed-insm-boards-back-39-011732940.html",
-     "publisher": "Simply Wall St."
+     "title": "Can Merck's Gardasil Sustain Its Q3 Recovery Amid 2027 Headwinds?",
+     "url": "https://finance.yahoo.com/healthcare/articles/mercks-gardasil-sustain-q3-recovery-141000126.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "Sanofi Rallies Again. Why Insmed, At $41 Billion, Is Sorely Needed.",
-     "url": "https://www.investors.com/news/technology/sanofi-stock-insmed-buyout-upgrade/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
+     "title": "Sanofi Pays $41 Billion For Insmed's Lung Pill",
+     "url": "https://www.trefis.com/stock/insm/articles/629159/sanofi-pays-41-billion-for-insmed-s-lung-pill/2026-11-26",
+     "publisher": "Trefis"
     }
    ],
-   "streak": 1,
+   "streak": 2,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=SNY"
   },
   {
@@ -373,14 +373,13 @@
    "price": 13.83,
    "move_pct": 15.76,
    "move_label": "day + after-hours",
-   "rel_volume": 1.52,
+   "rel_volume": 1.48,
    "market_cap": 402157024.0,
    "score": 56,
    "confidence": "Medium",
    "risk": "Very high",
    "reasons": [
     "Up 15.8% day + after-hours",
-    "Trading 1.5x its normal volume, so real money is behind the move",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "5 analysts see 172% upside on average (target $37.60)"
    ],
@@ -432,12 +431,12 @@
      "publisher": "Trefis"
     },
     {
-     "title": "What A Cancer Vaccine Stumble Means For Moderna Stock",
-     "url": "https://www.trefis.com/stock/mrna/articles/627287/what-a-cancer-vaccine-stumble-means-for-moderna-stock/2026-11-20",
-     "publisher": "Trefis"
+     "title": "Opening Day: Anthropic debuts on Nasdaq following historic IPO",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/opening-day-anthropic-debuts-nasdaq-231533809.html",
+     "publisher": "TipRanks"
     }
    ],
-   "streak": 0,
+   "streak": 1,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ASPE"
   },
   {
@@ -448,9 +447,9 @@
    "price": 23.26,
    "move_pct": 5.77,
    "move_label": "day + after-hours",
-   "rel_volume": 2.13,
+   "rel_volume": 2.09,
    "market_cap": 2893919488.0,
-   "score": 54,
+   "score": 53,
    "confidence": "Medium",
    "risk": "High",
    "reasons": [
@@ -521,7 +520,7 @@
      "publisher": "Insider Monkey"
     }
    ],
-   "streak": 0,
+   "streak": 1,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=FLYW"
   },
   {
@@ -532,13 +531,13 @@
    "price": 57.29,
    "move_pct": 1.88,
    "move_label": "day + after-hours",
-   "rel_volume": 2.88,
+   "rel_volume": 2.77,
    "market_cap": 2541643264.0,
    "score": 53,
    "confidence": "Medium",
    "risk": "High",
    "reasons": [
-    "Trading 2.9x its normal volume, so real money is behind the move",
+    "Trading 2.8x its normal volume, so real money is behind the move",
     "At or breaking through its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 52% over the past month"
@@ -604,8 +603,95 @@
      "publisher": "Investor's Business Daily"
     }
    ],
-   "streak": 2,
+   "streak": 3,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=TGLS"
+  },
+  {
+   "symbol": "ANF",
+   "name": "Abercrombie & Fitch Company",
+   "sector": "Consumer Cyclical",
+   "industry": "Apparel Retail",
+   "price": 176.96,
+   "move_pct": 5.27,
+   "move_label": "today",
+   "rel_volume": 1.57,
+   "market_cap": 7509187584.0,
+   "score": 51,
+   "confidence": "Medium",
+   "risk": "Very high",
+   "reasons": [
+    "Up 5.3% today",
+    "Trading 1.6x its normal volume, so real money is behind the move",
+    "At or breaking through its 52-week high",
+    "Uptrend intact: above both its 50-day and 200-day averages",
+    "Momentum: up 10% over the past month"
+   ],
+   "risks": [
+    "Heavily shorted stocks are violent in both directions",
+    "Typically swings about 5.9% a day"
+   ],
+   "projection": {
+    "target_low": 165.0,
+    "target_mean": 188.7273,
+    "target_high": 220.0,
+    "bear": -6.8,
+    "base": 6.6,
+    "bull": 24.3,
+    "analysts": 11,
+    "rating": "buy",
+    "rating_mean": 2.0
+   },
+   "daily_swing": 5.92,
+   "ret_5d": 20.3728,
+   "ret_20d": 9.7494,
+   "ret_60d": 25.789,
+   "earnings": null,
+   "spark": [
+    151.99,
+    153.26,
+    162.01,
+    161.73,
+    159.64,
+    161.49,
+    155.82,
+    164.73,
+    165.38,
+    161.24,
+    165.77,
+    164.44,
+    164.17,
+    157.51,
+    171.09,
+    157.59,
+    149.54,
+    152.81,
+    154.0,
+    151.92,
+    150.49,
+    148.88,
+    145.77,
+    142.88,
+    147.01,
+    137.64,
+    137.92,
+    140.45,
+    168.1,
+    176.96
+   ],
+   "news": [
+    {
+     "title": "Nike Slumped to $34, Yet This Apparel Pick Surged 23% Since October",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nike-slumped-34-yet-apparel-144519189.html",
+     "publisher": "Investing.com"
+    },
+    {
+     "title": "Higher Fuel Costs Weigh on Apparel Retail Earnings",
+     "url": "https://wwd.com/sourcing-journal/logistics/fuel-costs-diesel-freight-burlington-abercrombie-fitch-kohls-urban-outfitters-gap-dollar-tree-1239466545/",
+     "publisher": "Sourcing Journal"
+    }
+   ],
+   "streak": 2,
+   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ANF"
   },
   {
    "symbol": "COGT",
@@ -615,14 +701,14 @@
    "price": 36.08,
    "move_pct": 9.3,
    "move_label": "today",
-   "rel_volume": 2.83,
+   "rel_volume": 2.73,
    "market_cap": 6277720064.0,
    "score": 51,
    "confidence": "Medium",
    "risk": "Very high",
    "reasons": [
     "Up 9.3% today",
-    "Trading 2.8x its normal volume, so real money is behind the move",
+    "Trading 2.7x its normal volume, so real money is behind the move",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 12% over the past month",
     "11 analysts see 60% upside on average (target $57.73)"
@@ -680,17 +766,17 @@
    ],
    "news": [
     {
+     "title": "Cogent Biosciences (COGT) Soars Again. What\u2019s Driving Investor Interest?",
+     "url": "https://finance.yahoo.com/healthcare/articles/cogent-biosciences-cogt-soars-again-041606716.html",
+     "publisher": "Insider Monkey"
+    },
+    {
      "title": "Cogent Biosciences (COGT) Stock Is Up 6.7% Today Without Company News",
      "url": "https://finance.yahoo.com/markets/stocks/articles/cogent-biosciences-cogt-stock-6-173017030.html",
      "publisher": "GuruFocus.com"
-    },
-    {
-     "title": "Amgen takes next step toward biosimilar Opdivo; Bristol Myers taps a new finance head",
-     "url": "https://www.biopharmadive.com/news/arcus-quemliclustat-belite-amgen-opdivo-biosimilar/875512/",
-     "publisher": "BioPharma Dive"
     }
    ],
-   "streak": 0,
+   "streak": 1,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=COGT"
   },
   {
@@ -701,13 +787,13 @@
    "price": 173.77,
    "move_pct": -0.09,
    "move_label": "today",
-   "rel_volume": 4.57,
-   "market_cap": 14834988032.0,
-   "score": 50,
-   "confidence": "Medium",
+   "rel_volume": 4.3,
+   "market_cap": 17160673280.0,
+   "score": 49,
+   "confidence": "Speculative",
    "risk": "Very high",
    "reasons": [
-    "Trading 4.6x its normal volume, so real money is behind the move",
+    "Trading 4.3x its normal volume, so real money is behind the move",
     "Within 3.5% of its 52-week high",
     "Uptrend intact: above both its 50-day and 200-day averages",
     "Momentum: up 42% over the past month"
@@ -775,95 +861,8 @@
      "publisher": "Insider Monkey"
     }
    ],
-   "streak": 2,
+   "streak": 3,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=KYMR"
-  },
-  {
-   "symbol": "ANF",
-   "name": "Abercrombie & Fitch Company",
-   "sector": "Consumer Cyclical",
-   "industry": "Apparel Retail",
-   "price": 176.96,
-   "move_pct": 5.27,
-   "move_label": "today",
-   "rel_volume": 1.34,
-   "market_cap": 7509187584.0,
-   "score": 49,
-   "confidence": "Speculative",
-   "risk": "Very high",
-   "reasons": [
-    "Up 5.3% today",
-    "At or breaking through its 52-week high",
-    "Uptrend intact: above both its 50-day and 200-day averages",
-    "Momentum: up 10% over the past month",
-    "16% of the float is sold short: fuel for a squeeze if it keeps rising"
-   ],
-   "risks": [
-    "Heavily shorted stocks are violent in both directions",
-    "Typically swings about 5.9% a day"
-   ],
-   "projection": {
-    "target_low": 165.0,
-    "target_mean": 188.7273,
-    "target_high": 220.0,
-    "bear": -6.8,
-    "base": 6.6,
-    "bull": 24.3,
-    "analysts": 11,
-    "rating": "buy",
-    "rating_mean": 1.8667
-   },
-   "daily_swing": 5.92,
-   "ret_5d": 20.3728,
-   "ret_20d": 9.7494,
-   "ret_60d": 25.789,
-   "earnings": null,
-   "spark": [
-    151.99,
-    153.26,
-    162.01,
-    161.73,
-    159.64,
-    161.49,
-    155.82,
-    164.73,
-    165.38,
-    161.24,
-    165.77,
-    164.44,
-    164.17,
-    157.51,
-    171.09,
-    157.59,
-    149.54,
-    152.81,
-    154.0,
-    151.92,
-    150.49,
-    148.88,
-    145.77,
-    142.88,
-    147.01,
-    137.64,
-    137.92,
-    140.45,
-    168.1,
-    176.96
-   ],
-   "news": [
-    {
-     "title": "Tanking gas prices could be the setup needed for strong holiday season",
-     "url": "https://finance.yahoo.com/video/tanking-gas-prices-could-be-the-setup-needed-for-strong-holiday-season-145638621.html",
-     "publisher": "Yahoo Finance Video"
-    },
-    {
-     "title": "Higher Fuel Costs Weigh on Apparel Retail Earnings",
-     "url": "https://wwd.com/sourcing-journal/logistics/fuel-costs-diesel-freight-burlington-abercrombie-fitch-kohls-urban-outfitters-gap-dollar-tree-1239466545/",
-     "publisher": "Sourcing Journal"
-    }
-   ],
-   "streak": 1,
-   "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ANF"
   },
   {
    "symbol": "CODI",
@@ -873,7 +872,7 @@
    "price": 13.5,
    "move_pct": 2.43,
    "move_label": "today",
-   "rel_volume": 1.33,
+   "rel_volume": 1.32,
    "market_cap": 1015685568.0,
    "score": 49,
    "confidence": "Speculative",
@@ -949,7 +948,7 @@
      "publisher": "Zacks"
     }
    ],
-   "streak": 0,
+   "streak": 1,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=CODI"
   },
   {
@@ -960,9 +959,9 @@
    "price": 89.79,
    "move_pct": 4.57,
    "move_label": "today",
-   "rel_volume": 1.47,
+   "rel_volume": 1.45,
    "market_cap": 17491163136.0,
-   "score": 49,
+   "score": 48,
    "confidence": "Speculative",
    "risk": "High",
    "reasons": [
@@ -1033,7 +1032,7 @@
      "publisher": "Zacks"
     }
    ],
-   "streak": 0,
+   "streak": 1,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=BBIO"
   }
  ],
@@ -1119,7 +1118,7 @@
      "publisher": "Investing.com"
     }
    ],
-   "streak": 1,
+   "streak": 2,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ONC"
   },
   {
@@ -1130,7 +1129,7 @@
    "price": 232.5,
    "move_pct": 2.2,
    "move_label": "day + after-hours",
-   "rel_volume": 0.97,
+   "rel_volume": 0.96,
    "market_cap": 32761925632.0,
    "score": 72,
    "confidence": "High",
@@ -1214,7 +1213,7 @@
    "price": 68.86,
    "move_pct": 1.13,
    "move_label": "day + after-hours",
-   "rel_volume": 1.81,
+   "rel_volume": 1.78,
    "market_cap": 13337819136.0,
    "score": 67,
    "confidence": "Medium",
@@ -1286,7 +1285,7 @@
      "publisher": "GuruFocus.com"
     }
    ],
-   "streak": 0,
+   "streak": 1,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=BMRN"
   },
   {
@@ -1370,7 +1369,7 @@
      "publisher": "Simply Wall St."
     }
    ],
-   "streak": 9,
+   "streak": 10,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=LTH"
   },
   {
@@ -1381,7 +1380,7 @@
    "price": 125.6,
    "move_pct": 2.52,
    "move_label": "today",
-   "rel_volume": 1.84,
+   "rel_volume": 1.81,
    "market_cap": 214528524288.0,
    "score": 66,
    "confidence": "Medium",
@@ -1446,17 +1445,17 @@
    ],
    "news": [
     {
-     "title": "Nvidia is cheap on paper, so why won't the market buy it?",
-     "url": "https://finance.yahoo.com/video/nvidia-is-cheap-on-paper-so-why-wont-the-market-buy-it-192215326.html",
+     "title": "Ja Rule invests like Warren Buffett. Here's what he bought",
+     "url": "https://finance.yahoo.com/video/ja-rule-invests-warren-buffett-110000964.html",
      "publisher": "Yahoo Finance Video"
     },
     {
-     "title": "Disney Stock Offers A Sizable Dividend. Ramp It Up With A Covered-Call Trade.",
-     "url": "https://www.investors.com/research/options/disney-stock-dis-media-dividend-options-markets-trade-strategy/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
+     "title": "NFL's Thanksgiving Boom Raises Stakes for Disney, Netflix",
+     "url": "https://finance.yahoo.com/media-advertising/articles/nfls-thanksgiving-boom-raises-stakes-174228885.html",
+     "publisher": "GuruFocus.com"
     }
    ],
-   "streak": 0,
+   "streak": 1,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=DIS"
   },
   {
@@ -1467,7 +1466,7 @@
    "price": 981.87,
    "move_pct": -0.53,
    "move_label": "today",
-   "rel_volume": 0.98,
+   "rel_volume": 0.97,
    "market_cap": 101572345856.0,
    "score": 62,
    "confidence": "Medium",
@@ -1532,17 +1531,17 @@
    ],
    "news": [
     {
-     "title": "Sanofi Rallies Again. Why Insmed, At $41 Billion, Is Sorely Needed.",
-     "url": "https://www.investors.com/news/technology/sanofi-stock-insmed-buyout-upgrade/?src=A00220&yptr=yahoo",
-     "publisher": "Investor's Business Daily"
+     "title": "Is OPK Worth Buying as Pipeline Upside Meets a Premium Valuation?",
+     "url": "https://finance.yahoo.com/healthcare/articles/opk-worth-buying-pipeline-upside-144000271.html",
+     "publisher": "Zacks"
     },
     {
-     "title": "Stoke (STOK) Stock Is Up 8.3% Today Without Company News",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/stoke-stok-stock-8-3-204525381.html",
-     "publisher": "GuruFocus.com"
+     "title": "Regeneron Pharmaceuticals, Inc. (REGN) Hits Fresh High: Is There Still Room to Run?",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/regeneron-pharmaceuticals-inc-regn-hits-131501977.html",
+     "publisher": "Zacks"
     }
    ],
-   "streak": 2,
+   "streak": 3,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=REGN"
   },
   {
@@ -1625,7 +1624,7 @@
      "publisher": "Zacks"
     }
    ],
-   "streak": 1,
+   "streak": 2,
    "fidelity_url": "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=ROIV"
   },
   {
