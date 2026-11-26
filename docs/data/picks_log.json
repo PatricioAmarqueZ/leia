@@ -1692,5 +1692,33 @@
   "symbol": "GMAB",
   "entry": 56.625,
   "score": 61
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "ASPE",
+  "entry": 13.83,
+  "score": 56
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "KYMR",
+  "entry": 173.77,
+  "score": 50
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "ANF",
+  "entry": 176.96,
+  "score": 49
+ },
+ {
+  "date": "2026-11-25",
+  "list": "catalysts",
+  "symbol": "BBIO",
+  "entry": 89.79,
+  "score": 49
  }
 ]
