@@ -1,11 +1,11 @@
 {
  "assistant": "Leia",
- "generated_at": "2026-11-26T15:15:44.752537-05:00",
+ "generated_at": "2026-11-26T22:14:52.885790-05:00",
  "date": "2026-11-26",
  "market_state": "CLOSED",
- "universe_size": 2747,
- "greeting": "Good afternoon. Leia here. Markets are closed, so this is your look ahead.",
- "summary": "I've been through 2,747 stocks. 12 short-term setups made the cut, led by OTLY with a score of 76. For steadier holds, ONC tops the list.",
+ "universe_size": 2746,
+ "greeting": "Good evening. Leia here. Markets are closed, so this is your look ahead.",
+ "summary": "I've been through 2,746 stocks. 12 short-term setups made the cut, led by OTLY with a score of 76. For steadier holds, ONC tops the list.",
  "market": {
   "S&P 500": {
    "price": 716.7,
@@ -766,14 +766,14 @@
    ],
    "news": [
     {
+     "title": "Cogent Biosciences Wins FDA Approval for First Drug, Plans $49,000-a-Month Launch",
+     "url": "https://www.marketbeat.com/instant-alerts/event-cogent-biosciences-wins-fda-approval-for-first-drug-plans-49000-a-month-launch-2026-11-26/?utm_source=yahoofinance&utm_medium=yahoofinance",
+     "publisher": "MarketBeat"
+    },
+    {
      "title": "Cogent Biosciences (COGT) Soars Again. What\u2019s Driving Investor Interest?",
      "url": "https://finance.yahoo.com/healthcare/articles/cogent-biosciences-cogt-soars-again-041606716.html",
      "publisher": "Insider Monkey"
-    },
-    {
-     "title": "Cogent Biosciences (COGT) Stock Is Up 6.7% Today Without Company News",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/cogent-biosciences-cogt-stock-6-173017030.html",
-     "publisher": "GuruFocus.com"
     }
    ],
    "streak": 1,
@@ -1275,13 +1275,13 @@
    ],
    "news": [
     {
-     "title": "BioMarin (BMRN) Stock Is Up 4.8% Today Without Company News",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/biomarin-bmrn-stock-4-8-191517739.html",
-     "publisher": "GuruFocus.com"
+     "title": "BioMarin (BMRN) Stock Still Looks Like A Bargain After A 24% Jump",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/biomarin-bmrn-stock-still-looks-021259175.html",
+     "publisher": "Simply Wall St."
     },
     {
-     "title": "BioMarin (BMRN) Stock Is Up 8.9% Today Without Company News",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/biomarin-bmrn-stock-8-9-163108769.html",
+     "title": "BioMarin (BMRN) Stock Is Up 4.8% Today Without Company News",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/biomarin-bmrn-stock-4-8-191517739.html",
      "publisher": "GuruFocus.com"
     }
    ],
@@ -1445,14 +1445,14 @@
    ],
    "news": [
     {
-     "title": "Ja Rule invests like Warren Buffett. Here's what he bought",
-     "url": "https://finance.yahoo.com/video/ja-rule-invests-warren-buffett-110000964.html",
-     "publisher": "Yahoo Finance Video"
+     "title": "Take-Two\u2019s (TTWO) GTA 6 Could Be a Cash Cow for the Next Decade",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/two-ttwo-gta-6-could-213300568.html",
+     "publisher": "TipRanks"
     },
     {
-     "title": "NFL's Thanksgiving Boom Raises Stakes for Disney, Netflix",
-     "url": "https://finance.yahoo.com/media-advertising/articles/nfls-thanksgiving-boom-raises-stakes-174228885.html",
-     "publisher": "GuruFocus.com"
+     "title": "Disney Stock Just Closed at Its Highest Level Since April 2022",
+     "url": "https://247wallst.com/investing/2026/11/26/disney-stock-just-closed-at-its-highest-level-since-april-2022/",
+     "publisher": "24/7 Wall St."
     }
    ],
    "streak": 1,
